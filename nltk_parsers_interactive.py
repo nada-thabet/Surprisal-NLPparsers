@@ -11,22 +11,15 @@ from nltk import induce_pcfg, Nonterminal
 from nltk.parse import ViterbiParser, EarleyChartParser
 
 
-# =============================================================================
-# CHARGEMENT
-# =============================================================================
-
 def load_parsers():
     print("=" * 60)
-    print("  Chargement de la PCFG (Penn Treebank)...")
-    print("  (~ 30 secondes, une seule fois)")
+    print("  Chargement de la PCFG (Penn Treebank)... (~30 s)")
     print("=" * 60)
-
     prods = []
     for t in treebank.parsed_sents():
         t.collapse_unary(collapsePOS=False)
         t.chomsky_normal_form(horzMarkov=2)
         prods += t.productions()
-
     grammar = induce_pcfg(Nonterminal('S'), prods)
 
     vocab, best_pos = set(), {}
@@ -38,7 +31,6 @@ def load_parsers():
                 best_pos[pos] = (w, p.prob())
     best_pos = {k: v[0] for k, v in best_pos.items()}
 
-    # Probabilites lexicales - somme des variantes de casse (bug fix)
     lex_probs = {}
     for p in grammar.productions():
         if len(p.rhs()) == 1 and isinstance(p.rhs()[0], str):
@@ -47,56 +39,54 @@ def load_parsers():
 
     viterbi = ViterbiParser(grammar, trace=0)
     earley  = EarleyChartParser(grammar, trace=0)
-
-    print(f"  {len(grammar.productions())} productions  OK")
-    print("=" * 60)
-    print("  Parsers prets !\n")
-
+    print(f"  {len(grammar.productions())} productions  OK\n")
     return viterbi, earley, grammar, vocab, best_pos, lex_probs
 
 
-# =============================================================================
-# TOKENISATION + OOV
-# =============================================================================
-
 def tokenize(sentence):
-    sentence = sentence.strip()
-    sentence = re.sub(r"([.,!?;:])", r" \1", sentence)
-    if not sentence.rstrip().endswith(('.', '!', '?')):
-        sentence = sentence.rstrip() + " ."
-    return sentence.split()
+    # BUG FIX : "it's" -> ["it", "'s"]  (avant : un seul token)
+    words = nltk.word_tokenize(sentence.strip())
+    if not words or words[-1] not in ('.', '!', '?'):
+        words.append('.')
+    return words
 
 
 def fix_oov(words, vocab, best_pos):
+    """Retourne (tokens_pour_parser, infos) ; infos[i]=(mot, POS_predit, est_OOV)."""
     tagged = nltk.pos_tag(words)
-    out, replacements = [], []
+    proc, info = [], []
     for w, pos in tagged:
         if w in vocab:
-            out.append(w); replacements.append(None)
+            proc.append(w);             info.append((w, pos, False))
         elif w.lower() in vocab:
-            out.append(w.lower()); replacements.append(None)
+            proc.append(w.lower());     info.append((w, pos, False))
         elif pos in best_pos:
-            out.append(best_pos[pos]); replacements.append(f"{w}->{best_pos[pos]}")
+            proc.append(best_pos[pos]); info.append((w, pos, True))
         else:
-            out.append(w); replacements.append(f"{w}=OOV")
-    return out, replacements
+            proc.append(w);             info.append((w, pos, True))
+    return proc, info
 
 
-# =============================================================================
-# SURPRISAL MOT PAR MOT depuis un arbre Viterbi
-# =============================================================================
+def restore_leaves(tree, original_words):
+    """Remet les vrais mots dans l'arbre (supprime 'Mr.'/'%' a l'affichage)."""
+    for i in range(len(tree.leaves())):
+        if i < len(original_words):
+            tree[tree.leaf_treeposition(i)] = original_words[i]
+    return tree
 
-def calc_surprisal(tree, words, replacements, lex_probs):
+
+def calc_surprisal(tree, info, lex_probs):
     subtrees = [s for s in tree.subtrees(lambda t: t.height() == 2)]
     results = []
     for i, st in enumerate(subtrees):
-        pos  = st.label()
-        pw   = st.leaves()[0]
-        ow   = words[i] if i < len(words) else pw
-        prob = lex_probs.get((pos, pw.lower()), 1e-10)
-        surp = -math.log2(prob)
-        flag = " *" if (i < len(replacements) and replacements[i]) else ""
-        results.append((ow + flag, pos, surp))
+        tree_pos = st.label(); pw = st.leaves()[0]
+        if i < len(info):
+            ow, opos, is_oov = info[i]
+        else:
+            ow, opos, is_oov = pw, tree_pos, False
+        prob = lex_probs.get((tree_pos, pw.lower()), 1e-10)
+        show_pos = opos if is_oov else tree_pos
+        results.append((ow + (" *" if is_oov else ""), show_pos, -math.log2(prob)))
     return results
 
 
@@ -105,21 +95,16 @@ def afficher_surprisal(results, prob_parse):
     print(f"  P(parse)         : {prob_parse:.2e}\n")
     print(f"  {'Mot':<22} {'POS':<8} {'Surprisal (bits)':>16}   Visualisation")
     print("  " + "-" * 60)
-    total = 0
-    max_s = max(s for _, _, s in results)
+    total = 0; max_s = max(s for _, _, s in results)
     for w, pos, s in results:
-        bar  = 'X' * min(int(s / 1.5), 26)
+        bar = 'X' * min(int(s / 1.5), 26)
         peak = " <- PIC" if s == max_s else ""
         print(f"  {w:<22} {pos:<8} {s:>16.2f}   {bar}{peak}")
         total += s
     print("  " + "-" * 60)
     print(f"  Surprisal moyen  : {total/len(results):.2f} bits/mot")
-    print(f"  (* = OOV remplace  |  <- PIC = mot le plus inattendu)")
+    print(f"  (* = mot hors-vocabulaire, surprisal approximee  |  <- PIC = plus inattendu)")
 
-
-# =============================================================================
-# AFFICHAGE ARBRE
-# =============================================================================
 
 def afficher_arbre(tree, label):
     print(f"\n  +-- {label}")
@@ -127,85 +112,59 @@ def afficher_arbre(tree, label):
         print(f"  |   {line}")
 
 
-# =============================================================================
-# BOUCLE INTERACTIVE
-# =============================================================================
-
 def main():
     print("\n" + "=" * 62)
-    print("  NLTK PARSERS INTERACTIF")
-    print("  Viterbi (probabiliste) + Earley (non-probabiliste)")
+    print("  NLTK PARSERS INTERACTIF  (Viterbi + Earley)")
     print("=" * 62 + "\n")
-
     viterbi, earley, grammar, vocab, best_pos, lex_probs = load_parsers()
-
-    print("  Commandes :")
-    print("  * n'importe quelle phrase en anglais")
-    print("  * 'quit' -> quitter  |  'help' -> aide\n")
+    print("  Phrase en anglais  |  'quit' -> quitter  |  'help' -> aide\n")
 
     while True:
         try:
             user_input = input("  Phrase > ").strip()
         except (KeyboardInterrupt, EOFError):
             print("\n  Au revoir !"); break
-
         if not user_input:
             continue
         if user_input.lower() in ('quit', 'exit', 'q'):
             print("  Au revoir !"); break
         if user_input.lower() == 'help':
-            print("""
-  Exemples :
-    The company reported a loss .
-    The plan that the board approved was rejected .
-    The old man the boat .
-    The bank the court had sued failed .
-""")
+            print("\n  Exemples : The company reported a loss . | It's an apple . | The old man the boat .\n")
             continue
 
-        words     = tokenize(user_input)
-        processed, replacements = fix_oov(words, vocab, best_pos)
-        oovs = [r for r in replacements if r]
-
+        words = tokenize(user_input)
+        processed, info = fix_oov(words, vocab, best_pos)
+        oovs = [ow for (ow, _, is_oov) in info if is_oov]
         print(f"\n  Tokens  : {words}")
         if oovs:
-            print(f"  OOV     : {', '.join(oovs)}")
-        print(f"  Traites : {processed}")
+            print(f"  OOV (hors-vocabulaire) : {', '.join(oovs)}")
 
-        # Viterbi
-        print("\n" + "-" * 62)
-        print("  VITERBI -- parse le plus probable")
-        print("-" * 62)
+        print("\n" + "-" * 62 + "\n  VITERBI -- parse le plus probable\n" + "-" * 62)
         try:
             parses_v = list(viterbi.parse(processed))
             if parses_v:
                 t = parses_v[0]
-                afficher_arbre(t, "Arbre syntaxique")
-                print()
-                surp = calc_surprisal(t, words, replacements, lex_probs)
+                surp = calc_surprisal(t, info, lex_probs)   # avant restauration
+                restore_leaves(t, words)
+                afficher_arbre(t, "Arbre syntaxique"); print()
                 afficher_surprisal(surp, t.prob())
             else:
                 print("  X Aucun parse trouve.")
         except Exception as e:
             print(f"  X Erreur : {e}")
 
-        # Earley
-        print("\n" + "-" * 62)
-        print("  EARLEY - affiche 3 parses possibles")
-        print("-" * 62)
+        print("\n" + "-" * 62 + "\n  EARLEY - jusqu'a 3 parses\n" + "-" * 62)
         try:
             parses_e = list(earley.parse(processed))
             if parses_e:
                 print(f"  {len(parses_e)} parse(s) trouve(s)")
                 for i, t in enumerate(parses_e[:3]):
+                    restore_leaves(t, words)
                     afficher_arbre(t, f"Parse #{i+1}")
-                if len(parses_e) > 3:
-                    print(f"\n  ... ({len(parses_e)-3} autre(s) non affiche(s))")
             else:
                 print("  X Aucun parse trouve.")
         except Exception as e:
             print(f"  X Erreur : {e}")
-
         print("\n" + "=" * 62 + "\n")
 
 
