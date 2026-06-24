@@ -1,16 +1,17 @@
-
+# -*- coding: utf-8 -*-
 """
 ANALYSE EN CONSTITUANTS (context-free) + SURPRISAL -- DATASET Broderick ds004408
-CORRECTIONS :
-  - mots des TextGrids en MAJUSCULES -> etaient tous tagues NNP et remplaces par
-    "Mr.". On met desormais en MINUSCULES avant l'etiquetage : POS correct, moins d'OOV.
-  - arbres de-binarises (un_chomsky_normal_form) -> lisibles, sans 'S|<...>'.
-  - vrai mot + POS predit affiches pour les mots hors-vocabulaire (colonne 'oov').
-
+SEGMENTATION : wtpsplit / SaT (Segment any Text) = equivalent anglais de MarsaTag,
+segmenteur neuronal qui retrouve les phrases meme SANS ponctuation ni majuscules.
+  pip install wtpsplit onnxruntime
+  (repli sur les pauses si wtpsplit absent)
+Corrections precedentes : minuscules avant etiquetage (fini NNP/'Mr.'),
+arbres de-binarises, colonne 'oov'.
+Usage :  python constituants_dataset.py .
 """
 import os, re, sys, csv, glob, math, nltk
 
-MAX_WORDS = 15
+SENT_MAX = 18        # coupe les phrases trop longues (Viterbi en O(n^3))
 PAUSE_GAP = 0.35
 OUTPUTS = {"arbres_constituants.txt", "surprisal_constituants.csv",
            "dependances.csv", "comparaison.csv"}
@@ -22,6 +23,49 @@ for r in ['treebank', 'punkt', 'punkt_tab',
 from nltk.corpus import treebank
 from nltk import induce_pcfg, Nonterminal
 from nltk.parse import ViterbiParser
+
+
+def load_segmenter():
+    try:
+        from wtpsplit import SaT
+        sat = SaT("sat-3l-sm")
+        print("  [segmentation] wtpsplit / SaT charge (sat-3l-sm).")
+        return sat
+    except Exception as e:
+        print(f"  [segmentation] wtpsplit indisponible ({e}) -> repli sur les pauses.")
+        return None
+
+
+def split_with_sat(sat, words, max_words=SENT_MAX):
+    text = " ".join(w.lower() for (w, on, off) in words)
+    try:
+        sent_strings = sat.split(text)
+    except Exception:
+        return None
+    sents, idx = [], 0
+    for s in sent_strings:
+        n = len(s.split())
+        if n <= 0: continue
+        chunk = words[idx:idx + n]; idx += n
+        for k in range(0, len(chunk), max_words):
+            if chunk[k:k + max_words]:
+                sents.append(chunk[k:k + max_words])
+    if idx < len(words):
+        sents[-1].extend(words[idx:]) if sents else sents.append(words[idx:])
+    return sents
+
+
+def segment_pauses(words, gap=PAUSE_GAP, max_words=SENT_MAX):
+    sents, cur = [], []
+    for i, (w, on, off) in enumerate(words):
+        cur.append((w, on, off)); boundary = False
+        if re.search(r'[.!?]$', w): boundary = True
+        elif on is not None and i + 1 < len(words):
+            nxt = words[i + 1][1]
+            if nxt is not None and nxt - off > gap: boundary = True
+        if boundary or len(cur) >= max_words: sents.append(cur); cur = []
+    if cur: sents.append(cur)
+    return sents
 
 
 def read_textgrid_words(txt):
@@ -44,19 +88,6 @@ def read_words(path):
         w = read_textgrid_words(txt)
         if w: return w
     return [(tok, None, None) for tok in nltk.word_tokenize(txt)]
-
-
-def segment_sentences(words, gap=PAUSE_GAP, max_words=MAX_WORDS):
-    sents, cur = [], []
-    for i, (w, on, off) in enumerate(words):
-        cur.append((w, on, off)); boundary = False
-        if re.search(r'[.!?]$', w): boundary = True
-        elif on is not None and i + 1 < len(words):
-            nxt = words[i + 1][1]
-            if nxt is not None and nxt - off > gap: boundary = True
-        if boundary or len(cur) >= max_words: sents.append(cur); cur = []
-    if cur: sents.append(cur)
-    return sents
 
 
 def load_pcfg():
@@ -82,7 +113,6 @@ def load_pcfg():
 
 
 def fix_oov(words, vocab, best_pos):
-    # CORRECTION : etiqueter en MINUSCULES (sinon tout est NNP -> 'Mr.')
     low = [w.lower() for w in words]
     tagged = nltk.pos_tag(low)
     proc, info = [], []
@@ -141,6 +171,7 @@ def main():
     if not files:
         print(f"  Aucun fichier .txt/.TextGrid dans : {os.path.abspath(folder)}"); return
     print(f"  {len(files)} fichier(s) a traiter.")
+    sat = load_segmenter()
     viterbi, vocab, best_pos, lex_probs = load_pcfg()
     out_csv = os.path.join(folder, "surprisal_constituants.csv")
     out_tree = os.path.join(folder, "arbres_constituants.txt")
@@ -152,7 +183,10 @@ def main():
                      "onset", "offset", "POS", "surprisal_bits", "oov"])
         for path in files:
             name = os.path.basename(path)
-            words = read_words(path); sents = segment_sentences(words)
+            words = read_words(path)
+            sents = split_with_sat(sat, words) if sat is not None else None
+            if sents is None:
+                sents = segment_pauses(words)
             print(f"  - {name}: {len(words)} mots -> {len(sents)} phrases")
             for sid, sent in enumerate(sents, 1):
                 plain = [w for (w, on, off) in sent]
