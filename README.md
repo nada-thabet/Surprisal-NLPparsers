@@ -41,7 +41,7 @@ Scripts interactifs (test d'une phrase au clavier) : `nltk_parsers_interactive.p
 
 ## 4. Utilisation
 
-> ⚠️ Lancer depuis le dossier des données, **dans le terminal** (pas le bouton « Run » de VS Code). Le `.` final = « traite le dossier courant ».
+> ⚠️ Lancer depuis le dossier des données, **dans le terminal**. Le `.` final = « traite le dossier courant ».
 
 ```bash
 cd ds004408_stimuli/stimuli      # y placer les scripts .py
