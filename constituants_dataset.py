@@ -1,20 +1,25 @@
 # -*- coding: utf-8 -*-
 """
-ANALYSE EN CONSTITUANTS (context-free) + SURPRISAL -- DATASET Broderick ds004408
-SEGMENTATION : wtpsplit / SaT (Segment any Text) = equivalent anglais de MarsaTag,
-segmenteur neuronal qui retrouve les phrases meme SANS ponctuation ni majuscules.
-  pip install wtpsplit onnxruntime
-  (repli sur les pauses si wtpsplit absent)
-Corrections precedentes : minuscules avant etiquetage (fini NNP/'Mr.'),
-arbres de-binarises, colonne 'oov'.
+ANALYSE EN CONSTITUANTS (context-free) + SURPRISAL  --  DATASET Broderick ds004408
+
+SEGMENTATION (refs Shriberg & Stolcke) :
+  Le decoupage en phrases se fait par la PROSODIE (module segmentation_prosodique.py) :
+  pause reelle entre mots + allongement du dernier phone avant la frontiere. C'est la
+  methode adaptee a la PAROLE. Les deux tiers du TextGrid
+  ("words" et "phones") suffisent.
+  -> placez segmentation_prosodique.py dans le MEME dossier que ce script.
+
+CORRECTIONS precedentes conservees :
+  - mots mis en MINUSCULES avant l'etiquetage (fini NNP/'Mr.').
+  - arbres de-binarises (un_chomsky_normal_form), colonne 'oov'.
+
 Usage :  python constituants_dataset.py .
 """
+
 import os, re, sys, csv, glob, math, nltk
 
-SENT_MAX = 18        # coupe les phrases trop longues (Viterbi en O(n^3))
-PAUSE_GAP = 0.35
 OUTPUTS = {"arbres_constituants.txt", "surprisal_constituants.csv",
-           "dependances.csv", "comparaison.csv"}
+           "phrases_prosodiques.txt", "dependances.csv", "comparaison.csv"}
 
 for r in ['treebank', 'punkt', 'punkt_tab',
           'averaged_perceptron_tagger', 'averaged_perceptron_tagger_eng']:
@@ -24,71 +29,32 @@ from nltk.corpus import treebank
 from nltk import induce_pcfg, Nonterminal
 from nltk.parse import ViterbiParser
 
-
-def load_segmenter():
-    try:
-        from wtpsplit import SaT
-        sat = SaT("sat-3l-sm")
-        print("  [segmentation] wtpsplit / SaT charge (sat-3l-sm).")
-        return sat
-    except Exception as e:
-        print(f"  [segmentation] wtpsplit indisponible ({e}) -> repli sur les pauses.")
-        return None
+# --- segmenteur prosodique (fichier segmentation_prosodique.py, meme dossier) ---
+from segmentation_prosodique import read_words_and_phones, segment_prosodic
 
 
-def split_with_sat(sat, words, max_words=SENT_MAX):
-    text = " ".join(w.lower() for (w, on, off) in words)
-    try:
-        sent_strings = sat.split(text)
-    except Exception:
-        return None
-    sents, idx = [], 0
-    for s in sent_strings:
-        n = len(s.split())
-        if n <= 0: continue
-        chunk = words[idx:idx + n]; idx += n
-        for k in range(0, len(chunk), max_words):
-            if chunk[k:k + max_words]:
-                sents.append(chunk[k:k + max_words])
-    if idx < len(words):
-        sents[-1].extend(words[idx:]) if sents else sents.append(words[idx:])
-    return sents
+# ---------------------------------------------------------------------------
+#  LECTURE DES STIMULI  (TextGrid Praat ; repli texte brut)
+# ---------------------------------------------------------------------------
 
-
-def segment_pauses(words, gap=PAUSE_GAP, max_words=SENT_MAX):
-    sents, cur = [], []
-    for i, (w, on, off) in enumerate(words):
-        cur.append((w, on, off)); boundary = False
-        if re.search(r'[.!?]$', w): boundary = True
-        elif on is not None and i + 1 < len(words):
-            nxt = words[i + 1][1]
-            if nxt is not None and nxt - off > gap: boundary = True
-        if boundary or len(cur) >= max_words: sents.append(cur); cur = []
-    if cur: sents.append(cur)
-    return sents
-
-
-def read_textgrid_words(txt):
-    items = re.split(r'item\s*\[\d+\]\s*:', txt); block = None
-    for it in items:
-        m = re.search(r'name\s*=\s*"([^"]*)"', it)
-        if m and m.group(1).strip().lower() in ('words', 'word'): block = it; break
-    if block is None: return None
-    words = []
-    for iv in re.finditer(r'xmin\s*=\s*([\d.]+)\s*xmax\s*=\s*([\d.]+)\s*text\s*=\s*"([^"]*)"', block):
-        on, off, w = float(iv.group(1)), float(iv.group(2)), iv.group(3).strip()
-        if w and w.lower() not in ('sil', 'sp', '<p>', 'sps', 'br'):
-            words.append((w, on, off))
-    return words
-
-
-def read_words(path):
+def load_sentences(path):
+    """Renvoie une liste de phrases, chaque phrase = [(mot, onset, offset)]."""
+    words, phones = read_words_and_phones(path)
+    if words is not None:
+        return segment_prosodic(words, phones)
+    # repli : fichier texte sans tier 'words' -> une phrase par ligne tokenisee
     txt = open(path, encoding='utf-8', errors='ignore').read()
-    if 'ooTextFile' in txt or 'IntervalTier' in txt or 'item [' in txt:
-        w = read_textgrid_words(txt)
-        if w: return w
-    return [(tok, None, None) for tok in nltk.word_tokenize(txt)]
+    sents = []
+    for line in txt.splitlines():
+        toks = nltk.word_tokenize(line)
+        if toks:
+            sents.append([(t, None, None) for t in toks])
+    return sents
 
+
+# ---------------------------------------------------------------------------
+#  PCFG  (context-free + surprisal)
+# ---------------------------------------------------------------------------
 
 def load_pcfg():
     print("  Induction de la PCFG (Penn Treebank)...")
@@ -114,7 +80,7 @@ def load_pcfg():
 
 def fix_oov(words, vocab, best_pos):
     low = [w.lower() for w in words]
-    tagged = nltk.pos_tag(low)
+    tagged = nltk.pos_tag(low)             # minuscules -> POS correct
     proc, info = [], []
     for (orig, (wl, pos)) in zip(words, tagged):
         disp = orig.lower()
@@ -148,7 +114,8 @@ def parse_sentence(viterbi, vocab, best_pos, lex_probs, plain_words):
     leaves = [s for s in tree.subtrees(lambda t: t.height() == 2)]
     rows = []
     for i, st in enumerate(leaves):
-        if i >= len(plain_words): break
+        if i >= len(plain_words):
+            break
         tree_pos = st.label(); pw = st.leaves()[0]
         ow, opos, is_oov = info[i]
         prob = lex_probs.get((tree_pos, pw.lower()), 1e-10)
@@ -162,20 +129,32 @@ def parse_sentence(viterbi, vocab, best_pos, lex_probs, plain_words):
     return tree, rows
 
 
+# ---------------------------------------------------------------------------
+#  MAIN
+# ---------------------------------------------------------------------------
+
 def main():
-    folder = sys.argv[1] if len(sys.argv) > 1 else "."
-    files = sorted(f for f in glob.glob(os.path.join(folder, "*"))
-                   if re.search(r'\.(txt|textgrid)$', f, re.I)
-                   and os.path.basename(f) not in OUTPUTS
-                   and not os.path.basename(f).startswith("._"))
+    arg = sys.argv[1] if len(sys.argv) > 1 else "."
+    if os.path.isdir(arg):
+        folder = arg
+        files = sorted(f for f in glob.glob(os.path.join(folder, "*"))
+                       if re.search(r'\.(txt|textgrid)$', f, re.I)
+                       and os.path.basename(f) not in OUTPUTS
+                       and not os.path.basename(f).startswith("._"))
+    else:                                   # un seul fichier passe en argument
+        folder = os.path.dirname(arg) or "."
+        files = [arg] if os.path.exists(arg) else []
     if not files:
-        print(f"  Aucun fichier .txt/.TextGrid dans : {os.path.abspath(folder)}"); return
+        print(f"  Aucun fichier .txt/.TextGrid trouve : {os.path.abspath(arg)}"); return
+
     print(f"  {len(files)} fichier(s) a traiter.")
-    sat = load_segmenter()
+    print("  [segmentation] prosodique (pause + allongement final).")
     viterbi, vocab, best_pos, lex_probs = load_pcfg()
+
     out_csv = os.path.join(folder, "surprisal_constituants.csv")
     out_tree = os.path.join(folder, "arbres_constituants.txt")
     n_words = n_sent = n_fail = 0
+
     with open(out_csv, "w", newline="", encoding="utf-8") as fcsv, \
          open(out_tree, "w", encoding="utf-8") as ftree:
         wr = csv.writer(fcsv)
@@ -183,11 +162,8 @@ def main():
                      "onset", "offset", "POS", "surprisal_bits", "oov"])
         for path in files:
             name = os.path.basename(path)
-            words = read_words(path)
-            sents = split_with_sat(sat, words) if sat is not None else None
-            if sents is None:
-                sents = segment_pauses(words)
-            print(f"  - {name}: {len(words)} mots -> {len(sents)} phrases")
+            sents = load_sentences(path)
+            print(f"  - {name}: {sum(len(s) for s in sents)} mots -> {len(sents)} phrases")
             for sid, sent in enumerate(sents, 1):
                 plain = [w for (w, on, off) in sent]
                 tree, rows = parse_sentence(viterbi, vocab, best_pos, lex_probs, plain)
@@ -203,6 +179,7 @@ def main():
                                  "" if off is None else f"{off:.3f}",
                                  pos, f"{surp:.4f}", int(is_oov)])
                     n_words += 1
+
     print(f"\n  Termine. {n_words} mots, {n_sent} phrases ({n_fail} non analysees).")
     print(f"  -> {out_csv}\n  -> {out_tree}")
 
