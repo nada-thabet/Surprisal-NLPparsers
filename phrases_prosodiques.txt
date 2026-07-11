@@ -1,50 +1,916 @@
 ===== audio01.TextGrid  (avec phones) =====
-[  1] ( 5 mots) he was an old man
-[  2] (22 mots) who fished alone in a skiff in the gulf stream and he had gone eighty four days now without taking a fish
-[  3] (11 mots) in the first forty days a boy had been with him
-[  4] (24 mots) but after forty days without a fish the boy s parents had told him that the old man was now definitely and finally salao
-[  5] ( 7 mots) which is the worst form of unlucky
-[  6] (19 mots) and the boy had gone at their orders in another boat which caught three good fish the first week
-[  7] (18 mots) it made the boy sad to see the old man come in each day with his skiff empty
-[  8] (24 mots) and he always went down to help him carry either the coiled lines or the gaff and harpoon and the sail that was furled
-[  9] ( 3 mots) around the mast
-[ 10] (17 mots) the sail was patched with flour sacks and furled it looked like the flag of permanent defeat
-[ 11] (16 mots) the old man was thin and gaunt with deep wrinkles in the back of his neck
-[ 12] ( 3 mots) the brown blotches
-[ 13] (19 mots) of the benevolent skin cancer the sun brings from its reflection on the tropic sea were on his cheeks
-[ 14] (25 mots) the blotches ran well down the sides of his face and his hands had the deep creased scars from handling heavy fish on the cords
-[ 15] ( 7 mots) but none of these scars were fresh
-[ 16] (10 mots) they were as old as erosions in a fishless desert
-[ 17] ( 8 mots) everything about him was old except his eyes
-[ 18] ( 9 mots) and they were the same color as the sea
-[ 19] ( 5 mots) and were cheerful and undefeated
-[ 20] (18 mots) santiago the boy said to him as they climbed the bank from where the skiff was hauled up
-[ 21] ( 6 mots) i could go with you again
-[ 22] ( 5 mots) we ve made some money
-[ 23] (14 mots) the old man had taught the boy to fish and the boy loved him
-[ 24] ( 5 mots) no the old man said
-[ 25] ( 9 mots) you re with a lucky boat stay with them
-[ 26] (21 mots) but remember how you went eighty seven days without fish and then we caught big ones every day for three weeks
-[ 27] ( 6 mots) i remember the old man said
-[ 28] (10 mots) i know you did not leave me because you doubted
-[ 29] ( 6 mots) it was papa made me leave
-[ 30] ( 9 mots) i am a boy and i must obey him
-[ 31] ( 6 mots) i know the old man said
-[ 32] ( 4 mots) it is quite normal
-[ 33] ( 4 mots) he hasn't much faith
-[ 34] ( 5 mots) no the old man said
-[ 35] ( 6 mots) but we have haven t we
-[ 36] ( 4 mots) yes the boy said
-[ 37] (17 mots) can i offer you a beer on the terrace and then we ll take the stuff home
-[ 38] ( 6 mots) why not the old man said
-[ 39] (18 mots) between fishermen they sat on the terrace and many of the fishermen made fun of the old man
-[ 40] ( 5 mots) and he was not angry
-[ 41] ( 5 mots) others of the older fishermen
-[ 42] (28 mots) looked at him and were sad but they did not show it and they spoke politely about the current and the depths they had drifted their lines at
-[ 43] ( 5 mots) and the steady good weather
-[ 44] ( 6 mots) and of what they had seen
-[ 45] (34 mots) the successful fishermen of that day were already in and had butchered their marlin out and carried them laid full length across two planks with two men staggering at the end of each plank
-[ 46] (19 mots) to the fish house where they waited for the ice truck to carry them to the market in havana
-[ 47] (28 mots) those who had caught sharks had taken them to the shark factory on the other side of the cove where they were hoisted on a block and tackle
-[ 48] (20 mots) their livers removed their fins cut off and their hides skinned out and their flesh cut into strips for salting
+[  1] (27 mots) he was an old man who fished alone in a skiff in the gulf stream and he had gone eighty four days now without taking a fish
+[  2] (42 mots) in the first forty days a boy had been with him but after forty days without a fish the boy s parents had told him that the old man was now definitely and finally salao which is the worst form of unlucky
+[  3] (19 mots) and the boy had gone at their orders in another boat which caught three good fish the first week
+[  4] (18 mots) it made the boy sad to see the old man come in each day with his skiff empty
+[  5] (27 mots) and he always went down to help him carry either the coiled lines or the gaff and harpoon and the sail that was furled around the mast
+[  6] (17 mots) the sail was patched with flour sacks and furled it looked like the flag of permanent defeat
+[  7] (16 mots) the old man was thin and gaunt with deep wrinkles in the back of his neck
+[  8] (22 mots) the brown blotches of the benevolent skin cancer the sun brings from its reflection on the tropic sea were on his cheeks
+[  9] (25 mots) the blotches ran well down the sides of his face and his hands had the deep creased scars from handling heavy fish on the cords
+[ 10] ( 7 mots) but none of these scars were fresh
+[ 11] (10 mots) they were as old as erosions in a fishless desert
+[ 12] ( 8 mots) everything about him was old except his eyes
+[ 13] (14 mots) and they were the same color as the sea and were cheerful and undefeated
+[ 14] (18 mots) santiago the boy said to him as they climbed the bank from where the skiff was hauled up
+[ 15] (11 mots) i could go with you again we ve made some money
+[ 16] (14 mots) the old man had taught the boy to fish and the boy loved him
+[ 17] ( 5 mots) no the old man said
+[ 18] ( 9 mots) you re with a lucky boat stay with them
+[ 19] (21 mots) but remember how you went eighty seven days without fish and then we caught big ones every day for three weeks
+[ 20] ( 6 mots) i remember the old man said
+[ 21] (10 mots) i know you did not leave me because you doubted
+[ 22] ( 6 mots) it was papa made me leave
+[ 23] ( 9 mots) i am a boy and i must obey him
+[ 24] ( 6 mots) i know the old man said
+[ 25] ( 4 mots) it is quite normal
+[ 26] ( 4 mots) he hasn't much faith
+[ 27] ( 5 mots) no the old man said
+[ 28] ( 6 mots) but we have haven t we
+[ 29] ( 4 mots) yes the boy said
+[ 30] (17 mots) can i offer you a beer on the terrace and then we ll take the stuff home
+[ 31] ( 6 mots) why not the old man said
+[ 32] (23 mots) between fishermen they sat on the terrace and many of the fishermen made fun of the old man and he was not angry
+[ 33] (44 mots) others of the older fishermen looked at him and were sad but they did not show it and they spoke politely about the current and the depths they had drifted their lines at and the steady good weather and of what they had seen
+[ 34] (45 mots) the successful fishermen of that day were already in and had butchered their marlin out and carried them laid full length across two planks with two men staggering at the end of each plank to the fish house where they waited for the ice truck
+[ 35] ( 8 mots) to carry them to the market in havana
+[ 36] (45 mots) those who had caught sharks had taken them to the shark factory on the other side of the cove where they were hoisted on a block and tackle their livers removed their fins cut off and their hides skinned out and their flesh cut into
+[ 37] ( 3 mots) strips for salting
+
+===== audio02.TextGrid  (avec phones) =====
+[  1] (17 mots) when the wind was in the east a smell came across the harbour from the shark factory
+[  2] (32 mots) but today there was only the faint edge of the odour because the wind had backed into the north and then dropped off and it was pleasant and sunny on the terrace
+[  3] ( 4 mots) santiago the boy said
+[  4] ( 5 mots) yes the old man said
+[  5] (11 mots) he was holding his glass and thinking of many years ago
+[  6] (11 mots) can i go out to get sardines for you for tomorrow
+[  7] (15 mots) no go and play baseball i can still row and rogelio will throw the net
+[  8] (19 mots) i would like to go if i cannot fish with you i would like to serve in some way
+[  9] ( 5 mots) you bought me a beer
+[ 10] ( 4 mots) the old man said
+[ 11] ( 5 mots) you are already a man
+[ 12] (12 mots) how old was i when you first took me in a boat
+[ 13] (22 mots) five and you nearly were killed when i brought the fish in too green and he nearly tore the boat to pieces
+[ 14] ( 3 mots) can you remember
+[ 15] (17 mots) i can remember the tail slapping and banging and the thwart breaking and the of the clubbing
+[ 16] (40 mots) i can remember you throwing me into the bow where the wet coiled lines were and feeling the whole boat shiver and the of you clubbing him like chopping a tree down and the sweet blood smell all over me
+[ 17] (13 mots) can you really remember that or did i just tell it to you
+[ 18] ( 9 mots) i remember everything from when we first went together
+[ 19] (13 mots) the old man looked at him with his sun burned confident loving eyes
+[ 20] (31 mots) if you were my boy i d take you out and gamble he said but you are your father s and your mother s and you are in a lucky boat
+[ 21] (14 mots) may i get the sardines i know where i can get four baits too
+[ 22] (14 mots) i have mine left from today i put them in salt in the box
+[ 23] ( 6 mots) let me get four fresh ones
+[ 24] ( 5 mots) one the old man said
+[ 25] (18 mots) his hope and his confidence had never gone but now they were freshening as when the breeze rises
+[ 26] ( 4 mots) two the boy said
+[ 27] ( 5 mots) two the old man agreed
+[ 28] ( 4 mots) you didn't steal them
+[ 29] ( 8 mots) i would the boy said but i bought
+[ 30] ( 3 mots) these thank you
+[ 31] ( 4 mots) the old man said
+[ 32] (11 mots) he was too simple to wonder when he had attained humility
+[ 33] (22 mots) but he knew he had attained it and he knew it was not disgraceful and it carried no loss of true pride
+[ 34] (13 mots) tomorrow is going to be a good day with this current he said
+[ 35] ( 7 mots) where are you going the boy asked
+[ 36] (19 mots) far out to come in when the wind shifts i want to be out before it is light i
+[ 37] (25 mots) ll try to get him to work far out the boy said then if you hook something truly big we can come to your aid
+[ 38] ( 8 mots) he does not like to work too far
+[ 39] ( 5 mots) out no the boy said
+[ 40] (22 mots) but i will see something that he cannot see such as a bird working and get him to come out after dolphin
+[ 41] ( 5 mots) are his eyes that bad
+[ 42] ( 3 mots) he is almost
+[ 43] ( 8 mots) blind it is strange the old man said
+[ 44] (11 mots) he never went turtle ing that is what kills the eyes
+[ 45] (16 mots) but you went turtle ing for years off the mosquito coast and your eyes are good
+
+===== audio03.TextGrid  (avec phones) =====
+[  1] ( 6 mots) i am a strange old man
+[  2] (11 mots) but are you strong enough now for a truly big fish
+[  3] ( 8 mots) i think so and there are many tricks
+[  4] (21 mots) let us take the stuff home the boy said so i can get the cast net and go after the sardines
+[  5] ( 8 mots) they picked up the gear from the boat
+[  6] (23 mots) the old man carried the mast on his shoulder and the boy carried the wooden boat with the coiled hard braided brown lines
+[  7] ( 8 mots) the gaff and the harpoon with its shaft
+[  8] (29 mots) the box with the baits was under the stern of the skiff along with the club that was used to subdue the big fish when they were brought alongside
+[  9] (28 mots) no one would steal from the old man but it was better to take the sail and the heavy lines home as the dew was bad for them
+[ 10] (31 mots) and though he was quite sure no local people would steal from him the old man thought that a gaff and a harpoon were needless temptations to leave in a boat
+[ 11] (19 mots) they walked up the road together to the old man s shack and went in through its open door
+[ 12] (13 mots) the old man leaned the mast with its wrapped sail against the wall
+[ 13] (12 mots) and the boy put the box and the other gear beside it
+[ 14] (13 mots) the mast was nearly as long as the one room of the shack
+[ 15] (27 mots) the shack was made of the tough budshields of the royal palm which are called guano and in it there was a bed a table one chair
+[ 16] (11 mots) and a place on the dirt floor to cook with charcoal
+[ 17] (33 mots) on the brown walls of the flattened overlapping leaves of the sturdy fibered guano there was a picture in color of the sacred heart of jesus and another of the virgin of cobre
+[ 18] ( 6 mots) these were relics of his wife
+[ 19] (28 mots) once there had been a tinted photograph of his wife on the wall but he had taken it down because it made him too lonely to see it
+[ 20] (13 mots) and it was on the shelf in the corner under his clean shirt
+[ 21] ( 6 mots) what do you have to eat
+[ 22] ( 3 mots) the boy asked
+[ 23] (10 mots) a pot of yellow rice with fish do you want
+[ 24] ( 8 mots) some no i will eat at home do
+[ 25] ( 7 mots) you want me to make the fire
+[ 26] ( 7 mots) no i will make it later on
+[ 27] ( 7 mots) or i may eat the rice cold
+[ 28] ( 6 mots) may i take the cast net
+[ 29] (16 mots) of course there was no cast net and the boy remembered when they had sold it
+[ 30] ( 8 mots) but they went through this fiction every day
+[ 31] ( 9 mots) there was no pot of yellow rice and fish
+[ 32] ( 6 mots) and the boy knew this too
+[ 33] (10 mots) eighty five is a lucky number the old man said
+[ 34] (18 mots) how would you like to see me bring one in that dressed out over a thousand pounds i
+[ 35] ( 9 mots) ll get the cast net and go for sardines
+[ 36] ( 9 mots) will you sit in the sun in the doorway
+[ 37] (12 mots) yes i have yesterday s paper and i will read the baseball
+[ 38] (13 mots) the boy did not know whether yesterday s paper was a fiction too
+[ 39] (11 mots) but the old man brought it out from under the bed
+[ 40] ( 8 mots) perico gave it to me at the bodega
+[ 41] ( 3 mots) he explained i
+[ 42] (36 mots) ll be back when i have the sardines i ll keep yours and mine together on ice and we can share them in the morning when i come back you can tell me about the baseball
+[ 43] ( 4 mots) the yankees cannot lose
+[ 44] ( 7 mots) but i fear the indians of cleveland
+[ 45] ( 7 mots) have faith in the yankees my son
+[ 46] ( 5 mots) think of the great dimaggio
+
+===== audio04.TextGrid  (avec phones) =====
+[  1] (12 mots) i fear both the tigers of detroit and the indians of cleveland
+[  2] (17 mots) be careful or you will fear even the reds of cincinnati and the white sax of chicago
+[  3] (11 mots) you study it and tell me when i come back do
+[  4] (14 mots) you think we should buy a terminal of the lottery with an eighty five
+[  5] ( 6 mots) tomorrow is the eighty fifth day
+[  6] ( 7 mots) we can do that the boy said
+[  7] (10 mots) but what about the eighty seven of your great record
+[  8] (14 mots) it could not happen twice do you think you can find an eighty five
+[  9] ( 4 mots) i can order one
+[ 10] ( 9 mots) one sheet that s two dollars and a half
+[ 11] ( 5 mots) who can we borrow that
+[ 12] (13 mots) from that s easy i can always borrow two dollars and a half
+[ 13] (12 mots) i think perhaps i can too but i try not to borrow
+[ 14] ( 6 mots) first you borrow then you beg
+[ 15] ( 7 mots) keep warm old man the boy said
+[ 16] ( 5 mots) remember we are in september
+[ 17] ( 7 mots) the month when the great fish come
+[ 18] ( 4 mots) the old man said
+[ 19] ( 6 mots) anyone can be a fisherman in
+[ 20] (10 mots) may i go now for the sardines the boy said
+[ 21] (17 mots) when the boy came back the old man was asleep in the chair and the sun was
+[ 22] (27 mots) down the boy took the old army blanket off the bed and spread it over the back of the chair and over the old man s shoulders
+[ 23] ( 4 mots) they were strange shoulders
+[ 24] (31 mots) still powerful although very old and the neck was still strong too and the creases did not show so much when the old man was asleep and his head fallen forward
+[ 25] (14 mots) his shirt had been patched so many times that it was like the sail
+[ 26] (12 mots) and the patches were faded to many different shades by the sun
+[ 27] (21 mots) the old man s head was very old though and with his eyes closed there was no life in his face
+[ 28] (19 mots) the newspaper lay across his knees and the weight of his arm held it there in the evening breeze
+[ 29] ( 3 mots) he was barefooted
+[ 30] (16 mots) the boy left him there and when he came back the old man was still asleep
+[ 31] (19 mots) wake up old man the boy said and put his hand on one of the old man s knees
+[ 32] ( 6 mots) the old man opened his eyes
+[ 33] (13 mots) and for a moment he was coming back from a long way away
+[ 34] ( 3 mots) then he smiled
+[ 35] ( 4 mots) what have you got
+[ 36] (12 mots) he asked supper said the boy we re going to have supper
+[ 37] ( 5 mots) i m not very hungry
+[ 38] (11 mots) come on and eat you can t fish and not eat
+[ 39] (15 mots) i have the old man said getting up and taking the newspaper and folding it
+[ 40] ( 7 mots) then he started to fold the blanket
+[ 41] (18 mots) keep the blanket around you the boy said you ll not fish without eating while i m alive
+[ 42] (14 mots) then live a long time and take care of yourself the old man said
+[ 43] ( 4 mots) what are we eating
+[ 44] ( 9 mots) black beans and rice fried bananas and some stew
+[ 45] (14 mots) the boy had brought them in a two decker metal container from the terrace
+[ 46] (21 mots) the two sets of knives and forks and spoons were in his pocket with a paper napkin wrapped around each set
+[ 47] ( 5 mots) who gave this to you
+[ 48] ( 3 mots) martin the owner
+[ 49] ( 4 mots) i must thank him
+[ 50] (14 mots) i thanked him already the boy said you don t need to thank him
+
+===== audio05.TextGrid  (avec phones) =====
+[  1] (15 mots) i ll give him the belly meat of a big fish the old man said
+[  2] ( 9 mots) has he done this for us more than once
+[  3] ( 3 mots) i think so
+[  4] (11 mots) i must give him something more than the belly meat then
+[  5] ( 6 mots) he is very thoughtful for us
+[  6] ( 4 mots) he sent two beers
+[  7] ( 7 mots) i like the beer in cans best
+[  8] (15 mots) i know but this is in bottles hatuey beer and i take back the bottles
+[  9] (10 mots) that s very kind of you the old man said
+[ 10] ( 3 mots) should we eat
+[ 11] (11 mots) i ve been asking you to the boy told him gently
+[ 12] (12 mots) i have not wished to open the container until you were ready
+[ 13] ( 4 mots) i m ready now
+[ 14] ( 4 mots) the old man said
+[ 15] ( 6 mots) i only needed time to wash
+[ 16] ( 7 mots) where did you wash the boy thought
+[ 17] (10 mots) the village water supply was two streets down the road
+[ 18] (10 mots) i must have water here for him the boy thought
+[ 19] ( 6 mots) and soap and a good towel
+[ 20] ( 5 mots) why am i so thoughtless
+[ 21] (12 mots) i must get him another shirt and a jacket for the winter
+[ 22] ( 5 mots) and some sort of shoes
+[ 23] ( 3 mots) and another blanket
+[ 24] ( 4 mots) your stew is excellent
+[ 25] ( 4 mots) the old man said
+[ 26] ( 9 mots) tell me about the baseball the boy asked him
+[ 27] (11 mots) in the american league it is the yankees as i said
+[ 28] ( 5 mots) the old man said happily
+[ 29] ( 7 mots) they lost today the boy told him
+[ 30] ( 9 mots) that means nothing the great dimaggio is himself again
+[ 31] ( 7 mots) they have other men on the team
+[ 32] ( 6 mots) naturally but he makes the difference
+[ 33] (12 mots) in the other league between brooklyn and philadelphia i must take brooklyn
+[ 34] (15 mots) but then i think of dick sisler and those great drives in the old park
+[ 35] (15 mots) there was nothing ever like them he hits the longest ball i have ever seen
+[ 36] (25 mots) do you remember when he used to come to the terrace i wanted to take him fishing but i was too timid to ask him
+[ 37] (12 mots) then i asked you to ask him and you were too timid
+[ 38] (23 mots) i know it was a great mistake he might have gone with us then we would have that for all of our lives
+[ 39] (13 mots) i would like to take the great dimaggio fishing the old man said
+[ 40] ( 7 mots) they say his father was a fisherman
+[ 41] (11 mots) maybe he was as poor as we are and would understand
+[ 42] (23 mots) the great sisler s father was never poor and he the father was playing in the big leagues when he was my age
+[ 43] (30 mots) when i was your age i was before the mast on a square rigged ship that ran to africa and i have seen lions on the beaches in the evening
+[ 44] ( 5 mots) i know you told me
+[ 45] ( 5 mots) should we talk about africa
+[ 46] ( 3 mots) or about baseball
+[ 47] (12 mots) baseball i think the boy said tell me about the great john
+[ 48] ( 7 mots) j mcgraw he said jota for j
+[ 49] (26 mots) he used to come to the terrace sometimes too in the older days but he was rough and harsh spoken and difficult when he was drinking
+[ 50] ( 9 mots) his mind was on horses as well as baseball
+[ 51] (23 mots) at least he carried lists of horses at all times in his pocket and frequently spoke the names of horses on the telephone
+
+===== audio06.TextGrid  (avec phones) =====
+[  1] ( 8 mots) he was a great manager the boy said
+[  2] ( 7 mots) my father thinks he was the greatest
+[  3] (11 mots) because he came here the most times the old man said
+[  4] (17 mots) if durocher had continued to come here each year your father would think him the greatest manager
+[  5] (10 mots) who is the greatest manager really luque or mike gonzalez
+[  6] ( 5 mots) i think they are equal
+[  7] ( 6 mots) and the best fisherman is you
+[  8] ( 5 mots) no i know others better
+[  9] (19 mots) que va the boy said there are many good fishermen and some great ones but there is only you
+[ 10] ( 6 mots) thank you you make me happy
+[ 11] (15 mots) i hope no fish will come along so great that he will prove us wrong
+[ 12] (13 mots) there is no such fish if you are still strong as you say
+[ 13] ( 9 mots) i may not be as strong as i think
+[ 14] (13 mots) the old man said but i know many tricks and i have resolution
+[ 15] (16 mots) you ought to go to bed now so that you will be fresh in the morning
+[ 16] ( 9 mots) i will take the things back to the terrace
+[ 17] (10 mots) good night then i will wake you in the morning
+[ 18] ( 8 mots) you re my alarm clock the boy said
+[ 19] ( 9 mots) age is my alarm clock the old man said
+[ 20] ( 7 mots) why do old men wake so early
+[ 21] ( 7 mots) is it to have one longer day
+[ 22] ( 7 mots) i don t know the boy said
+[ 23] (11 mots) all i know is that young boys sleep late and hard
+[ 24] ( 8 mots) i can remember it the old man said
+[ 25] ( 6 mots) i ll waken you in time
+[ 26] (16 mots) i do not like for him to waken me it is as though i were inferior
+[ 27] ( 6 mots) i know sleep well old man
+[ 28] ( 3 mots) the boy went
+[ 29] (25 mots) out they had eaten with no light on the table and the old man took off his trousers and went to bed in the dark
+[ 30] (14 mots) he rolled his trousers up to make a pillow putting the newspaper inside them
+[ 31] (20 mots) he rolled himself in the blanket and slept on the other old newspapers that covered the springs of the bed
+[ 32] (26 mots) he was asleep in a short time and he dreamed of africa when he was a boy and the long golden beaches and the white beaches
+[ 33] (15 mots) so white they hurt your eyes and the high capes and the great brown mountains
+[ 34] (26 mots) he lived along that coast now every night and in his dreams he heard the surf roar and saw the native boats come riding through it
+[ 35] (12 mots) he smelled the tar and oakum of the deck as he slept
+[ 36] (14 mots) and he smelled the smell of africa that the land breeze brought at morning
+[ 37] (18 mots) usually when he smelled the land breeze he woke up and dressed to go and wake the boy
+[ 38] (37 mots) but tonight the smell of the land breeze came very early and he knew it was too early in his dream and went on dreaming to see the white peaks of the islands rising from the sea
+[ 39] (14 mots) and then he dreamed of the different harbours and roadsteads of the canary islands
+[ 40] (13 mots) he no longer dreamed of storms nor of women nor of great occurrences
+[ 41] (10 mots) nor of great fish nor fights nor contests of strength
+[ 42] ( 4 mots) nor of his wife
+[ 43] (13 mots) he only dreamed of places now and of the lions on the beach
+[ 44] ( 8 mots) they played like young cats in the dusk
+[ 45] ( 9 mots) and he loved them as he loved the boy
+[ 46] ( 6 mots) he never dreamed about the boy
+[ 47] ( 7 mots) he simply woke looked out the open
+[ 48] ( 4 mots) door at the moon
+[ 49] ( 4 mots) and unrolled his trousers
+[ 50] ( 5 mots) and put them on he
+[ 51] (36 mots) urinated outside the shack and then went up the road to wake the boy he was shivering with the morning cold but he knew he would shiver himself warm and that soon he would be rowing
+
+===== audio07.TextGrid  (avec phones) =====
+[  1] (23 mots) the door of the house where the boy lived was unlocked and he opened it and walked in quietly with his bare feet
+[  2] (11 mots) the boy was asleep on a cot in the first room
+[  3] (18 mots) and the old man could see him clearly with the light that came in from the dying moon
+[  4] (20 mots) he took hold of one foot gently and held it until the boy woke and turned and looked at him
+[  5] (16 mots) the old man nodded and the boy took his trousers from the chair by the bed
+[  6] ( 7 mots) and sitting on the bed pulled them
+[  7] (14 mots) on the old man went out the door and the boy came after him
+[  8] ( 3 mots) he was sleepy
+[  9] (12 mots) and the old man put his arm across his shoulders and said
+[ 10] ( 3 mots) i am sorry
+[ 11] ( 5 mots) qua va the boy said
+[ 12] ( 7 mots) it is what a man must do
+[ 13] (29 mots) they walked down the road to the old man s shack and all along the road in the dark barefoot men were moving carrying the masts of their boats
+[ 14] (37 mots) when they reached the old man s shack the boy took the rolls of line in the basket and the harpoon and gaff and the old man carried the mast with the furled sail on his shoulder
+[ 15] ( 7 mots) do you want coffee the boy asked
+[ 16] (11 mots) we ll put the gear in the boat and then get
+[ 17] (16 mots) some they had coffee from condensed milk cans at an early morning place that served fishermen
+[ 18] ( 9 mots) how did you sleep old man the boy asked
+[ 19] (16 mots) he was waking up now although it was still hard for him to leave his sleep
+[ 20] ( 3 mots) very well manolin
+[ 21] ( 4 mots) the old man said
+[ 22] ( 4 mots) i feel confident today
+[ 23] ( 6 mots) so do i the boy said
+[ 24] (24 mots) now i must get your sardines and mine and your fresh baits he brings our gear himself he never wants anyone to carry anything
+[ 25] ( 3 mots) we re different
+[ 26] (15 mots) the old man said i let you carry things when you were five years old
+[ 27] ( 7 mots) i know it the boy said i
+[ 28] (11 mots) ll be right back have another coffee we have credit here
+[ 29] (18 mots) he walked off bare footed on the coral rocks to the ice house where the baits were stored
+[ 30] ( 7 mots) the old man drank his coffee slowly
+[ 31] (16 mots) it was all he would have all day and he knew that he should take it
+[ 32] (15 mots) for a long time now eating had bored him and he never carried a lunch
+[ 33] (12 mots) he had a bottle of water in the bow of the skiff
+[ 34] ( 9 mots) and that was all he needed for the day
+[ 35] (42 mots) the boy was back now with the sardines and the two baits wrapped in a newspaper and they went down the trail to the skiff feeling the pebbled sand under their feet and lifted the skiff and slid her into the water
+[ 36] ( 4 mots) good luck old man
+[ 37] ( 6 mots) good luck the old man said
+[ 38] (24 mots) he fitted the rope lashings of the oars onto the thole pins and leaning forward against the thrust of the blades in the water
+[ 39] (11 mots) he began to row out of the harbour in the dark
+[ 40] (12 mots) there were other boats from the other beaches going out to sea
+[ 41] (12 mots) and the old man heard the dip and push of their oars
+[ 42] (14 mots) even though he could not see them now the moon was below the hills
+
+===== audio08.TextGrid  (avec phones) =====
+[  1] (21 mots) sometimes someone would speak in a boat but most of the boats were silent except for the dip of the oars
+[  2] (13 mots) they spread apart after they were out of the mouth of the harbour
+[  3] (16 mots) and each one headed for the part of the ocean where he hoped to find fish
+[  4] ( 9 mots) the old man knew he was going far out
+[  5] (21 mots) and he left the smell of the land behind and rowed out into the clean early morning smell of the ocean
+[  6] (45 mots) he saw the phosphorescence of the gulf weed in the water as he rowed over the part of the ocean that the fishermen called the great well because there was a sudden deep of seven hundred fathoms where all sorts of fish congregated because of
+[  7] (15 mots) the swirl the current made against the steep walls of the floor of the ocean
+[  8] (35 mots) here there were concentrations of shrimp and bait fish and sometimes schools of squid in the deepest holes and these rose close to the surface at night where all the wandering fish fed on them
+[  9] (11 mots) in the dark the old man could feel the morning coming
+[ 10] (31 mots) and as he rowed he heard the trembling sound as flying fish left the water and the hissing that their stiff set wings made as they soared away in the darkness
+[ 11] (16 mots) he was very fond of flying fish as they were his principal friends on the ocean
+[ 12] ( 6 mots) he was sorry for the birds
+[ 13] (16 mots) especially the small delicate dark terns that were always flying and looking and almost never finding
+[ 14] (22 mots) and he thought the birds have a harder life than we do except for the robber birds and the heavy strong ones
+[ 15] (20 mots) why did they make birds so delicate and fine as those sea swallows when the ocean can be so cruel
+[ 16] (12 mots) she is kind and very beautiful but she can be so cruel
+[ 17] (25 mots) and it comes so suddenly and such birds that fly dipping and hunting with their small sad voices are made too delicately for the sea
+[ 18] ( 9 mots) he always thought of the sea as la mar
+[ 19] (11 mots) which is what people call her in spanish when they love
+[ 20] (22 mots) her sometimes those who love her say bad things of her but they are always said as though she were a woman
+[ 21] (35 mots) some of the younger fishermen those who used buoys as floats for their lines and had motorboats bought when the shark livers had brought much money spoke of her as el mar which is masculine
+[ 22] (14 mots) they spoke of her as a contestant or a place or even an enemy
+[ 23] (19 mots) but the old man always thought of her as feminine and as something that gave or withheld great favours
+[ 24] (16 mots) and if she did wild or wicked things it was because she could not help them
+[ 25] ( 9 mots) the moon affects her as it does a woman
+[ 26] (20 mots) he thought he was rowing steadily and it was no effort for him since he kept well within his speed
+[ 27] (16 mots) and the surface of the ocean was flat except for the occasional swirls of the current
+[ 28] (11 mots) he was letting the current do a third of the work
+[ 29] (23 mots) and as it started to be light he saw he was already further out than he had hoped to be at this hour
+[ 30] (13 mots) i worked the deep wells for a week and did nothing he thought
+[ 31] (13 mots) today i ll work out where the schools of bonito and albacore are
+[ 32] (10 mots) and maybe there will be a big one with them
+
+===== audio09.TextGrid  (avec phones) =====
+[  1] (16 mots) before it was really light he had his baits out and was drifting with the current
+[  2] (33 mots) one bait was down forty fathoms the second was at seventy five and the third and fourth were down in the blue water at one hundred and one hundred and twenty five fathoms
+[  3] (37 mots) each bait hung head down with the shank of the hook inside the bait fish tied and sewed solid and all the projecting part of the hook the curve and the point was covered with fresh sardines
+[  4] ( 7 mots) each sardine was hooked through both eyes
+[  5] (11 mots) so that they made a half garland on the projecting steel
+[  6] (21 mots) there was no part of the hook that a great fish could feel which was not sweet smelling and good tasting
+[  7] (45 mots) the boy had given him two fresh small tunas or albacores which hung on the two deepest lines like plummets and on the others he had a big blue runner and a yellow jack that had been used before but they were in good condition
+[  8] (12 mots) still and had the excellent sardines to give them scent and attractiveness
+[  9] (45 mots) each line as thick around as a big pencil was looped onto a green sapped stick so that any pull or touch on the bait would make the stick dip and each line had two forty fathom coils which could be made fast to the
+[ 10] (20 mots) other spare coils so that if it were necessary a fish could take out over three hundred fathoms of line
+[ 11] (32 mots) now the man watched the dip of the three sticks over the side of the skiff and rowed gently to keep the lines straight up and down and at their proper depths
+[ 12] (12 mots) it was quite light and any moment now the sun would rise
+[ 13] ( 7 mots) the sun rose thinly from the sea
+[ 14] (24 mots) and the old man could see the other boats low on the water and well in toward the shore spread out across the current
+[ 15] (12 mots) then the sun was brighter and the glare came on the water
+[ 16] ( 6 mots) and then as it rose clear
+[ 17] (14 mots) the flat sea sent it back at his eyes so that it hurt sharply
+[ 18] ( 7 mots) and he rowed without looking into it
+[ 19] (20 mots) he looked down into the water and watched the lines that went straight down into the dark of the water
+[ 20] ( 7 mots) he kept them straighter than anyone did
+[ 21] (29 mots) so that at each level in the darkness of the stream there would be a bait waiting exactly where he wished it to be for any fish that swam
+[ 22] ( 8 mots) there others let them drift with the current
+[ 23] (16 mots) and sometimes they were at sixty fathoms when the fishermen thought they were at a hundred
+[ 24] ( 3 mots) but he thought
+[ 25] ( 5 mots) i keep them with precision
+[ 26] ( 7 mots) only i have no luck any more
+[ 27] ( 3 mots) but who knows
+[ 28] ( 8 mots) maybe today every day is a new day
+[ 29] ( 6 mots) it is better to be lucky
+[ 30] ( 6 mots) but i would rather be exact
+[ 31] ( 7 mots) then when luck comes you are ready
+[ 32] (21 mots) the sun was two hours higher now and it did not hurt his eyes so much to look into the east
+[ 33] (16 mots) there were only three boats in sight now and they showed very low and far inshore
+[ 34] (12 mots) all my life the early sun has hurt my eyes he thought
+[ 35] ( 5 mots) yet they are still good
+[ 36] (13 mots) in the evening i can look straight into it without getting the blackness
+[ 37] ( 8 mots) it has more force in the evening too
+[ 38] ( 7 mots) but in the morning it is painful
+
+===== audio10.TextGrid  (avec phones) =====
+[  1] (14 mots) just then he saw a man of war bird with his long black wings
+[  2] ( 7 mots) circling in the sky ahead of him
+[  3] (16 mots) he made a quick drop slanting down on his back swept wings and then circled again
+[  4] ( 8 mots) he s got something the old man said
+[  5] ( 6 mots) aloud he s not just looking
+[  6] (11 mots) he rowed slowly and steadily toward where the bird was circling
+[  7] (13 mots) he did not hurry and he kept his lines straight up and down
+[  8] (30 mots) but he crowded the current a little so that he was still fishing correctly though faster than he would have fished if he was not trying to use the bird
+[  9] (13 mots) the bird went higher in the air and circled again his wings motionless
+[ 10] (22 mots) then he dove suddenly and the old man saw flying fish spurt out of the water and sail desperately over the surface
+[ 11] ( 6 mots) dolphin the old man said aloud
+[ 12] (15 mots) big dolphin he shipped his oars and brought a small line from under the bow
+[ 13] (10 mots) it had a wire leader and a medium sized hook
+[ 14] ( 9 mots) and he baited it with one of the sardines
+[ 15] (19 mots) he let it go over the side and then made it fast to a ring bolt in the stern
+[ 16] (15 mots) then he baited another line and left it coiled in the shade of the bow
+[ 17] (21 mots) he went back to rowing and to watching the long winged black bird who was working now low over the water
+[ 18] (26 mots) as he watched the bird dipped again slanting his wings for the dive and then swinging them wildly and ineffectually as he followed the flying fish
+[ 19] (22 mots) the old man could see the slight bulge in the water that the big dolphin raised as they followed the escaping fish
+[ 20] (26 mots) the dolphin were cutting through the water below the flight of the fish and would be in the water driving at speed when the fish dropped
+[ 21] ( 9 mots) it is a big school of dolphin he thought
+[ 22] ( 3 mots) they are widespread
+[ 23] ( 7 mots) and the flying fish have little chance
+[ 24] (18 mots) the bird has no chance the flying fish are too big for him and they go too fast
+[ 25] (17 mots) he watched the flying fish burst out again and again and the ineffectual movements of the bird
+[ 26] ( 7 mots) that school has gotten away from me
+[ 27] (11 mots) he thought they are moving out too fast and too far
+[ 28] (16 mots) but perhaps i will pick up a stray and perhaps my big fish is around them
+[ 29] ( 6 mots) my big fish must be somewhere
+[ 30] ( 9 mots) the clouds over the land now rose like mountains
+[ 31] (16 mots) and the coast was only a long green line with the gray blue hills behind it
+[ 32] ( 7 mots) the water was a dark blue now
+[ 33] ( 7 mots) so dark that it was almost purple
+[ 34] (26 mots) as he looked down into it he saw the red sifting of the plankton in the dark water and the strange light the sun made now
+[ 35] (29 mots) he watched his lines to see them go straight down out of sight into the water and he was happy to see so much plankton because it meant fish
+[ 36] (29 mots) the strange light the sun made in the water now that the sun was higher meant good weather and so did the shape of the clouds over the land
+[ 37] (31 mots) but the bird was almost out of sight now and nothing showed on the surface of the water but some patches of yellow sun bleached sargasso weed and the purple formalized
+[ 38] (15 mots) iridescent gelatinous bladder of a portuguese man of war floating dose beside the boat it
+[ 39] ( 8 mots) turned on its side and then righted itself
+[ 40] (20 mots) it floated cheerfully as a bubble with its long deadly purple filaments trailing a yard behind it in the water
+
+===== audio11.TextGrid  (avec phones) =====
+[  1] ( 5 mots) agua mala the man said
+[  2] (43 mots) you whore from where he swung lightly against his oars he looked down into the water and saw the tiny fish that were coloured like the trailing filaments and swam between them and under the small shade the bubble made as it drifted
+[  3] ( 3 mots) they were immune
+[  4] ( 3 mots) to its poison
+[  5] ( 4 mots) but men were not
+[  6] (25 mots) and when same of the filaments would catch on a line and rest there slimy and purple while the old man was working a fish
+[  7] (22 mots) he would have welts and sores on his arms and hands of the sort that poison ivy or poison oak can give
+[  8] (14 mots) but these poisonings from the agua mala came quickly and struck like a whiplash
+[  9] ( 5 mots) the iridescent bubbles were beautiful
+[ 10] ( 9 mots) but they were the falsest thing in the sea
+[ 11] (13 mots) and the old man loved to see the big sea turtles eating them
+[ 12] (23 mots) the turtles saw them approached them from the front then shut their eyes so they were completely carapaced and ate them filaments and
+[ 13] (40 mots) all the old man loved to see the turtles eat them and he loved to walk on them on the beach after a storm and hear them pop when he stepped on them with the horny soles of his feet
+[ 14] (16 mots) he loved green turtles and hawk bills with their elegance and speed and their great value
+[ 15] (21 mots) and he had a friendly contempt for the huge stupid loggerheads yellow in their armour plating strange in their love making
+[ 16] (12 mots) and happily eating the portuguese men of war with their eyes shut
+[ 17] (16 mots) he had no mysticism about turtles although he had gone in turtle boats for many years
+[ 18] (22 mots) he was sorry for them all even the great trunk backs that were as long as the skiff and weighed a ton
+[ 19] (23 mots) most people are heartless about turtles because a turtle s heart will beat for hours after he has been cut up and butchered
+[ 20] ( 5 mots) but the old man thought
+[ 21] (13 mots) i have such a heart too and my feet and hands are like
+[ 22] (10 mots) theirs he ate the white eggs to give himself strength
+[ 23] (18 mots) he ate them all through may to be strong in september and october for the truly big fish
+[ 24] (26 mots) he also drank a cup of shark liver oil each day from the big drum in the shack where many of the fishermen kept their gear
+[ 25] ( 9 mots) it was there for all fishermen who wanted it
+[ 26] ( 5 mots) most fishermen hated the taste
+[ 27] (24 mots) but it was no worse than getting up at the hours that they rose and it was very good against all colds and grippes
+[ 28] ( 7 mots) and it was good for the eyes
+[ 29] (14 mots) now the old man looked up and saw that the bird was circling again
+[ 30] ( 7 mots) he s found fish he said aloud
+[ 31] (14 mots) no flying fish broke the surface and there was no scattering of bait fish
+[ 32] ( 9 mots) but as the old man watched a small tuna
+[ 33] (12 mots) rose in the air turned and dropped head first into the water
+[ 34] ( 7 mots) the tuna shone silver in the sun
+[ 35] (31 mots) and after he had dropped back into the water another and another rose and they were jumping in all directions churning the water and leaping in long jumps after the bait
+[ 36] ( 7 mots) they were circling it and driving it
+[ 37] (16 mots) if they don t travel too fast i will get into them the old man thought
+[ 38] ( 9 mots) and he watched the school working the water white
+[ 39] (20 mots) and the bird now dropping and dipping into the bait fish that were forced to the surface in their panic
+
+===== audio12.TextGrid  (avec phones) =====
+[  1] (10 mots) the bird is a great help the old man said
+[  2] (45 mots) just then the stern line came taut under his foot where he had kept a loop of the line and he dropped his oars and felt tile weight of the small tuna s shivering pull as he held the line firm and commenced to haul
+[  3] (39 mots) it in the shivering increased as he pulled in and he could see the blue back of the fish in the water and the gold of his sides before he swung him over the side and into the boat
+[  4] (40 mots) he lay in the stern in the sun compact and bullet shaped his big unintelligent eyes staring as he thumped his life out against the planking of the boat with the quick shivering strokes of his neat fast moving tail
+[  5] (13 mots) the old man hit him on the head for kindness and kicked him
+[  6] (10 mots) his body still shuddering under the shade of the stern
+[  7] ( 5 mots) albacore he said aloud he
+[  8] ( 5 mots) ll make a beautiful bait
+[  9] ( 5 mots) he ll weigh ten pounds
+[ 10] (17 mots) he did not remember when he had first started to talk aloud when he was by himself
+[ 11] (35 mots) he had sung when he was by himself in the old days and he had sung at night sometimes when he was alone steering on his watch in the smacks or in the turtle boats
+[ 12] (14 mots) he had probably started to talk aloud when alone when the boy had left
+[ 13] ( 5 mots) but he did not remember
+[ 14] (15 mots) when he and the boy fished together they usually spoke only when it was necessary
+[ 15] (13 mots) they talked at night or when they were storm bound by bad weather
+[ 16] (11 mots) it was considered a virtue not to talk unnecessarily at sea
+[ 17] (12 mots) and the old man had always considered it so and respected it
+[ 18] (18 mots) but now he said his thoughts aloud many times since there was no one that they could annoy
+[ 19] (15 mots) if the others heard me talking out loud they would think that i am crazy
+[ 20] ( 3 mots) he said aloud
+[ 21] ( 6 mots) but since i am not crazy
+[ 22] ( 4 mots) i do not care
+[ 23] (18 mots) and the rich have radios to talk to them in their boats and to bring them the baseball
+[ 24] (10 mots) now is no time to think of baseball he thought
+[ 25] (10 mots) now is the time to think of only one thing
+[ 26] ( 5 mots) that which i was born
+[ 27] (12 mots) for there might be a big one around that school he thought
+[ 28] (12 mots) i picked up only a straggler from the albacore that were feeding
+[ 29] ( 8 mots) but they are working far out and fast
+[ 30] (15 mots) everything that shows on the surface today travels very fast and to the north east
+[ 31] ( 7 mots) can that be the time of day
+[ 32] (12 mots) or is it some sign of weather that i do not know
+[ 33] (38 mots) he could not see the green of the shore now but only the tops of the blue hills that showed white as though they were snow capped and the clouds that looked like high snow mountains above them
+[ 34] (13 mots) the sea was very dark and the light made prisms in the water
+[ 35] (45 mots) the myriad flecks of the plankton were annulled now by the high sun and it was only the great deep prisms in the blue water that the old man saw now with his lines going straight down into the water that was a mile deep
+[ 36] (33 mots) the tuna the fishermen called all the fish of that species tuna and only distinguished among them by their proper names when they came to sell them or to trade them for baits
+[ 37] ( 3 mots) were down again
+[ 38] (28 mots) the sun was hot now and the old man felt it on the back of his neck and felt the sweat trickle down his back as he rowed
+
+===== audio13.TextGrid  (avec phones) =====
+[  1] (20 mots) i could just drift he thought and sleep and put a bight of line around my toe to wake me
+[  2] (13 mots) but today is eighty five days and i should fish the day well
+[  3] (15 mots) just then watching his lines he saw one of the projecting green sticks dip sharply
+[  4] ( 4 mots) yes he said yes
+[  5] ( 8 mots) and shipped his oars without bumping the boat
+[  6] (19 mots) he reached out for the line and held it softly between the thumb and forefinger of his right hand
+[  7] ( 6 mots) he felt no strain nor weight
+[  8] ( 6 mots) and he held the line lightly
+[  9] ( 4 mots) then it came again
+[ 10] (18 mots) this time it was a tentative pull not solid nor heavy and he knew exactly what it was
+[ 11] (33 mots) one hundred fathoms down a marlin was eating the sardines that covered the point and the shank of the hook where the hand forged hook projected from the head of the small tuna
+[ 12] (18 mots) the old man held the line delicately and softly with his left hand unleashed it from the stick
+[ 13] (15 mots) now he could let it run through his fingers without the fish feeling any tension
+[ 14] (12 mots) this far out he must be huge in this month he thought
+[ 15] ( 5 mots) eat them fish eat them
+[ 16] ( 3 mots) please eat them
+[ 17] (18 mots) how fresh they are and you down there six hundred feet in that cold water in the dark
+[ 18] ( 9 mots) make another turn in the dark and come back
+[ 19] ( 3 mots) and eat them
+[ 20] (26 mots) he felt the light delicate pulling and then a harder pull when a sardine s head must have been more difficult to break from the hook
+[ 21] ( 4 mots) then there was nothing
+[ 22] ( 7 mots) come on the old man said aloud
+[ 23] ( 3 mots) make another turn
+[ 24] ( 4 mots) just smell them aren
+[ 25] ( 3 mots) t they lovely
+[ 26] (10 mots) eat them good now and then there is the tuna
+[ 27] ( 5 mots) hard and cold and lovely
+[ 28] ( 5 mots) don t be shy fish
+[ 29] (32 mots) eat them he waited with the line between his thumb and his finger watching it and the other lines at the same time for the fish might have swum up or down
+[ 30] ( 9 mots) then came the same delicate pulling touch again he
+[ 31] ( 8 mots) ll take it the old man said aloud
+[ 32] ( 6 mots) god help him to take it
+[ 33] (15 mots) he did not take it though he was gone and the old man felt nothing
+[ 34] ( 7 mots) he can t have gone he said
+[ 35] ( 7 mots) christ knows he can t have gone
+[ 36] ( 5 mots) he s making a turn
+[ 37] (12 mots) maybe he has been hooked before and he remembers something of it
+[ 38] (13 mots) then he felt the gentle touch on the line and he was happy
+[ 39] ( 5 mots) it was only his turn
+[ 40] ( 6 mots) he said he ll take it
+[ 41] (16 mots) he was happy feeling the gentle pulling and then he felt something hard and unbelievably heavy
+[ 42] (13 mots) it was the weight of the fish and he let the line slip
+[ 43] (12 mots) down down down unrolling off the first of the two reserve coils
+[ 44] (19 mots) as it went down slipping lightly through the old man s fingers he still could feel the great weight
+[ 45] (11 mots) though the pressure of his thumb and finger were almost imperceptible
+[ 46] ( 5 mots) what a fish he said
+[ 47] ( 8 mots) he has it sideways in his mouth now
+[ 48] ( 7 mots) and he is moving off with it
+
+===== audio14.TextGrid  (avec phones) =====
+[  1] ( 9 mots) then he will turn and swallow it he thought
+[  2] (19 mots) he did not say that because he knew that if you said a good thing it might not happen
+[  3] ( 8 mots) he knew what a huge fish this was
+[  4] (18 mots) and he thought of him moving away in the darkness with the tuna held crosswise in his mouth
+[  5] (14 mots) at that moment he felt him stop moving but the weight was still there
+[  6] ( 9 mots) then the weight increased and he gave more line
+[  7] (21 mots) he tightened the pressure of his thumb and finger for a moment and the weight increased and was going straight down
+[  8] ( 6 mots) he s taken it he said
+[  9] ( 8 mots) now i ll let him eat it well
+[ 10] (39 mots) he let the line slip through his fingers while he reached down with his left hand and made fast the free end of the two reserve coils to the loop of the two reserve coils of the next line
+[ 11] ( 4 mots) now he was ready
+[ 12] (11 mots) he had three forty fathom coils of line in reserve now
+[ 13] ( 8 mots) as well as the coil he was using
+[ 14] ( 7 mots) eat it a little more he said
+[ 15] ( 3 mots) eat it well
+[ 16] (18 mots) eat it so that the point of the hook goes into your heart and kills you he thought
+[ 17] (11 mots) come up easy and let me put the harpoon into you
+[ 18] ( 5 mots) all right are you ready
+[ 19] ( 7 mots) have you been long enough at table
+[ 20] ( 4 mots) now he said aloud
+[ 21] (15 mots) and struck hard with both hands gained a yard of line and then struck again
+[ 22] (24 mots) and again swinging with each arm alternately on the cord with all the strength of his arms and the pivoted weight of his body
+[ 23] (18 mots) nothing happened the fish just moved away slowly and the old man could not raise him an inch
+[ 24] (29 mots) his line was strong and made for heavy fish and he held it against his hack until it was so taut that beads of water were jumping from it
+[ 25] (28 mots) then it began to make a slow hissing sound in the water and he still held it bracing himself against the thwart and leaning back against the pull
+[ 26] (11 mots) the boat began to move slowly off toward the north west
+[ 27] (12 mots) the fish moved steadily and they travelled slowly on the calm water
+[ 28] (15 mots) the other baits were still in the water but there was nothing to be done
+[ 29] (11 mots) i wish i had the boy the old man said aloud
+[ 30] (14 mots) i m being towed by a fish and i m the towing bitt i
+[ 31] (11 mots) could make the line fast but then he could break it
+[ 32] (16 mots) i must hold him all i can and give him line when he must have it
+[ 33] ( 8 mots) thank god he is travelling and not going
+[ 34] (15 mots) down what i will do if he decides to go down i don t know
+[ 35] (13 mots) what i ll do if he sounds and dies i don t know
+[ 36] ( 5 mots) but i ll do something
+[ 37] ( 8 mots) there are plenty of things i can do
+[ 38] (23 mots) he held the line against his back and watched its slant in the water and the skiff moving steadily to the north west
+[ 39] ( 8 mots) this will kill him the old man thought
+[ 40] ( 6 mots) he can t do this forever
+[ 41] (13 mots) but four hours later the fish was still swimming steadily out to sea
+[ 42] ( 3 mots) towing the skiff
+[ 43] (14 mots) and the old man was still braced solidly with the line across his back
+[ 44] (15 mots) it was noon when i hooked him he said and i have never seen him
+
+===== audio15.TextGrid  (avec phones) =====
+[  1] (16 mots) he had pushed his straw hat hard down on his head before he hooked the fish
+[  2] ( 6 mots) and it was cutting his forehead
+[  3] ( 4 mots) he was thirsty too
+[  4] (34 mots) and he got down on his knees and being careful not to jerk on the line moved as far into the bow as he could get and reached the water bottle with one hand
+[  5] ( 7 mots) he opened it and drank a little
+[  6] ( 6 mots) then he rested against the bow
+[  7] (19 mots) he rested sitting on the un stepped mast and sail and tried not to think but only to endure
+[  8] (12 mots) then he looked behind him and saw that no land was visible
+[  9] ( 6 mots) that makes no difference he thought
+[ 10] (10 mots) i can always come in on the glow from havana
+[ 11] (16 mots) there are two more hours before the sun sets and maybe he will come up before
+[ 12] (12 mots) that if he doesn't maybe he will come up with the moon
+[ 13] (14 mots) if he does not do that maybe he will come up with the sunrise
+[ 14] ( 8 mots) i have no cramps and i feel strong
+[ 15] (10 mots) it is he that has the hook in his mouth
+[ 16] ( 7 mots) but what a fish to pull like
+[ 17] (12 mots) that he must have his mouth shut tight on the wire i
+[ 18] ( 5 mots) wish i could see him
+[ 19] (15 mots) i wish i could see him only once to know what i have against me
+[ 20] (23 mots) the fish never changed his course nor his direction all that night as far as the man could tell from watching the stars
+[ 21] ( 8 mots) it was cold after the sun went down
+[ 22] (18 mots) and the old man s sweat dried cold on his back and his arms and his old legs
+[ 23] (21 mots) during the day he had taken the sack that covered the bait box and spread it in the sun to dry
+[ 24] (19 mots) after the sun went down he tied it around his neck so that it hung down over his back
+[ 25] (15 mots) and he cautiously worked it down under the line that was across his shoulders now
+[ 26] (23 mots) the sack cushioned the line and he had found a way of leaning forward against the bow so that he was almost comfortable
+[ 27] ( 8 mots) the position actually was only somewhat less intolerable
+[ 28] ( 8 mots) but he thought of it as almost comfortable
+[ 29] (13 mots) i can do nothing with him and he can do nothing with me
+[ 30] (10 mots) he thought not as long as he keeps this up
+[ 31] ( 3 mots) once he stood
+[ 32] (24 mots) up and urinated over the side of the skiff and looked at the stars and checked his course the line showed like a phosphorescent
+[ 33] (28 mots) streak in the water straight out from his shoulders they were moving more slowly now and the glow of havana was not so strong so that he knew
+[ 34] (16 mots) the current must be carrying them to the eastward if i lose the glare of havana
+[ 35] ( 6 mots) we must be going more to
+[ 36] (20 mots) the eastward he thought for if the fish s course held true i must see it for many more hours
+[ 37] (14 mots) i wonder how the baseball came out in the grand leagues today he thought
+[ 38] (10 mots) it would be wonderful to do this with a radio
+[ 39] ( 3 mots) then he thought
+[ 40] ( 4 mots) think of it always
+[ 41] ( 6 mots) think of what you are doing
+[ 42] ( 5 mots) you must do nothing stupid
+[ 43] ( 4 mots) then he said aloud
+[ 44] (12 mots) i wish i had the boy to help me and to see
+[ 45] (12 mots) this no one should be alone in their old age he thought
+[ 46] ( 4 mots) but it is unavoidable
+[ 47] (15 mots) i must remember to eat the tuna before he spoils in order to keep strong
+[ 48] (16 mots) remember no matter how little you want to that you must eat him in the morning
+[ 49] ( 5 mots) remember he said to himself
+
+===== audio16.TextGrid  (avec phones) =====
+[  1] (17 mots) during the night two porpoises came around the boat and he could hear them rolling and blowing
+[  2] (18 mots) he could tell the difference between the blowing the male made and the sighing blow of the female
+[  3] ( 3 mots) they are good
+[  4] (19 mots) he said they play and make jokes and love one another they are our brothers like the flying fish
+[  5] (12 mots) then he began to pity the great fish that he had hooked
+[  6] (12 mots) he is wonderful and strange and who knows how old he is
+[  7] (16 mots) he thought never have i had such a strong fish nor one who acted so strangely
+[  8] ( 7 mots) perhaps he is too wise to jump
+[  9] (11 mots) he could ruin me by jumping or by a wild rush
+[ 10] (21 mots) but perhaps he has been hooked many times before and he knows that this is how he should make his fight
+[ 11] (11 mots) he cannot know that it is only one man against him
+[ 12] ( 7 mots) nor that it is an old man
+[ 13] (20 mots) but what a great fish he is and what will he bring in the market if the flesh is good
+[ 14] (21 mots) he took the bait like a male and he pulls like a male and his fight has no panic in it
+[ 15] ( 7 mots) i wonder if he has any plans
+[ 16] (10 mots) or if he is just as desperate as i am
+[ 17] (13 mots) he remembered the time he had hooked one of a pair of marlin
+[ 18] (10 mots) the male fish always let the female fish feed first
+[ 19] (17 mots) and the hooked fish the female made a wild panic stricken despairing fight that soon exhausted her
+[ 20] (20 mots) and all the time the male had stayed with her crossing the line and circling with her on the surface
+[ 21] (19 mots) he had stayed so close that the old man was afraid he would cut the line with his tail
+[ 22] (13 mots) which was sharp as a scythe and almost of that size and shape
+[ 23] (40 mots) when the old man had gaffed her and clubbed her holding the rapier bill with its sandpaper edge and dubbing her across the top of her head until her colour turned to a colour almost like the backing of mirrors
+[ 24] ( 9 mots) and then with the boy s aid hoisted her
+[ 25] (12 mots) aboard the male fish had stayed by the side of the boat
+[ 26] (13 mots) then while the old man was clearing the lines and preparing the harpoon
+[ 27] (17 mots) the male fish jumped high into the air beside the boat to see where the female was
+[ 28] (22 mots) and then went down deep his lavender wings that were his pectoral fins spread wide and all his wide lavender stripes showing
+[ 29] ( 7 mots) he was beautiful the old man remembered
+[ 30] ( 4 mots) and he had stayed
+[ 31] (14 mots) that was the saddest thing i ever saw with them the old man thought
+[ 32] (10 mots) the boy was sad too and we begged her pardon
+[ 33] ( 4 mots) and butchered her promptly
+[ 34] (35 mots) i wish the boy was here he said aloud and settled himself against the rounded planks of the bow and felt the strength of the great fish through the line he held across his shoulders
+[ 35] ( 7 mots) moving steadily toward whatever he had chosen
+[ 36] (19 mots) when once through my treachery it had been necessary to him to make a choice the old man thought
+[ 37] (20 mots) his choice had been to stay in the deep dark water far out beyond all snares and traps and treacheries
+[ 38] (12 mots) my choice was to go there to find him beyond all people
+[ 39] ( 6 mots) beyond all people in the world
+[ 40] (10 mots) now we are joined together and have been since noon
+[ 41] ( 9 mots) and no one to help either one of us
+
+===== audio17.TextGrid  (avec phones) =====
+[  1] (10 mots) perhaps i should not have been a fisherman he thought
+[  2] ( 9 mots) but that was the thing that i was born
+[  3] ( 5 mots) for i must surely remember
+[  4] ( 8 mots) to eat the tuna after it gets light
+[  5] (14 mots) some time before daylight something took one of the baits that were behind him
+[  6] (18 mots) he heard the stick break and the line begin to rush out over the gunwale of the skiff
+[  7] (33 mots) in the darkness he loosened his sheath knife and taking all the strain of the fish on his left shoulder he leaned back and cut the line against the wood of the gunwale
+[  8] (22 mots) then he cut the other line closest to him and in the dark made the loose ends of the reserve coils fast
+[  9] (23 mots) he worked skillfully with the one hand and put his foot on the coils to hold them as he drew his knots tight
+[ 10] ( 8 mots) now he had six reserve coils of line
+[ 11] (19 mots) there were two from each bait he had severed and the two from the bait the fish had taken
+[ 12] ( 5 mots) and they were all connected
+[ 13] ( 6 mots) after it is light he thought
+[ 14] (21 mots) i will work back to the forty fathom bait and cut it away too and link up the reserve coils i
+[ 15] (10 mots) will have lost two hundred fathoms of good catalan cardel
+[ 16] ( 5 mots) and the hooks and leaders
+[ 17] ( 4 mots) that can be replaced
+[ 18] (15 mots) but who replaces this fish if i hook some fish and it cuts him off
+[ 19] (26 mots) i don t know what that fish was that took the bait just now it could have been a marlin or a broadbill or a shark
+[ 20] ( 4 mots) i never felt him
+[ 21] ( 9 mots) i had to get rid of him too fast
+[ 22] ( 3 mots) aloud he said
+[ 23] ( 6 mots) i wish i had the boy
+[ 24] (32 mots) but you haven t got the boy he thought you have only yourself and you had better work back to the last line now in the dark or not in the dark
+[ 25] (11 mots) and cut it away and hook up the two reserve coils
+[ 26] ( 4 mots) so he did it
+[ 27] (27 mots) it was difficult in the dark and once the fish made a surge that pulled him down on his face and made a cut below his eye
+[ 28] ( 9 mots) the blood ran down his cheek a little way
+[ 29] (10 mots) but it coagulated and dried before it reached his chin
+[ 30] (14 mots) and he worked his way back to the bow and rested against the wood
+[ 31] (20 mots) he adjusted the sack and carefully worked the line so that it came across a new part of his shoulders
+[ 32] (29 mots) and holding it anchored with his shoulders he carefully felt the pull of the fish and then felt with his hand the progress of the skiff through the water
+[ 33] (10 mots) i wonder what he made that lurch for he thought
+[ 34] (12 mots) the wire must have slipped on the great hill of his back
+[ 35] (10 mots) certainly his back cannot feel as badly as mine does
+[ 36] ( 7 mots) but he cannot pull this skiff forever
+[ 37] ( 6 mots) no matter how great he is
+[ 38] (17 mots) now everything is cleared away that might make trouble and i have a big reserve of line
+[ 39] ( 6 mots) all that a man can ask
+[ 40] ( 5 mots) fish he said softly aloud
+[ 41] ( 9 mots) i ll stay with you until i am dead
+[ 42] (12 mots) he ll stay with me too i suppose the old man thought
+[ 43] ( 8 mots) and he waited for it to be light
+[ 44] (18 mots) it was cold now in the time before daylight and he pushed against the wood to be warm
+[ 45] (11 mots) i can do it as long as he can he thought
+[ 46] (14 mots) and in the first light the line extended out and down into the water
+[ 47] (22 mots) the boat moved steadily and when the first edge of the sun rose it was on the old man s right shoulder
+
+===== audio18.TextGrid  (avec phones) =====
+[  1] ( 8 mots) he s headed north the old man said
+[  2] (12 mots) the current will have set us far to the eastward he thought
+[  3] (15 mots) i wish he would turn with the current that would show that he was tiring
+[  4] (16 mots) when the sun had risen further the old man realized that the fish was not tiring
+[  5] ( 6 mots) there was only one favorable sign
+[  6] (13 mots) the slant of the line showed he was swimming at a lesser depth
+[  7] ( 9 mots) that did not necessarily mean that he would jump
+[  8] (11 mots) but he might god let him jump the old man said
+[  9] ( 7 mots) i have enough line to handle him
+[ 10] (20 mots) maybe if i can increase the tension just a little it will hurt him and he will jump he thought
+[ 11] (20 mots) now that it is daylight let him jump so that he ll fill the sacks along his backbone with air
+[ 12] ( 9 mots) and then he cannot go deep to die he
+[ 13] (37 mots) tried to increase the tension but the line had been taut up to the very edge of the breaking point since he had hooked the fish and he felt the harshness as he leaned back to pull
+[ 14] (10 mots) and knew he could put no more strain on it
+[ 15] ( 8 mots) i must not jerk it ever he thought
+[ 16] (18 mots) each jerk widens the cut the hook makes and then when he does jump he might throw it
+[ 17] (18 mots) anyway i feel better with the sun and for once i do not have to look into it
+[ 18] (22 mots) there was yellow weed on the line but the old man knew that only made an added drag and he was pleased
+[ 19] (15 mots) it was the yellow gulf weed that had made so much phosphorescence in the night
+[ 20] ( 3 mots) fish he said
+[ 21] (18 mots) i love you and respect you very much but i will kill you dead before this day ends
+[ 22] ( 6 mots) let us hope so he thought
+[ 23] (10 mots) a small bird came toward the skiff from the north
+[ 24] (11 mots) he was a warbler and flying very low over the water
+[ 25] ( 5 mots) the old man could see
+[ 26] ( 5 mots) that he was very tired
+[ 27] (11 mots) the bird made the stern of the boat and rested there
+[ 28] (19 mots) then he flew around the old man s head and rested on the line where he was more comfortable
+[ 29] (10 mots) how old are you the old man asked the bird
+[ 30] ( 5 mots) is this your first trip
+[ 31] ( 8 mots) the bird looked at him when he spoke
+[ 32] (21 mots) he was too tired even to examine the line and he teetered on it as his delicate feet gripped it fast
+[ 33] ( 3 mots) it s steady
+[ 34] ( 5 mots) the old man told him
+[ 35] ( 4 mots) it s too steady
+[ 36] ( 9 mots) you shouldn't be that tired after a windless night
+[ 37] ( 4 mots) what are birds coming
+[ 38] (13 mots) to the hawks he thought that come out to sea to meet them
+[ 39] (24 mots) but he said nothing of this to the bird who could not understand him anyway and who would learn about the hawks soon enough
+[ 40] ( 8 mots) take a good rest small bird he said
+[ 41] (14 mots) then go in and take your chance like any man or bird or fish
+[ 42] (13 mots) it encouraged him to talk because his back had stiffened in the night
+[ 43] ( 5 mots) and it hurt truly now
+[ 44] (10 mots) stay at my house if you like bird he said
+[ 45] (19 mots) i am sorry i cannot hoist the sail and take you in with the small breeze that is rising
+[ 46] ( 6 mots) but i am with a friend
+
+===== audio19.TextGrid  (avec phones) =====
+[  1] (20 mots) just then the fish gave a sudden lurch that pulled the old man down onto the bow and would have
+[  2] (13 mots) pulled him overboard if he had not braced himself and given some line
+[  3] (19 mots) the bird had flown up when the line jerked and the old man had not even seen him go
+[  4] (15 mots) he felt the line carefully with his right hand and noticed his hand was bleeding
+[  5] (21 mots) something hurt him then he said aloud and pulled back on the line to see if he could turn the fish
+[  6] (20 mots) but when he was touching the breaking point he held steady and settled back against the strain of the line
+[  7] ( 8 mots) you re feeling it now fish he said
+[  8] ( 6 mots) and so god knows am i
+[  9] (15 mots) he looked around for the bird now because he would have liked him for company
+[ 10] ( 4 mots) the bird was gone
+[ 11] ( 8 mots) you did not stay long the man thought
+[ 12] (13 mots) but it is rougher where you are going until you make the shore
+[ 13] (15 mots) how did i let the fish cut me with that one quick pull he made
+[ 14] ( 6 mots) i must be getting very stupid
+[ 15] (13 mots) or perhaps i was looking at the small bird and thinking of him
+[ 16] ( 8 mots) now i will pay attention to my work
+[ 17] ( 7 mots) and then i must eat the tuna
+[ 18] (10 mots) so that i will not have a failure of strength
+[ 19] (12 mots) i wish the boy were here and that i had some salt
+[ 20] ( 3 mots) he said aloud
+[ 21] (45 mots) shifting the weight of the line to his left shoulder and kneeling carefully he washed his hand in the ocean and held it there submerged for more than a minute watching the blood trail away and the steady movement of the water against his hand
+[ 22] ( 4 mots) as the boat moved
+[ 23] ( 6 mots) he has slowed much he said
+[ 24] (26 mots) the old man would have liked to keep his hand in the salt water longer but he was afraid of another sudden lurch by the fish
+[ 25] (15 mots) and he stood up and braced himself and held his hand up against the sun
+[ 26] (11 mots) it was only a line burn that had cut his flesh
+[ 27] (10 mots) but it was in the working part of his hand
+[ 28] (22 mots) he knew he would need his hands before this was over and he did not like to be cut before it started
+[ 29] ( 8 mots) now he said when his hand had dried
+[ 30] ( 6 mots) i must eat the small tuna
+[ 31] (13 mots) i can reach him with the gaff and eat him here in comfort
+[ 32] (25 mots) he knelt down and found the tuna under the stem with the gaff and drew it toward him keeping it clear of the coiled lines
+[ 33] (16 mots) holding the line with his left shoulder again and bracing on his left hand and arm
+[ 34] (15 mots) he took the tuna off the gaff hook and put the gaff back in place
+[ 35] ( 4 mots) he put one knee
+[ 36] (20 mots) on the fish and cut strips of dark red meat longitudinally from the back of the head to the tail
+[ 37] (22 mots) they were wedge shaped strips and he cut them from next to the back bone down to the edge of the belly
+[ 38] (22 mots) when he had cut six strips he spread them out on the wood of the bow wiped his knife on his trousers
+[ 39] (14 mots) and lifted the carcass of the bonito by the tail and dropped it overboard
+[ 40] (21 mots) i don t think i can eat an entire one he said and drew his knife across one of the strips
+[ 41] (16 mots) he could feel the steady hard pull of the line and his left hand was cramped
+[ 42] (15 mots) it drew up tight on the heavy cord and he looked at it in disgust
+
+===== audio20.TextGrid  (avec phones) =====
+[  1] ( 6 mots) what kind of a hand is
+[  2] ( 3 mots) that he said
+[  3] (16 mots) cramp then if you want make yourself into a claw it will do you no good
+[  4] (17 mots) come on he thought and looked down into the dark water at the slant of the line
+[  5] ( 9 mots) eat it now and it will strengthen the hand
+[  6] (16 mots) it is not the hand s fault and you have been many hours with the fish
+[  7] ( 7 mots) but you can stay with him forever
+[  8] ( 4 mots) eat the bonito now
+[  9] (15 mots) he picked up a piece and put it in his mouth and chewed it slowly
+[ 10] ( 4 mots) it was not unpleasant
+[ 11] (10 mots) chew it well he thought and get all the juices
+[ 12] (17 mots) it would not be had to eat with a little lime or with lemon or with salt
+[ 13] (18 mots) how do you feel hand he asked the cramped hand that was almost as stiff as rigor mortis
+[ 14] ( 7 mots) i ll eat some more for you
+[ 15] (25 mots) he ate the other part of the piece that he had cut in two he chewed it carefully and then spat out the skin how
+[ 16] (11 mots) does it go hand or is it too early to know
+[ 17] ( 8 mots) he took another full piece and chewed it
+[ 18] (18 mots) it is a strong full blooded fish he thought i was lucky to get him instead of dolphin
+[ 19] ( 4 mots) dolphin is too sweet
+[ 20] (14 mots) this is hardly sweet at all and all the strength is still in it
+[ 21] (12 mots) there is no sense in being anything but practical though he thought
+[ 22] ( 6 mots) i wish i had some salt
+[ 23] (21 mots) and i do not know whether the sun will rot or dry what is left so i had better eat it
+[ 24] ( 6 mots) all although i am not hungry
+[ 25] (17 mots) the fish is calm and steady i will eat it all and then i will be ready
+[ 26] (10 mots) be patient hand he said i do this for you
+[ 27] (13 mots) i wish i could feed the fish he thought he is my brother
+[ 28] (11 mots) but i must kill him and keep strong to do it
+[ 29] (13 mots) slowly and conscientiously he ate all of the wedge shaped strips of fish
+[ 30] ( 9 mots) he straightened up wiping his hand on his trousers
+[ 31] ( 3 mots) now he said
+[ 32] (22 mots) you can let the cord go hand and i will handle him with the right arm alone until you stop that nonsense
+[ 33] (15 mots) he put his left foot on the heavy line that the left hand had held
+[ 34] ( 9 mots) and lay back against the pull against his back
+[ 35] (10 mots) god help me to have the cramp go he said
+[ 36] (12 mots) because i do not know what the fish is going to do
+[ 37] ( 6 mots) but he seems calm he thought
+[ 38] ( 4 mots) and following his plan
+[ 39] ( 7 mots) but what is his plan he thought
+[ 40] ( 4 mots) and what is mine
+[ 41] (11 mots) mine i must improvise to his because of his great size
+[ 42] ( 8 mots) if he will jump i can kill him
+[ 43] ( 5 mots) but he stays down forever
+[ 44] ( 8 mots) then i will stay down with him forever
+[ 45] (19 mots) he rubbed the cramped hand against his trousers and tried to gentle the fingers but it would not open
+[ 46] ( 7 mots) maybe it will open with the sun
+[ 47] (13 mots) he thought maybe it will open when the strong raw tuna is digested
+[ 48] (25 mots) if i have to have it i will open it cost whatever it costs but i do not want to open it now by force
+[ 49] (12 mots) let it open by itself and come back of its own accord
+[ 50] (20 mots) after all i abused it much in the night when it was necessary to free and untie the various lines
 

@@ -7,8 +7,8 @@ SEGMENTEUR PROSODIQUE POUR L'ORAL  --  dataset Broderick ds004408 (TextGrid)
 import os, re, sys, glob, math, statistics
 
 # ---- parametres reglables --------------------------------------------------
-PAUSE_MIN  = 0.35    # pause absolue (s) >= ce seuil -> frontiere (baisse->coupe plus)
-THR_K      = 1.5     # OU score combine >= moyenne + THR_K * ecart-type (baisse->coupe plus)
+PAUSE_MIN  = 0.45    # pause absolue (s) >= ce seuil -> frontiere (baisse->coupe plus)
+THR_K      = 2.0     # OU score combine >= moyenne + THR_K * ecart-type (baisse->coupe plus)
 MIN_LEN    = 3       # on ne coupe pas avant d'avoir ce nb de mots (evite les miettes)
 SENT_MAX   = 45      # garde-fou : coupe si trop long (Viterbi est en O(n^3))
 W_PAUSE    = 1.0     # poids de la pause dans le score combine
