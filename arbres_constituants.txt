@@ -1,79 +1,72 @@
-### audio01.TextGrid | phrase 1 : he was an old man
+### audio01.TextGrid | phrase 1 : he was an old man who fished alone in a skiff in the gulf stream and he had gone eighty four days now without taking a fish
 (S
   (NP-SBJ (PRP he))
-  (VP (VBD was) (NP (DT an) (JJ old) (NN man)))
-  (. .))
-
-### audio01.TextGrid | phrase 2 : who fished alone in a skiff in the gulf stream and he had gone eighty four days now without taking a fish
-(S
-  (SBAR-NOM-SBJ
-    (WHNP-41
-      (WHNP (WP who))
-      (PP
-        (VBN fished)
+  (VP
+    (VBD was)
+    (NP (DT an) (JJ old) (NN man))
+    (SBAR
+      (WHNP-1
+        (WHNP (WP who))
         (PP
-          (ADVP (RB alone))
-          (IN in)
-          (NP
-            (NP (DT a) (NN skiff))
-            (PP (IN in) (NP (DT the) (NN gulf) (NN stream)))))))
-    (S
-      (CC and)
-      (NP-SBJ (PRP he))
-      (VP
-        (VBD had)
+          (VBN fished)
+          (PP
+            (ADVP (RB alone))
+            (IN in)
+            (NP
+              (NP (DT a) (NN skiff))
+              (PP (IN in) (NP (DT the) (NN gulf) (NN stream)))))))
+      (S
+        (CC and)
+        (NP-SBJ (PRP he))
         (VP
-          (VBN gone)
-          (NP (RB eighty) (CD four) (NNS days))
-          (ADVP-TMP (RB now) (IN without))))))
-  (VP (VBG taking) (NP (DT a) (NN fish)))
-  (. .))
+          (VBD had)
+          (VP
+            (VBN gone)
+            (NP (RB eighty) (CD four) (NNS days))
+            (ADVP-DIR (RB now) (IN without))
+            (PP-TMP (VBG taking) (NP (DT a) (NN fish)))))
+        (. .)))))
 
-### audio01.TextGrid | phrase 3 : in the first forty days a boy had been with him
+### audio01.TextGrid | phrase 2 : in the first forty days a boy had been with him but after forty days without a fish the boy s parents had told him that the old man was now definitely and finally salao which is the worst form of unlucky
 (S
   (PP-TMP (IN in) (NP (DT the) (JJ first) (NN forty) (NNS days)))
   (NP-SBJ (DT a) (NN boy))
   (VP
     (VBD had)
-    (ADJP-PRD-1 (VBN been))
-    (PP-LOC-2 (IN with) (NP (PRP him))))
-  (. .))
-
-### audio01.TextGrid | phrase 4 : but after forty days without a fish the boy s parents had told him that the old man was now definitely and finally salao
-(S
-  (CC but)
-  (PP
-    (IN after)
-    (NP
-      (NP (JJ forty) (NNS days))
-      (PP (IN without) (NP (DT a) (NN fish)))))
-  (NP-SBJ (DT the) (NN boy) (NN s) (NNS parents))
-  (VP
-    (VBD had)
     (VP
-      (VBD told)
-      (S
-        (NP-SBJ
-          (NP (PRP him))
-          (PP (IN that) (NP (DT the) (JJ old) (NN man))))
+      (VBN been)
+      (PP-DIR
+        (PP
+          (PP (IN with) (NP (PRP him)))
+          (CC but)
+          (PP (IN after) (NP (JJ forty) (NNS days))))
+        (PP (IN without) (NP (DT a) (NN fish)))
+        (NP-ADV-1 (DT the) (NN boy)))
+      (S-PRP
+        (NP-SBJ (NN s) (NNS parents))
         (VP
-          (VBD was)
-          (RB now)
-          (ADVP (RB definitely) (CC and) (RB finally))
-          (VP (VB salao))))))
+          (VBD had)
+          (VP
+            (VBD told)
+            (S
+              (NP-SBJ
+                (NP (PRP him))
+                (PP (IN that) (NP (DT the) (JJ old) (NN man))))
+              (VP
+                (VBD was)
+                (RB now)
+                (ADVP (RB definitely) (CC and) (RB finally))
+                (VP
+                  (VB salao)
+                  (SBAR
+                    (WHNP-2 (WDT which))
+                    (SQ
+                      (VBZ is)
+                      (NP-SBJ (DT the) (JJS worst) (NN form))
+                      (PP-LOC-PRD (IN of) (NP (JJ unlucky)))))))))))))
   (. .))
 
-### audio01.TextGrid | phrase 5 : which is the worst form of unlucky
-(S
-  (NP-SBJ (WDT which))
-  (VP
-    (VBZ is)
-    (NP-PRD
-      (NP (DT the) (JJS worst) (NN form))
-      (PP (IN of) (NP (JJ unlucky)))))
-  (. .))
-
-### audio01.TextGrid | phrase 6 : and the boy had gone at their orders in another boat which caught three good fish the first week
+### audio01.TextGrid | phrase 3 : and the boy had gone at their orders in another boat which caught three good fish the first week
 (S
   (CC and)
   (NP-SBJ (DT the) (NN boy))
@@ -95,57 +88,57 @@
             (VP (VB fish) (NP (DT the) (JJ first) (NN week))))))))
   (. .))
 
-### audio01.TextGrid | phrase 7 : it made the boy sad to see the old man come in each day with his skiff empty
+### audio01.TextGrid | phrase 4 : it made the boy sad to see the old man come in each day with his skiff empty and he always went down to help him carry either the coiled lines or the gaff and harpoon and the sail that was furled around the mast
 (S
-  (NP-SBJ (PRP it))
-  (VP
-    (VBN made)
-    (S
-      (NP-SBJ (DT the) (NN boy))
-      (ADVP (JJ sad))
+  (S
+    (NP-SBJ (PRP it))
+    (VP
+      (VBN made)
+      (S
+        (NP-SBJ (NP (DT the) (NN boy)) (ADJP (JJ sad)))
+        (VP
+          (TO to)
+          (VP
+            (VB see)
+            (NP
+              (NP (DT the) (JJ old) (NN man))
+              (PP (VBN come) (PP (IN in) (NP (DT each) (NN day)))))
+            (PP-CLR (IN with) (NP (PRP$ his) (NN skiff))))))
+      (ADJP-ADV (JJ empty))))
+  (CC and)
+  (S
+    (NP-SBJ (PRP he))
+    (ADVP (RB always))
+    (VP
+      (VBD went)
+      (RB down)
       (VP
         (TO to)
         (VP
-          (VB see)
-          (NP
-            (NP (DT the) (JJ old) (NN man))
-            (PP (VBN come) (PP (IN in) (NP (DT each) (NN day)))))
-          (PP-CLR (IN with) (NP (PRP$ his) (NN skiff) (JJ empty)))))
-      (. .))))
-
-### audio01.TextGrid | phrase 8 : and he always went down to help him carry either the coiled lines or the gaff and harpoon and the sail that was furled
-(S
-  (CC and)
-  (NP-SBJ (PRP he))
-  (ADVP (RB always))
-  (VP
-    (VBD went)
-    (RB down)
-    (VP
-      (TO to)
-      (VP
-        (VB help)
-        (S
-          (NP-SBJ (PRP him))
-          (VP
-            (VBP carry)
-            (RB either)
-            (ADVP-TMP
-              (NP
-                (NP (DT the) (JJ coiled) (NNS lines))
-                (CC or)
+          (VB help)
+          (S
+            (NP-SBJ (PRP him))
+            (VP
+              (VBP carry)
+              (RB either)
+              (ADVP-TMP
                 (NP
-                  (NP (DT the) (NN gaff) (CC and) (NN harpoon))
-                  (CC and)
-                  (NP (DT the) (NN sail))))
-              (IN that))
-            (VP (VBD was) (ADJP-PRD (VBN furled))))))))
+                  (NP (DT the) (JJ coiled) (NNS lines))
+                  (CC or)
+                  (NP
+                    (NP (DT the) (NN gaff) (CC and) (NN harpoon))
+                    (CC and)
+                    (NP (DT the) (NN sail))))
+                (IN that))
+              (VP
+                (VBD was)
+                (VP
+                  (VBN furled)
+                  (PRT (RP around))
+                  (NP (DT the) (NN mast))))))))))
   (. .))
 
-### audio01.TextGrid | phrase 9 : around the mast
-(S (NP-SBJ (IN around) (DT the)) (VP (NN mast)) (. .))
-
-### audio01.TextGrid | phrase 10 : the sail was patched with flour sacks and furled it looked like the flag of permanent defeat
+### audio01.TextGrid | phrase 5 : the sail was patched with flour sacks and furled it looked like the flag of permanent defeat
 (S
   (NP-SBJ (DT the) (NN sail))
   (VP
@@ -164,7 +157,7 @@
           (PP-TMP (IN of) (NP (JJ permanent) (NN defeat))))
         (. .)))))
 
-### audio01.TextGrid | phrase 11 : the old man was thin and gaunt with deep wrinkles in the back of his neck
+### audio01.TextGrid | phrase 6 : the old man was thin and gaunt with deep wrinkles in the back of his neck
 (S
   (NP-SBJ (DT the) (JJ old) (NN man))
   (VP
@@ -184,15 +177,14 @@
               (PP (IN of) (NP (PRP$ his) (NN neck)))))))))
   (. .))
 
-### audio01.TextGrid | phrase 12 : the brown blotches
-(S (NP-SBJ (DT the)) (VP (JJ brown) (NP (NNS blotches))) (. .))
-
-### audio01.TextGrid | phrase 13 : of the benevolent skin cancer the sun brings from its reflection on the tropic sea were on his cheeks
+### audio01.TextGrid | phrase 7 : the brown blotches of the benevolent skin cancer the sun brings from its reflection on the tropic sea were on his cheeks
 (S
-  (PP-TMP
-    (IN of)
-    (NP (DT the) (JJ benevolent) (NN skin) (NN cancer)))
-  (NP-SBJ (DT the) (JJ sun))
+  (NP-SBJ
+    (NP (DT the) (JJ brown) (NNS blotches))
+    (PP-LOC
+      (IN of)
+      (NP (DT the) (JJ benevolent) (NN skin) (NN cancer)))
+    (NP (DT the) (JJ sun)))
   (VP
     (VBZ brings)
     (SBAR
@@ -201,10 +193,10 @@
         (NP-SBJ
           (NP (PRP$ its) (NN reflection))
           (PP (IN on) (NP (DT the) (NN tropic) (NN sea))))
-        (VP (VBD were) (PP-CLR (IN on) (NP (PRP$ his) (NN cheeks)))))))
-  (. .))
+        (VP (VBD were) (PP-CLR (IN on) (NP (PRP$ his) (NN cheeks))))
+        (. .)))))
 
-### audio01.TextGrid | phrase 14 : the blotches ran well down the sides of his face and his hands had the deep creased scars from handling heavy fish on the cords
+### audio01.TextGrid | phrase 8 : the blotches ran well down the sides of his face and his hands had the deep creased scars from handling heavy fish on the cords
 (S
   (NP-SBJ (DT the) (NNS blotches))
   (VP
@@ -228,14 +220,14 @@
               (PP (IN on) (NP (DT the) (NNS cords))))))
         (. .)))))
 
-### audio01.TextGrid | phrase 15 : but none of these scars were fresh
+### audio01.TextGrid | phrase 9 : but none of these scars were fresh
 (S
   (CC but)
   (NP-SBJ (NP (NN none)) (PP (IN of) (NP (DT these) (NNS scars))))
   (VP (VBD were) (ADJP-PRD (JJ fresh)))
   (. .))
 
-### audio01.TextGrid | phrase 16 : they were as old as erosions in a fishless desert
+### audio01.TextGrid | phrase 10 : they were as old as erosions in a fishless desert
 (S
   (NP-SBJ (PRP they))
   (VP
@@ -250,31 +242,28 @@
           (PP (IN in) (NP (DT a) (NN fishless) (NN desert)))))))
   (. .))
 
-### audio01.TextGrid | phrase 17 : everything about him was old except his eyes
+### audio01.TextGrid | phrase 11 : everything about him was old except his eyes and they were the same color as the sea and were cheerful and undefeated
 (S
-  (NP-SBJ (NP (NN everything)) (PP (IN about) (NP (PRP him))))
-  (VP
-    (VBD was)
-    (ADJP-PRD (JJ old) (PP (IN except) (NP (PRP$ his) (NNS eyes)))))
-  (. .))
-
-### audio01.TextGrid | phrase 18 : and they were the same color as the sea
-(S
+  (S
+    (NP-SBJ (NP (NN everything)) (PP (IN about) (NP (PRP him))))
+    (VP
+      (VBD was)
+      (ADJP-PRD (JJ old) (PP (IN except) (NP (PRP$ his) (NNS eyes))))))
   (CC and)
-  (NP-SBJ (PRP they))
-  (VP
-    (VBD were)
-    (NP (DT the) (JJ same) (NN color))
-    (PP-CLR (IN as) (NP (DT the) (NN sea))))
+  (S
+    (NP-SBJ (PRP they))
+    (VP
+      (VP
+        (VBD were)
+        (NP (DT the) (JJ same) (NN color))
+        (PP-CLR (IN as) (NP (DT the) (NN sea))))
+      (CC and)
+      (VP
+        (VBD were)
+        (ADJP-PRD (JJ cheerful) (CC and) (JJ undefeated)))))
   (. .))
 
-### audio01.TextGrid | phrase 19 : and were cheerful and undefeated
-(S
-  (NP-SBJ (NN and))
-  (VP (VBD were) (ADJP-PRD (JJ cheerful) (CC and) (JJ undefeated)))
-  (. .))
-
-### audio01.TextGrid | phrase 20 : santiago the boy said to him as they climbed the bank from where the skiff was hauled up
+### audio01.TextGrid | phrase 12 : santiago the boy said to him as they climbed the bank from where the skiff was hauled up
 (S
   (ADVP-TMP (RB santiago))
   (NP-SBJ-76 (DT the) (NN boy))
@@ -297,7 +286,7 @@
                 (VP (VBD was) (VP (VBD hauled) (PRT (RP up)))))))))))
   (. .))
 
-### audio01.TextGrid | phrase 21 : i could go with you again
+### audio01.TextGrid | phrase 13 : i could go with you again we ve made some money
 (S
   (NP-SBJ (PRP i))
   (VP
@@ -305,16 +294,13 @@
     (VP
       (VB go)
       (PP-CLR (IN with) (NP (PRP you)))
-      (ADVP-MNR (RB again))))
+      (ADVP-MNR (RB again))
+      (S-PRP-3
+        (NP-SBJ (PRP we))
+        (VP (VBP ve) (VP (VBN made) (NP (DT some) (NN money)))))))
   (. .))
 
-### audio01.TextGrid | phrase 22 : we ve made some money
-(S
-  (NP-SBJ (PRP we))
-  (VP (VBP ve) (VP (VBN made) (NP (DT some) (NN money))))
-  (. .))
-
-### audio01.TextGrid | phrase 23 : the old man had taught the boy to fish and the boy loved him
+### audio01.TextGrid | phrase 14 : the old man had taught the boy to fish and the boy loved him
 (S
   (NP-SBJ (DT the) (JJ old) (NN man))
   (VP
@@ -333,25 +319,20 @@
               (VP (VBD loved) (NP (PRP him)))
               (. .))))))))
 
-### audio01.TextGrid | phrase 24 : no the old man said
-(S
-  (NP-SBJ-1 (RB no) (DT the) (JJ old) (NN man))
-  (VP (VBD said))
-  (. .))
+### audio01.TextGrid | phrase 15 : no the old man
+(S (NP-SBJ (DT no)) (DT the) (VP (JJ old) (NP (NN man))) (. .))
 
-### audio01.TextGrid | phrase 25 : you re with a lucky boat stay with them
+### audio01.TextGrid | phrase 16 : said you re with a lucky boat stay with them
 (S
-  (NP-SBJ (PRP you))
-  (VP
-    (VBP re)
-    (SBAR
-      (IN with)
-      (S
-        (NP-SBJ (DT a) (JJ lucky) (NN boat))
-        (VP (VB stay) (PP-CLR (IN with) (NP (PRP them)))))))
-  (. .))
+  (ADJP-PRD (VBN said) (S (NP-SBJ (PRP you)) (VP (VBP re))))
+  (SBAR-SBJ
+    (IN with)
+    (S
+      (NP-SBJ (DT a) (JJ lucky) (NN boat))
+      (VP (VB stay) (PP-CLR (IN with) (NP (PRP them))))
+      (. .))))
 
-### audio01.TextGrid | phrase 26 : but remember how you went eighty seven days without fish and then we caught big ones every day for three weeks
+### audio01.TextGrid | phrase 17 : but remember how you went eighty seven days without fish and then we caught big ones every day for three weeks
 (S
   (CC but)
   (ADVP-TMP
@@ -376,7 +357,7 @@
     (PP (IN for) (NP (CD three) (NNS weeks))))
   (. .))
 
-### audio01.TextGrid | phrase 27 : i remember the old man said
+### audio01.TextGrid | phrase 18 : i remember the old man said
 (S
   (NP-SBJ (PRP i))
   (VP
@@ -384,7 +365,7 @@
     (S (NP-SBJ (DT the) (JJ old) (NN man)) (VP (VBD said))))
   (. .))
 
-### audio01.TextGrid | phrase 28 : i know you did not leave me because you doubted
+### audio01.TextGrid | phrase 19 : i know you did not leave me because you doubted
 (S
   (NP-SBJ (PRP i))
   (VP
@@ -402,7 +383,7 @@
             (S (NP-SBJ (PRP you)) (VP (VBD doubted))))))
       (. .))))
 
-### audio01.TextGrid | phrase 29 : it was papa made me leave
+### audio01.TextGrid | phrase 20 : it was papa made me leave
 (S
   (NP-SBJ (PRP it))
   (VP
@@ -412,14 +393,14 @@
       (VP (VBN made) (S (NP-SBJ (PRP me)) (VP (VB leave))))))
   (. .))
 
-### audio01.TextGrid | phrase 30 : i am a boy and i must obey him
+### audio01.TextGrid | phrase 21 : i am a boy and i must obey him
 (S
   (S (NP-SBJ (PRP i)) (VP (VBP am) (NP (DT a) (NN boy))))
   (CC and)
   (S (NP-SBJ (PRP i)) (VP (MD must) (VP (VB obey) (NP (PRP him)))))
   (. .))
 
-### audio01.TextGrid | phrase 31 : i know the old man said
+### audio01.TextGrid | phrase 22 : i know the old man said
 (S
   (NP-SBJ (PRP i))
   (VP
@@ -427,39 +408,37 @@
     (S (NP-SBJ (DT the) (JJ old) (NN man)) (VP (VBD said))))
   (. .))
 
-### audio01.TextGrid | phrase 32 : it is quite normal
+### audio01.TextGrid | phrase 23 : it is quite normal
 (S
   (NP-SBJ (PRP it))
   (VP (VBZ is) (ADJP-PRD (RB quite) (JJ normal)))
   (. .))
 
-### audio01.TextGrid | phrase 33 : he hasn't much faith
+### audio01.TextGrid | phrase 24 : he hasn't much faith
 (S
   (NP-SBJ (PRP he))
   (VP (ADVP (RB hasn't)) (JJ much) (NP (NN faith)))
   (. .))
 
-### audio01.TextGrid | phrase 34 : no the old man said
-(S
-  (NP-SBJ-1 (RB no) (DT the) (JJ old) (NN man))
-  (VP (VBD said))
-  (. .))
+### audio01.TextGrid | phrase 25 : no the old man
+(S (NP-SBJ (DT no)) (DT the) (VP (JJ old) (NP (NN man))) (. .))
 
-### audio01.TextGrid | phrase 35 : but we have haven t we
+### audio01.TextGrid | phrase 26 : said but we have
 (S
-  (CC but)
-  (NP-SBJ (PRP we))
-  (VP (VBP have) (ADJP-PRD (VBN haven) (PP (IN t) (NP (PRP we)))))
-  (. .))
+  (ADJP-PRD (VBD said))
+  (NP-SBJ (NP (RB but)) (S (NP-SBJ (PRP we)) (VP (VB have)) (. .))))
 
-### audio01.TextGrid | phrase 36 : yes the boy said
+### audio01.TextGrid | phrase 27 : haven t we
+(S (NP-SBJ (RB haven)) (VP (NN t) (NP (PRP we))) (. .))
+
+### audio01.TextGrid | phrase 28 : yes the boy said
 (S
   (ADVP-TMP (RB yes))
   (NP-SBJ-76 (DT the) (NN boy))
   (VP (VBD said))
   (. .))
 
-### audio01.TextGrid | phrase 37 : can i offer you a beer on the terrace and then we ll take the stuff home
+### audio01.TextGrid | phrase 29 : can i offer you a beer on the terrace and then we ll take the stuff home
 (S
   (NP-SBJ
     (NN can)
@@ -479,7 +458,7 @@
   (VP (VBP ll) (VP (VB take) (NP (DT the) (NN stuff) (NN home))))
   (. .))
 
-### audio01.TextGrid | phrase 38 : why not the old man said
+### audio01.TextGrid | phrase 30 : why not the old man said
 (S
   (SBAR-NOM-SBJ
     (WHADVP-1 (WRB why))
@@ -487,196 +466,181 @@
   (VP (VBD said))
   (. .))
 
-### audio01.TextGrid | phrase 39 : between fishermen they sat on the terrace and many of the fishermen made fun of the old man
+### audio01.TextGrid | phrase 31 : between fishermen they sat on the terrace and many of the fishermen made fun of the old man and he was not angry
 (S
-  (PP-LOC (IN between) (NP (NNS fishermen)))
-  (NP-SBJ-2
-    (NP (PRP they))
-    (UCP
-      (NP (NP (NNP sat)) (PP (IN on) (NP (DT the) (NN terrace))))
-      (CC and)
-      (ADJP (JJ many) (PP (IN of) (NP (DT the) (NNS fishermen))))))
-  (VP
-    (VBN made)
-    (NP (NN fun))
-    (PP (IN of) (NP (DT the) (JJ old) (NN man))))
-  (. .))
-
-### audio01.TextGrid | phrase 40 : and he was not angry
-(S
+  (S
+    (PP (IN between) (NP (NNS fishermen)))
+    (NP-SBJ-98 (PRP they))
+    (VP
+      (ADVP-TMP
+        (NP-ADV
+          (NP (NNP sat))
+          (PP (IN on) (NP (DT the) (NN terrace))))
+        (CC and)
+        (ADVP (JJ many) (PP (IN of) (NP (DT the) (NNS fishermen)))))
+      (VBN made)
+      (NP (NN fun))
+      (PP (IN of) (NP (DT the) (JJ old) (NN man)))))
   (CC and)
-  (NP-SBJ (PRP he))
-  (VP (VBD was) (ADJP-PRD (RB not) (JJ angry)))
+  (S (NP-SBJ (PRP he)) (VP (VBD was) (ADJP-PRD (RB not) (JJ angry))))
   (. .))
 
-### audio01.TextGrid | phrase 41 : others of the older fishermen
+### audio01.TextGrid | phrase 32 : others of the older fishermen looked at him and were sad but they did not show it and they spoke politely about the current and the depths they had drifted their lines at and the steady good weather and
 (S
-  (NP-SBJ (NNS others))
-  (VP (IN of) (NP (DT the) (JJR older) (NNS fishermen)))
-  (. .))
-
-### audio01.TextGrid | phrase 42 : looked at him and were sad but they did not show it and they spoke politely about the current and the depths they had drifted their lines at
-(S
-  (NP-SBJ (ADJP (VBN looked) (PP (IN at) (NP (PRP him)))) (NN and))
+  (NP-SBJ
+    (NP (NNS others))
+    (PP (IN of) (NP (DT the) (JJR older) (NNS fishermen))))
   (VP
-    (VBD were)
-    (ADJP-PRD
-      (JJ sad)
-      (S
-        (CC but)
-        (NP-SBJ (PRP they))
-        (VP
-          (VBD did)
-          (RB not)
+    (VP (VBN looked) (PP-CLR (IN at) (NP (PRP him))))
+    (CC and)
+    (VP
+      (VBD were)
+      (ADJP-PRD
+        (JJ sad)
+        (S
+          (CC but)
+          (NP-SBJ (PRP they))
           (VP
-            (VBP show)
-            (S
-              (NP-SBJ-54 (PRP it) (CC and) (PRP they))
-              (VP
-                (VBD spoke)
-                (ADVP (RB politely))
-                (PP-TMP
-                  (IN about)
-                  (NP
-                    (NP (DT the) (NN current))
-                    (CC and)
-                    (NP (DT the) (NNS depths))))
-                (S-PRP
-                  (NP-SBJ (PRP they))
-                  (VP
-                    (VBD had)
+            (VBD did)
+            (RB not)
+            (VP
+              (VBP show)
+              (S
+                (NP-SBJ-54 (PRP it) (CC and) (PRP they))
+                (VP
+                  (VBD spoke)
+                  (ADVP (RB politely))
+                  (PP-TMP
+                    (IN about)
+                    (NP
+                      (NP (DT the) (NN current))
+                      (CC and)
+                      (NP (DT the) (NNS depths))))
+                  (S-PRP
+                    (NP-SBJ (PRP they))
                     (VP
-                      (VBD drifted)
-                      (ADVP-LOC-PRD
-                        (NP (PRP$ their) (NNS lines))
-                        (IN at)))))))))
-        (. .)))))
+                      (VBD had)
+                      (VP
+                        (VBD drifted)
+                        (NP
+                          (NP
+                            (NP (PRP$ their) (NNS lines))
+                            (PP (IN at)))
+                          (CC and)
+                          (NP
+                            (DT the)
+                            (JJ steady)
+                            (JJ good)
+                            (NN weather)
+                            (NN and))))))))))
+          (. .))))))
 
-### audio01.TextGrid | phrase 43 : and the steady good weather
+### audio01.TextGrid | phrase 33 : of what they had seen
 (S
-  (CC and)
-  (NP-SBJ (DT the) (JJ steady) (NN good))
-  (VP (VB weather))
-  (. .))
-
-### audio01.TextGrid | phrase 44 : and of what they had seen
-(S
-  (CC and)
-  (PP (IN of) (NP (WDT what)))
+  (PP-TMP (IN of) (NP (WDT what)))
   (NP-SBJ (PRP they))
   (VP (VBD had) (ADJP-PRD (VBN seen)))
   (. .))
 
-### audio01.TextGrid | phrase 45 : the successful fishermen of that day were already in and had butchered their marlin out and carried them laid full length across two planks with two men staggering at the end of each plank
+### audio01.TextGrid | phrase 34 : the successful fishermen of that day were already in and had butchered their marlin out and carried them laid full length across two planks with two men staggering at the end of each plank to the fish house where they waited for the ice truck to carry them to the market in havana
 (S
   (NP-SBJ
     (NP (DT the) (JJ successful) (NNS fishermen))
     (PP (IN of) (NP (DT that) (NN day))))
   (VP
+    (VP (VBD were) (ADVP-PRD (RB already) (IN in)))
+    (CC and)
     (VP
-      (VP (VBD were) (ADVP-PRD (RB already) (IN in)))
-      (CC and)
+      (VBD had)
       (VP
-        (VBD had)
         (VP
           (VBN butchered)
           (NP (PRP$ their) (NN marlin))
-          (PRT (RP out)))))
-    (CC and)
-    (VP
-      (VBN carried)
-      (S
-        (NP-SBJ (PRP them))
+          (PRT (RP out)))
+        (CC and)
         (VP
-          (VBN laid)
-          (NP (JJ full) (NN length))
-          (PP
-            (IN across)
-            (NP
-              (NP (CD two) (NNS planks))
-              (PP (IN with) (NP (CD two) (NNS men)))))))
-      (ADJP-ADV
-        (JJ staggering)
-        (PP
-          (IN at)
-          (NP
-            (NP (DT the) (NN end))
-            (PP (IN of) (NP (DT each) (NN plank))))))))
-  (. .))
+          (VBN carried)
+          (S
+            (NP-SBJ (PRP them))
+            (VP
+              (VBN laid)
+              (NP (JJ full) (NN length))
+              (PP-LOC (IN across) (NP (CD two) (NNS planks)))
+              (PP-LOC (IN with) (NP (CD two) (NNS men)))
+              (PP-1
+                (JJ staggering)
+                (IN at)
+                (NP
+                  (NP (DT the) (NN end))
+                  (PP (IN of) (NP (DT each) (NN plank)))))))
+          (PP (TO to) (NP (DT the) (NN fish) (NN house)))
+          (SBAR-TMP
+            (WHADVP-1 (WRB where))
+            (S
+              (NP-SBJ (PRP they))
+              (VP
+                (VBD waited)
+                (SBAR
+                  (IN for)
+                  (S
+                    (NP-SBJ (DT the) (JJ ice) (NN truck))
+                    (VP
+                      (TO to)
+                      (VP
+                        (VB carry)
+                        (NP (PRP them))
+                        (PP-CLR
+                          (TO to)
+                          (NP
+                            (NP (DT the) (NN market))
+                            (PP (IN in) (NP (NN havana)))))))
+                    (. .)))))))))))
 
-### audio01.TextGrid | phrase 46 : to the fish house where they waited for the ice truck to carry them to the market in havana
-(S
-  (PP (TO to) (NP (DT the) (NN fish)))
-  (NP-SBJ
-    (NP (NN house))
-    (SBAR
-      (WHADVP-1 (WRB where))
-      (S
-        (NP-SBJ (PRP they))
-        (VP
-          (VBD waited)
-          (PP-CLR (IN for) (NP (DT the) (JJ ice) (NN truck)))))))
-  (VP
-    (TO to)
-    (VP
-      (VB carry)
-      (NP (PRP them))
-      (PP-CLR
-        (TO to)
-        (NP (NP (DT the) (NN market)) (PP (IN in) (NP (NN havana)))))))
-  (. .))
-
-### audio01.TextGrid | phrase 47 : those who had caught sharks had taken them to the shark factory on the other side of the cove where they were hoisted on a block and tackle
+### audio01.TextGrid | phrase 35 : those who had caught sharks had taken them to the shark factory on the other side of the cove where they were hoisted on a block and tackle their livers removed their fins cut off and their hides skinned out and their flesh cut into strips for salting
 (S
   (NP-SBJ
     (NP (DT those))
     (SBAR
       (WHNP-1 (WP who))
       (S
-        (ADJP-PRD (VBD had))
-        (NP-SBJ (ADJP (VBN caught)) (NNS sharks)))))
-  (VP
-    (VBD had)
-    (VP
-      (VP
-        (VBN taken)
-        (NP (PRP them))
-        (PP-DTV (TO to) (NP (DT the) (NN shark) (NN factory)))
-        (PP-CLR
-          (IN on)
-          (NP
-            (NP (DT the) (JJ other) (NN side))
-            (PP (IN of) (NP (DT the) (NN cove)))))
-        (SBAR-TMP
-          (WHADVP-1 (WRB where))
-          (S
-            (NP-SBJ (PRP they))
-            (VP
-              (VBD were)
-              (ADJP-PRD-1 (VBN hoisted))
-              (PP-LOC-2 (IN on) (NP (DT a) (NN block)))))))
-      (CC and)
-      (VP (VB tackle))))
-  (. .))
-
-### audio01.TextGrid | phrase 48 : their livers removed their fins cut off and their hides skinned out and their flesh cut into strips for salting
-(S
-  (NP-SBJ (PRP$ their) (NNS livers))
-  (VP
-    (VBN removed)
-    (S
-      (NP-SBJ (PRP$ their) (NNS fins))
-      (VP
-        (VBD cut)
-        (PRT (RP off))
-        (S
-          (CC and)
-          (NP-SBJ (PRP$ their) (NNS hides))
+        (NP-SBJ
+          (NP (ADJP (VBN had)) (ADJP (VBN caught)) (NNS sharks))
           (VP
-            (VBN skinned)
-            (PRT (RP out))
-            (PP (CC and) (NP (PRP$ their) (JJ flesh) (NN cut)))
-            (PP-TMP (IN into) (NP (NNS strips)))
-            (PP (IN for) (NP (VBG salting))))
-          (. .))))))
+            (VBD had)
+            (VP
+              (VP
+                (VBN taken)
+                (NP (PRP them))
+                (PP-DTV
+                  (TO to)
+                  (NP (DT the) (NN shark) (NN factory)))
+                (PP-CLR
+                  (IN on)
+                  (NP
+                    (NP (DT the) (JJ other) (NN side))
+                    (PP (IN of) (NP (DT the) (NN cove)))))
+                (SBAR-TMP
+                  (WHADVP-1 (WRB where))
+                  (S
+                    (NP-SBJ (PRP they))
+                    (VP
+                      (VBD were)
+                      (ADJP-PRD-1 (VBN hoisted))
+                      (PP-LOC-2 (IN on) (NP (DT a) (NN block)))))))
+              (CC and)
+              (VP (VB tackle) (NP (PRP$ their) (NNS livers))))))
+        (VP (VBN removed) (NP (PRP$ their) (NNS fins))))))
+  (VP
+    (VBD cut)
+    (PRT (RP off))
+    (S
+      (CC and)
+      (NP-SBJ (PRP$ their) (NNS hides))
+      (VP
+        (VBN skinned)
+        (PRT (RP out))
+        (PP (CC and) (NP (PRP$ their) (JJ flesh) (NN cut)))
+        (PP-TMP (IN into) (NP (NNS strips)))
+        (PP (IN for) (NP (VBG salting))))
+      (. .))))
 
