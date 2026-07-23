@@ -1,0 +1,901 @@
+PHRASES MAL SEGMENTEES : 298 sur 789
+Genres d'erreur possibles pour chaque phrase :
+  - coupee a tort         : sur-segmentation (fin de phrase artificielle vs livre)
+  - fusionne N phrases    : sous-segmentation (plusieurs phrases du livre collees)
+  - finit par <mot>       : la phrase se termine par un mot-outil / pronom sujet
+  - commence par <mot>    : la phrase commence par une preposition non frontale
+
+[audio01.TextGrid | phrase 2] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    in the first forty days a boy had been with him but after forty days without a fish the boy s parents had told him that the old man was now definitely and finally salao which is the worst form of unlucky
+
+[audio01.TextGrid | phrase 13] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    i could go with you again we ve made some money
+
+[audio01.TextGrid | phrase 16] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    you re with a lucky boat stay with them
+
+[audio01.TextGrid | phrase 17] coupee a tort (fin de phrase artificielle)
+    but remember how you went eighty seven days without fish and then we caught big ones every day for three weeks
+
+[audio01.TextGrid | phrase 19] coupee a tort (fin de phrase artificielle)
+    i know you did not leave me because you doubted
+
+[audio01.TextGrid | phrase 20] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    it was papa made me leave i am a boy and i must obey him
+
+[audio01.TextGrid | phrase 22] coupee a tort (fin de phrase artificielle)
+    it is quite normal
+
+[audio01.TextGrid | phrase 23] coupee a tort (fin de phrase artificielle)
+    he hasn't much faith
+
+[audio01.TextGrid | phrase 25] fusionne 2 phrases du livre
+    but we have haven t
+
+[audio01.TextGrid | phrase 27] coupee a tort (fin de phrase artificielle)
+    can i offer you a beer on the terrace and then we ll take the stuff home
+
+[audio01.TextGrid | phrase 30] fusionne 2 phrases du livre
+    others of the older fishermen looked at him and were sad but they did not show it and they spoke politely about the current and the depths they had drifted their lines at and the steady good weather and of what they had seen
+
+[audio01.TextGrid | phrase 31] coupee a tort (fin de phrase artificielle)
+    the successful fishermen of that day were already in and had butchered their marlin out and carried them laid full length across two planks with two men staggering at the end of each plank
+
+[audio02.TextGrid | phrase 1] coupee a tort (fin de phrase artificielle)
+    when the wind was in the east a smell came across the harbour from the shark factory
+
+[audio02.TextGrid | phrase 2] fusionne 2 phrases du livre
+    but today there was only the faint edge of the odour because the wind had backed into the north and then dropped off and it was pleasant and sunny on the terrace santiago the boy said
+
+[audio02.TextGrid | phrase 6] coupee a tort (fin de phrase artificielle) ; fusionne 3 phrases du livre
+    no go and play baseball i can still row and rogelio will throw the net
+
+[audio02.TextGrid | phrase 7] coupee a tort (fin de phrase artificielle) ; fusionne 3 phrases du livre
+    i would like to go if i cannot fish with you i would like to serve in some way
+
+[audio02.TextGrid | phrase 9] coupee a tort (fin de phrase artificielle)
+    you are already a man
+
+[audio02.TextGrid | phrase 10] coupee a tort (fin de phrase artificielle)
+    how old was i when you first took me in a boat
+
+[audio02.TextGrid | phrase 13] coupee a tort (fin de phrase artificielle)
+    i can remember you throwing me into the bow where the wet coiled lines were and feeling the whole boat shiver and the of you clubbing him like chopping a tree down and the sweet blood smell all over me
+
+[audio02.TextGrid | phrase 14] coupee a tort (fin de phrase artificielle)
+    can you really remember that or did i just tell it to you
+
+[audio02.TextGrid | phrase 15] coupee a tort (fin de phrase artificielle)
+    i remember everything from when we first went together
+
+[audio02.TextGrid | phrase 18] coupee a tort (fin de phrase artificielle)
+    but you are your father s and your mother s and you are in a lucky boat
+
+[audio02.TextGrid | phrase 19] coupee a tort (fin de phrase artificielle) ; fusionne 3 phrases du livre
+    may i get the sardines i know where i can get four baits too i have mine left from today i put them in salt in the box
+
+[audio02.TextGrid | phrase 20] coupee a tort (fin de phrase artificielle)
+    let me get four fresh ones
+
+[audio02.TextGrid | phrase 22] fusionne 2 phrases du livre
+    his hope and his confidence had never gone but now they were freshening as when the breeze rises
+
+[audio02.TextGrid | phrase 25] coupee a tort (fin de phrase artificielle)
+    you didn't steal them
+
+[audio02.TextGrid | phrase 26] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    i would the boy said but i bought
+
+[audio02.TextGrid | phrase 28] fusionne 2 phrases du livre
+    he was too simple to wonder when he had attained humility but he knew he had attained it and he knew it was not disgraceful and it carried no loss of true pride
+
+[audio02.TextGrid | phrase 31] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    far out to come in when the wind shifts i want to be out before it is light
+
+[audio02.TextGrid | phrase 32] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    i ll try to get him to work far out the boy said then if you hook something truly big we can come to your aid
+
+[audio02.TextGrid | phrase 33] coupee a tort (fin de phrase artificielle)
+    he does not like to work too far
+
+[audio02.TextGrid | phrase 35] coupee a tort (fin de phrase artificielle)
+    but i will see something that he cannot see such as a bird working and get him to come out after dolphin
+
+[audio02.TextGrid | phrase 36] coupee a tort (fin de phrase artificielle)
+    are his eyes that bad
+
+[audio02.TextGrid | phrase 38] coupee a tort (fin de phrase artificielle)
+    he never went turtle ing that is what kills the eyes
+
+[audio02.TextGrid | phrase 39] coupee a tort (fin de phrase artificielle)
+    but you went turtle ing for years off the mosquito coast and your eyes are good
+
+[audio03.TextGrid | phrase 1] coupee a tort (fin de phrase artificielle)
+    i am a strange old man
+
+[audio03.TextGrid | phrase 2] coupee a tort (fin de phrase artificielle)
+    but are you strong enough now for a truly big fish
+
+[audio03.TextGrid | phrase 3] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    i think so and there are many tricks
+
+[audio03.TextGrid | phrase 4] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    let us take the stuff home the boy said so i can get the cast net and go after the sardines
+
+[audio03.TextGrid | phrase 8] coupee a tort (fin de phrase artificielle)
+    no one would steal from the old man but it was better to take the sail and the heavy lines home as the dew was bad for them
+
+[audio03.TextGrid | phrase 11] coupee a tort (fin de phrase artificielle)
+    the old man leaned the mast with its wrapped sail against the wall
+
+[audio03.TextGrid | phrase 14] coupee a tort (fin de phrase artificielle)
+    the shack was made of the tough budshields of the royal palm which are called guano and in it there was a bed a table one chair
+
+[audio03.TextGrid | phrase 16] coupee a tort (fin de phrase artificielle)
+    on the brown walls of the flattened overlapping leaves of the sturdy fibered guano there
+
+[audio03.TextGrid | phrase 19] coupee a tort (fin de phrase artificielle)
+    once there had been a tinted photograph of his wife on the wall but he had taken it down because it made him too lonely to see it
+
+[audio03.TextGrid | phrase 22] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    a pot of yellow rice with fish do you want
+
+[audio03.TextGrid | phrase 23] fusionne 3 phrases du livre
+    some no i will eat at home do you want me to make the fire
+
+[audio03.TextGrid | phrase 24] fusionne 2 phrases du livre ; finit par « on » (mot qui ne termine pas une phrase)
+    no i will make it later on
+
+[audio03.TextGrid | phrase 25] coupee a tort (fin de phrase artificielle)
+    or i may eat the rice cold
+
+[audio03.TextGrid | phrase 26] coupee a tort (fin de phrase artificielle)
+    may i take the cast net of course
+
+[audio03.TextGrid | phrase 29] coupee a tort (fin de phrase artificielle)
+    there was no pot of yellow rice and fish
+
+[audio03.TextGrid | phrase 30] fusionne 2 phrases du livre
+    and the boy knew this too eighty five is a lucky number the old man said
+
+[audio03.TextGrid | phrase 31] coupee a tort (fin de phrase artificielle)
+    how would you like to see me bring one in that dressed out over a thousand pounds
+
+[audio03.TextGrid | phrase 32] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    i ll get the cast net and go for sardines will you sit in the sun in the doorway
+
+[audio03.TextGrid | phrase 33] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    yes i have yesterday s paper and i will read the baseball
+
+[audio03.TextGrid | phrase 34] fusionne 2 phrases du livre
+    the boy did not know whether yesterday s paper was a fiction too but the old man brought it out from under the bed
+
+[audio03.TextGrid | phrase 35] coupee a tort (fin de phrase artificielle)
+    perico gave it to me at the bodega
+
+[audio03.TextGrid | phrase 36] fusionne 3 phrases du livre
+    he explained i ll be back when i have the sardines i ll keep yours and mine together on ice and we can share them in the morning
+
+[audio03.TextGrid | phrase 37] coupee a tort (fin de phrase artificielle)
+    when i come back you can tell me about the baseball
+
+[audio03.TextGrid | phrase 38] coupee a tort (fin de phrase artificielle)
+    the yankees cannot lose
+
+[audio03.TextGrid | phrase 39] coupee a tort (fin de phrase artificielle)
+    but i fear the indians of cleveland
+
+[audio03.TextGrid | phrase 40] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    have faith in the yankees my son think of the great dimaggio
+
+[audio04.TextGrid | phrase 1] coupee a tort (fin de phrase artificielle)
+    i fear both the tigers of detroit and the indians of cleveland
+
+[audio04.TextGrid | phrase 2] coupee a tort (fin de phrase artificielle)
+    be careful or you will fear even the reds of cincinnati and the white sax of chicago
+
+[audio04.TextGrid | phrase 4] coupee a tort (fin de phrase artificielle)
+    tomorrow is the eighty fifth day
+
+[audio04.TextGrid | phrase 5] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    we can do that the boy said but what about the eighty seven of your great record
+
+[audio04.TextGrid | phrase 6] fusionne 2 phrases du livre
+    it could not happen twice do you think you can find an eighty five
+
+[audio04.TextGrid | phrase 8] fusionne 2 phrases du livre
+    one sheet that s two dollars and a half
+
+[audio04.TextGrid | phrase 9] coupee a tort (fin de phrase artificielle) ; finit par « that » (mot qui ne termine pas une phrase)
+    who can we borrow that
+
+[audio04.TextGrid | phrase 10] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    from that s easy i can always borrow two dollars and a half
+
+[audio04.TextGrid | phrase 11] fusionne 2 phrases du livre
+    i think perhaps i can too but i try not to borrow
+
+[audio04.TextGrid | phrase 12] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    first you borrow then you beg
+
+[audio04.TextGrid | phrase 14] coupee a tort (fin de phrase artificielle)
+    remember we are in september
+
+[audio04.TextGrid | phrase 16] coupee a tort (fin de phrase artificielle) ; finit par « in » (mot qui ne termine pas une phrase)
+    anyone can be a fisherman in
+
+[audio04.TextGrid | phrase 18] fusionne 2 phrases du livre
+    when the boy came back the old man was asleep in the chair and the sun was down the boy took the old army blanket off the bed and spread it over the back of the chair and over the old man s shoulders
+
+[audio04.TextGrid | phrase 19] coupee a tort (fin de phrase artificielle)
+    they were strange shoulders
+
+[audio04.TextGrid | phrase 21] coupee a tort (fin de phrase artificielle)
+    his shirt had been patched so many times that it was like the sail
+
+[audio04.TextGrid | phrase 25] fusionne 2 phrases du livre
+    he was barefooted the boy left him there and when he came back the old man was still asleep
+
+[audio04.TextGrid | phrase 28] fusionne 2 phrases du livre
+    then he smiled what have you got he asked
+
+[audio04.TextGrid | phrase 29] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    supper said the boy we re going to have supper
+
+[audio04.TextGrid | phrase 30] coupee a tort (fin de phrase artificielle)
+    i m not very hungry
+
+[audio04.TextGrid | phrase 31] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    come on and eat you can t fish and not eat
+
+[audio04.TextGrid | phrase 35] coupee a tort (fin de phrase artificielle)
+    you ll not fish without eating while i m alive
+
+[audio04.TextGrid | phrase 37] coupee a tort (fin de phrase artificielle)
+    what are we eating
+
+[audio04.TextGrid | phrase 41] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    martin the owner i must thank him
+
+[audio04.TextGrid | phrase 42] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    i thanked him already the boy said you don t need to thank him
+
+[audio05.TextGrid | phrase 2] coupee a tort (fin de phrase artificielle)
+    has he done this for us more than once
+
+[audio05.TextGrid | phrase 4] coupee a tort (fin de phrase artificielle)
+    he is very thoughtful for us
+
+[audio05.TextGrid | phrase 5] coupee a tort (fin de phrase artificielle)
+    he sent two beers
+
+[audio05.TextGrid | phrase 6] coupee a tort (fin de phrase artificielle)
+    i like the beer in cans best
+
+[audio05.TextGrid | phrase 7] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    i know but this is in bottles hatuey beer and i take back the bottles
+
+[audio05.TextGrid | phrase 10] coupee a tort (fin de phrase artificielle)
+    i have not wished to open the container until you were ready
+
+[audio05.TextGrid | phrase 11] coupee a tort (fin de phrase artificielle)
+    i m ready now
+
+[audio05.TextGrid | phrase 13] coupee a tort (fin de phrase artificielle)
+    i only needed time to wash
+
+[audio05.TextGrid | phrase 14] fusionne 2 phrases du livre
+    where did you wash the boy thought
+
+[audio05.TextGrid | phrase 21] coupee a tort (fin de phrase artificielle)
+    in the american league it is the yankees as i said
+
+[audio05.TextGrid | phrase 22] coupee a tort (fin de phrase artificielle)
+    the old man said happily
+
+[audio05.TextGrid | phrase 24] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    that means nothing the great dimaggio is himself again
+
+[audio05.TextGrid | phrase 26] fusionne 2 phrases du livre
+    naturally but he makes the difference
+
+[audio05.TextGrid | phrase 28] coupee a tort (fin de phrase artificielle)
+    but then i think of dick sisler and those great drives in the old park
+
+[audio05.TextGrid | phrase 29] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    there was nothing ever like them he hits the longest ball i have ever seen
+
+[audio05.TextGrid | phrase 30] coupee a tort (fin de phrase artificielle)
+    do you remember when he used to come to the terrace
+
+[audio05.TextGrid | phrase 32] coupee a tort (fin de phrase artificielle)
+    then i asked you to ask him and you were too timid
+
+[audio05.TextGrid | phrase 33] fusionne 3 phrases du livre
+    i know it was a great mistake he might have gone with us
+
+[audio05.TextGrid | phrase 34] coupee a tort (fin de phrase artificielle)
+    then we would have that for all of our lives
+
+[audio05.TextGrid | phrase 37] coupee a tort (fin de phrase artificielle)
+    maybe he was as poor as we are and would understand
+
+[audio05.TextGrid | phrase 38] coupee a tort (fin de phrase artificielle)
+    the great sisler s father was never poor and he the father was playing in the big leagues when he was my age
+
+[audio05.TextGrid | phrase 39] coupee a tort (fin de phrase artificielle)
+    when i was your age i was before the mast on a square rigged ship that ran to africa and i have seen lions on the beaches in the evening
+
+[audio05.TextGrid | phrase 40] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    i know you told me
+
+[audio05.TextGrid | phrase 41] coupee a tort (fin de phrase artificielle)
+    should we talk about africa or about baseball
+
+[audio05.TextGrid | phrase 42] fusionne 2 phrases du livre
+    baseball i think the boy said tell me about the great john j mcgraw
+
+[audio05.TextGrid | phrase 44] fusionne 2 phrases du livre
+    he used to come to the terrace sometimes too in the older days but he was rough and harsh spoken and difficult when he was drinking
+
+[audio05.TextGrid | phrase 46] coupee a tort (fin de phrase artificielle)
+    at least he carried lists of horses at all times in his pocket and frequently spoke the names of horses on the telephone
+
+[audio06.TextGrid | phrase 2] coupee a tort (fin de phrase artificielle)
+    my father thinks he was the greatest
+
+[audio06.TextGrid | phrase 4] coupee a tort (fin de phrase artificielle)
+    if durocher had continued to come here each year your father would think him the greatest manager
+
+[audio06.TextGrid | phrase 5] coupee a tort (fin de phrase artificielle)
+    who is the greatest manager really luque or mike gonzalez
+
+[audio06.TextGrid | phrase 6] coupee a tort (fin de phrase artificielle)
+    i think they are equal
+
+[audio06.TextGrid | phrase 7] coupee a tort (fin de phrase artificielle)
+    and the best fisherman is you
+
+[audio06.TextGrid | phrase 8] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    no i know others better
+
+[audio06.TextGrid | phrase 9] coupee a tort (fin de phrase artificielle) ; fusionne 3 phrases du livre
+    que va the boy said there are many good fishermen and some great ones but there is only you
+
+[audio06.TextGrid | phrase 10] fusionne 2 phrases du livre
+    thank you you make me happy
+
+[audio06.TextGrid | phrase 11] coupee a tort (fin de phrase artificielle)
+    i hope no fish will come along so great that he will prove us wrong
+
+[audio06.TextGrid | phrase 12] coupee a tort (fin de phrase artificielle)
+    there is no such fish if you are still strong as you say
+
+[audio06.TextGrid | phrase 13] coupee a tort (fin de phrase artificielle)
+    i may not be as strong as i think
+
+[audio06.TextGrid | phrase 14] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    the old man said but i know many tricks and i have resolution
+
+[audio06.TextGrid | phrase 16] coupee a tort (fin de phrase artificielle)
+    i will take the things back to the terrace
+
+[audio06.TextGrid | phrase 17] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    good night then i will wake you in the morning
+
+[audio06.TextGrid | phrase 21] coupee a tort (fin de phrase artificielle)
+    is it to have one longer day
+
+[audio06.TextGrid | phrase 23] coupee a tort (fin de phrase artificielle)
+    all i know is that young boys sleep late and hard
+
+[audio06.TextGrid | phrase 25] coupee a tort (fin de phrase artificielle)
+    i ll waken you in time
+
+[audio06.TextGrid | phrase 26] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    i do not like for him to waken me it is as though i were inferior
+
+[audio06.TextGrid | phrase 27] coupee a tort (fin de phrase artificielle)
+    i know sleep well old man
+
+[audio06.TextGrid | phrase 28] fusionne 2 phrases du livre
+    the boy went out they had eaten with no light on the table and the old man took off his trousers and went to bed in the dark
+
+[audio06.TextGrid | phrase 33] coupee a tort (fin de phrase artificielle)
+    he smelled the tar and oakum of the deck as he slept
+
+[audio06.TextGrid | phrase 36] coupee a tort (fin de phrase artificielle)
+    but tonight the smell of the land breeze came very early and he knew it was too early in his dream and went on dreaming to see the white peaks of the islands rising from the sea
+
+[audio06.TextGrid | phrase 40] coupee a tort (fin de phrase artificielle)
+    they played like young cats in the dusk
+
+[audio06.TextGrid | phrase 43] coupee a tort (fin de phrase artificielle)
+    he simply woke looked out the open
+
+[audio06.TextGrid | phrase 44] coupee a tort (fin de phrase artificielle)
+    door at the moon and unrolled
+
+[audio06.TextGrid | phrase 45] finit par « on » (mot qui ne termine pas une phrase)
+    his trousers and put them on
+
+[audio06.TextGrid | phrase 46] coupee a tort (fin de phrase artificielle)
+    he urinated outside the shack and then went
+
+[audio06.TextGrid | phrase 47] fusionne 3 phrases du livre
+    up the road to wake the boy he was shivering with the morning cold but he knew he would shiver himself warm and that soon he would be rowing
+
+[audio07.TextGrid | phrase 2] coupee a tort (fin de phrase artificielle)
+    the boy was asleep on a cot in the first room
+
+[audio07.TextGrid | phrase 5] coupee a tort (fin de phrase artificielle)
+    the old man nodded and the boy took his trousers from the chair by the bed
+
+[audio07.TextGrid | phrase 7] fusionne 2 phrases du livre
+    on the old man went out the door and the boy came after him
+
+[audio07.TextGrid | phrase 8] coupee a tort (fin de phrase artificielle)
+    he was sleepy and the old man put his arm across his shoulders and said
+
+[audio07.TextGrid | phrase 13] coupee a tort (fin de phrase artificielle)
+    we ll put the gear in the boat and then get
+
+[audio07.TextGrid | phrase 18] coupee a tort (fin de phrase artificielle)
+    i feel confident today
+
+[audio07.TextGrid | phrase 21] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    he brings our gear himself he never wants anyone to carry anything
+
+[audio07.TextGrid | phrase 22] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    we re different the old man said i let you carry things when you were five years old
+
+[audio07.TextGrid | phrase 24] coupee a tort (fin de phrase artificielle) ; fusionne 3 phrases du livre
+    i ll be right back have another coffee we have credit here
+
+[audio07.TextGrid | phrase 29] coupee a tort (fin de phrase artificielle)
+    he had a bottle of water in the bow of the skiff
+
+[audio07.TextGrid | phrase 31] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    the boy was back now with the sardines and the two baits wrapped in a newspaper and they went down the trail to the skiff feeling the pebbled sand under their feet and lifted the skiff and slid her into the water good luck old man
+
+[audio07.TextGrid | phrase 33] coupee a tort (fin de phrase artificielle)
+    he fitted the rope lashings of the oars onto the thole pins and leaning forward against the thrust of the blades in the water
+
+[audio08.TextGrid | phrase 1] fusionne 2 phrases du livre
+    sometimes someone would speak in a boat but most of the boats were silent except for the dip of the oars
+
+[audio08.TextGrid | phrase 2] coupee a tort (fin de phrase artificielle)
+    they spread apart after they were out of the mouth of the harbour
+
+[audio08.TextGrid | phrase 5] coupee a tort (fin de phrase artificielle)
+    he saw the phosphorescence of the gulf weed in the water as he rowed over the part of the ocean that the fishermen called the great well
+
+[audio08.TextGrid | phrase 10] coupee a tort (fin de phrase artificielle)
+    he was sorry for the birds especially the small delicate dark terns that were always flying and looking and almost never finding
+
+[audio08.TextGrid | phrase 13] fusionne 2 phrases du livre
+    she is kind and very beautiful but she can be so cruel and it comes so suddenly and such birds that fly dipping and hunting with their small sad voices are made too delicately for the sea
+
+[audio08.TextGrid | phrase 14] coupee a tort (fin de phrase artificielle)
+    he always thought of the sea as la mar
+
+[audio08.TextGrid | phrase 16] fusionne 2 phrases du livre
+    her sometimes those who love her say bad things of her but they are always said as though she were a woman
+
+[audio08.TextGrid | phrase 17] coupee a tort (fin de phrase artificielle)
+    some of the younger fishermen those who used buoys as floats for their lines and had motorboats
+
+[audio08.TextGrid | phrase 20] coupee a tort (fin de phrase artificielle)
+    but the old man always thought of her as feminine and as something that gave or withheld great favours
+
+[audio08.TextGrid | phrase 24] coupee a tort (fin de phrase artificielle)
+    he was letting the current do a third of the work
+
+[audio09.TextGrid | phrase 2] fusionne 2 phrases du livre
+    one bait was down forty fathoms the second was at seventy five and the third and fourth were down in the blue water at one hundred and one hundred and twenty five fathoms
+
+[audio09.TextGrid | phrase 3] coupee a tort (fin de phrase artificielle)
+    each bait hung head down with the shank of the hook inside the bait fish
+
+[audio09.TextGrid | phrase 5] coupee a tort (fin de phrase artificielle)
+    each sardine was hooked through both eyes
+
+[audio09.TextGrid | phrase 9] coupee a tort (fin de phrase artificielle)
+    each line as thick around as a big pencil was looped onto a green sapped stick so that any pull or touch on the bait would make the stick dip and each line had two forty fathom coils which could be made fast to the other spare coils so
+
+[audio09.TextGrid | phrase 14] coupee a tort (fin de phrase artificielle)
+    then the sun was brighter and the glare came on the water and then as it rose clear the flat sea sent it back at his eyes so that it hurt sharply
+
+[audio09.TextGrid | phrase 18] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    there others let them drift with the current
+
+[audio09.TextGrid | phrase 22] fusionne 2 phrases du livre
+    but who knows maybe today
+
+[audio09.TextGrid | phrase 32] fusionne 2 phrases du livre
+    it has more force in the evening too but in the morning it is painful
+
+[audio10.TextGrid | phrase 4] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    aloud he s not just looking
+
+[audio10.TextGrid | phrase 9] fusionne 2 phrases du livre
+    then he dove suddenly and the old man saw flying fish spurt out of the water and sail desperately over the surface dolphin the old man said aloud
+
+[audio10.TextGrid | phrase 11] coupee a tort (fin de phrase artificielle)
+    it had a wire leader and a medium sized hook
+
+[audio10.TextGrid | phrase 21] fusionne 2 phrases du livre
+    the bird has no chance the flying fish are too big for him and they go too fast
+
+[audio10.TextGrid | phrase 28] coupee a tort (fin de phrase artificielle)
+    the water was a dark blue now
+
+[audio10.TextGrid | phrase 33] coupee a tort (fin de phrase artificielle)
+    but the bird was almost out of sight now and nothing showed on the surface of the water but some patches of yellow sun bleached sargasso weed
+
+[audio11.TextGrid | phrase 1] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    agua mala the man said you whore
+
+[audio11.TextGrid | phrase 4] coupee a tort (fin de phrase artificielle)
+    but men were not
+
+[audio11.TextGrid | phrase 5] coupee a tort (fin de phrase artificielle)
+    and when same of the filaments would catch on a line and rest there slimy and purple while the old man was working a fish
+
+[audio11.TextGrid | phrase 9] coupee a tort (fin de phrase artificielle)
+    but they were the falsest thing in the sea
+
+[audio11.TextGrid | phrase 11] coupee a tort (fin de phrase artificielle)
+    the turtles saw them approached them from the front
+
+[audio11.TextGrid | phrase 12] finit par « and » (mot qui ne termine pas une phrase)
+    then shut their eyes so they were completely carapaced and ate them filaments and
+
+[audio11.TextGrid | phrase 13] fusionne 2 phrases du livre
+    all the old man loved to see the turtles eat them and he loved to walk on them on the beach after a storm and hear them pop when he stepped on them with the horny soles of his feet
+
+[audio11.TextGrid | phrase 14] coupee a tort (fin de phrase artificielle)
+    he loved green turtles and hawk bills with their elegance and speed and their great value
+
+[audio11.TextGrid | phrase 19] coupee a tort (fin de phrase artificielle)
+    most people are heartless about turtles
+
+[audio11.TextGrid | phrase 21] coupee a tort (fin de phrase artificielle)
+    but the old man thought
+
+[audio11.TextGrid | phrase 23] fusionne 2 phrases du livre
+    theirs he ate the white eggs to give himself strength
+
+[audio11.TextGrid | phrase 28] coupee a tort (fin de phrase artificielle)
+    but it was no worse than getting up at the hours that they rose and it was very good against all colds and grippes
+
+[audio11.TextGrid | phrase 33] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    but as the old man watched a small tuna rose in the air turned and dropped head first into the water the tuna shone silver in the sun
+
+[audio11.TextGrid | phrase 36] coupee a tort (fin de phrase artificielle)
+    if they don t travel too fast i will get into them the old man thought
+
+[audio12.TextGrid | phrase 3] fusionne 2 phrases du livre
+    in the shivering increased as he pulled in and he could see the blue back of the fish in the water and the gold of his sides before he swung him over the side and into the boat
+
+[audio12.TextGrid | phrase 8] coupee a tort (fin de phrase artificielle)
+    he ll weigh ten pounds
+
+[audio12.TextGrid | phrase 15] coupee a tort (fin de phrase artificielle)
+    it was considered a virtue not to talk unnecessarily at sea
+
+[audio12.TextGrid | phrase 17] coupee a tort (fin de phrase artificielle)
+    but now he said his thoughts aloud many times
+
+[audio12.TextGrid | phrase 21] coupee a tort (fin de phrase artificielle)
+    and the rich have radios to talk to them in their boats and to bring them the baseball
+
+[audio12.TextGrid | phrase 25] fusionne 2 phrases du livre
+    for there might be a big one around that school he thought
+
+[audio12.TextGrid | phrase 35] coupee a tort (fin de phrase artificielle)
+    the sun was hot now and the old man felt it on the back of his neck
+
+[audio13.TextGrid | phrase 2] coupee a tort (fin de phrase artificielle)
+    but today is eighty five days
+
+[audio13.TextGrid | phrase 4] coupee a tort (fin de phrase artificielle)
+    just then watching his lines
+
+[audio13.TextGrid | phrase 9] coupee a tort (fin de phrase artificielle)
+    he felt no strain nor weight
+
+[audio13.TextGrid | phrase 12] fusionne 2 phrases du livre
+    this time it was a tentative pull not solid nor heavy and he knew exactly what it was one hundred fathoms down a marlin was eating the sardines that covered the point and the shank of the hook where the hand forged hook projected from the head of the small tuna
+
+[audio13.TextGrid | phrase 16] fusionne 2 phrases du livre
+    eat them fish eat them
+
+[audio13.TextGrid | phrase 17] fusionne 2 phrases du livre
+    please eat them how fresh they are and you down there six hundred feet in that cold water in the dark
+
+[audio13.TextGrid | phrase 22] fusionne 2 phrases du livre
+    make another turn just smell them aren
+
+[audio13.TextGrid | phrase 23] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    t they lovely eat them good now
+
+[audio13.TextGrid | phrase 24] fusionne 2 phrases du livre
+    and then there is the tuna hard and cold and lovely
+
+[audio13.TextGrid | phrase 29] coupee a tort (fin de phrase artificielle)
+    god help him to take it
+
+[audio13.TextGrid | phrase 31] fusionne 2 phrases du livre
+    though he was gone and the old man felt nothing
+
+[audio13.TextGrid | phrase 37] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    it was only his turn he said he ll take it
+
+[audio13.TextGrid | phrase 39] coupee a tort (fin de phrase artificielle)
+    it was the weight of the fish and he let the line slip down down
+
+[audio13.TextGrid | phrase 41] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    coils as it went down slipping lightly through the old man s fingers
+
+[audio13.TextGrid | phrase 42] coupee a tort (fin de phrase artificielle)
+    he still could feel the great weight
+
+[audio13.TextGrid | phrase 45] coupee a tort (fin de phrase artificielle)
+    he has it sideways in his mouth now
+
+[audio13.TextGrid | phrase 46] coupee a tort (fin de phrase artificielle)
+    and he is moving off with it
+
+[audio14.TextGrid | phrase 8] coupee a tort (fin de phrase artificielle)
+    now i ll let him eat it well
+
+[audio14.TextGrid | phrase 11] coupee a tort (fin de phrase artificielle)
+    he had three forty fathom coils of line in reserve now
+
+[audio14.TextGrid | phrase 16] fusionne 2 phrases du livre
+    all right are you ready
+
+[audio14.TextGrid | phrase 18] coupee a tort (fin de phrase artificielle)
+    now he said aloud
+
+[audio14.TextGrid | phrase 19] coupee a tort (fin de phrase artificielle)
+    and struck hard with both hands gained a yard of line and then struck again and again
+
+[audio14.TextGrid | phrase 21] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    nothing happened the fish just moved away slowly
+
+[audio14.TextGrid | phrase 30] fusionne 2 phrases du livre
+    i could make the line fast but then he could break it
+
+[audio14.TextGrid | phrase 32] coupee a tort (fin de phrase artificielle)
+    thank god he is travelling and not going
+
+[audio14.TextGrid | phrase 36] fusionne 2 phrases du livre
+    there are plenty of things i can do he held the line against his back and watched its slant in the water and the skiff moving steadily to the north west
+
+[audio14.TextGrid | phrase 39] coupee a tort (fin de phrase artificielle)
+    but four hours later the fish was still swimming steadily out to sea towing the skiff
+
+[audio14.TextGrid | phrase 42] coupee a tort (fin de phrase artificielle)
+    and i have never seen him
+
+[audio15.TextGrid | phrase 1] coupee a tort (fin de phrase artificielle)
+    he had pushed his straw hat hard down on his head before he hooked the fish
+
+[audio15.TextGrid | phrase 3] coupee a tort (fin de phrase artificielle)
+    he was thirsty too and he got down on his knees and being careful not to jerk on the line moved as far into the bow as he could get
+
+[audio15.TextGrid | phrase 12] fusionne 2 phrases du livre
+    that if he doesn't maybe he will come up with the moon
+
+[audio15.TextGrid | phrase 17] fusionne 2 phrases du livre
+    that he must have his mouth shut tight on the wire
+
+[audio15.TextGrid | phrase 21] coupee a tort (fin de phrase artificielle)
+    it was cold after the sun went down
+
+[audio15.TextGrid | phrase 24] coupee a tort (fin de phrase artificielle)
+    after the sun went down he tied it around his neck so that it hung down over his back
+
+[audio15.TextGrid | phrase 27] coupee a tort (fin de phrase artificielle)
+    the position actually was only somewhat less intolerable
+
+[audio15.TextGrid | phrase 31] coupee a tort (fin de phrase artificielle)
+    once he stood up
+
+[audio15.TextGrid | phrase 32] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    and urinated over the side of the skiff and looked at the stars and checked his course the line showed like a phosphorescent
+
+[audio15.TextGrid | phrase 33] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    streak in the water straight out from his shoulders they were moving more slowly now and the glow of havana was not so strong so that he knew
+
+[audio15.TextGrid | phrase 34] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    the current must be carrying them to the eastward if i lose the glare of havana
+
+[audio15.TextGrid | phrase 35] coupee a tort (fin de phrase artificielle) ; finit par « to » (mot qui ne termine pas une phrase)
+    we must be going more to
+
+[audio15.TextGrid | phrase 36] fusionne 2 phrases du livre
+    the eastward he thought for if the fish s course held true i must see it for many more hours
+
+[audio15.TextGrid | phrase 39] fusionne 2 phrases du livre
+    then he thought think of it always think of what you are doing
+
+[audio15.TextGrid | phrase 41] coupee a tort (fin de phrase artificielle)
+    then he said aloud
+
+[audio15.TextGrid | phrase 43] coupee a tort (fin de phrase artificielle)
+    to help me and to see
+
+[audio16.TextGrid | phrase 3] fusionne 2 phrases du livre
+    they are good he said they play and make jokes and love one
+
+[audio16.TextGrid | phrase 4] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    another they are our brothers like the flying fish
+
+[audio16.TextGrid | phrase 14] coupee a tort (fin de phrase artificielle)
+    i wonder if he has any plans
+
+[audio16.TextGrid | phrase 15] fusionne 2 phrases du livre
+    or if he is just as desperate as i am he remembered the time he had hooked one of a pair of marlin
+
+[audio16.TextGrid | phrase 16] coupee a tort (fin de phrase artificielle)
+    the male fish always let the female fish feed first
+
+[audio16.TextGrid | phrase 17] coupee a tort (fin de phrase artificielle) ; finit par « her » (mot qui ne termine pas une phrase)
+    and the hooked fish the female made a wild panic stricken despairing fight that soon exhausted her
+
+[audio16.TextGrid | phrase 19] coupee a tort (fin de phrase artificielle)
+    he had stayed so close that the old man was afraid he would cut the line with his tail
+
+[audio16.TextGrid | phrase 21] coupee a tort (fin de phrase artificielle)
+    when the old man had gaffed her and clubbed her holding the rapier bill with its sandpaper edge and dubbing her across the top of her head until her colour turned to a colour almost like the backing of mirrors
+
+[audio16.TextGrid | phrase 22] coupee a tort (fin de phrase artificielle) ; finit par « her » (mot qui ne termine pas une phrase)
+    and then with the boy s aid hoisted her
+
+[audio16.TextGrid | phrase 24] coupee a tort (fin de phrase artificielle)
+    then while the old man was clearing the lines and preparing the harpoon
+
+[audio16.TextGrid | phrase 26] coupee a tort (fin de phrase artificielle)
+    he was beautiful the old man remembered
+
+[audio16.TextGrid | phrase 29] coupee a tort (fin de phrase artificielle)
+    the boy was sad too and we begged her pardon
+
+[audio16.TextGrid | phrase 31] coupee a tort (fin de phrase artificielle)
+    i wish the boy was here he said aloud and settled himself against the rounded planks of the bow and felt the strength of the great fish through the line he held across his shoulders
+
+[audio16.TextGrid | phrase 35] fusionne 2 phrases du livre
+    my choice was to go there to find him beyond all people beyond all people in the world
+
+[audio17.TextGrid | phrase 3] fusionne 2 phrases du livre
+    for i must surely remember to eat the tuna after it gets light
+
+[audio17.TextGrid | phrase 8] coupee a tort (fin de phrase artificielle)
+    he worked skillfully with the one hand
+
+[audio17.TextGrid | phrase 11] coupee a tort (fin de phrase artificielle)
+    there were two from each bait he had severed and the two from the bait the fish had taken
+
+[audio17.TextGrid | phrase 21] coupee a tort (fin de phrase artificielle)
+    aloud he said i wish i had the boy
+
+[audio17.TextGrid | phrase 22] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    but you haven t got the boy he thought you have only yourself and you had better work back to the last line now in the dark or not in the dark
+
+[audio17.TextGrid | phrase 27] coupee a tort (fin de phrase artificielle)
+    but it coagulated and dried before it reached his chin
+
+[audio17.TextGrid | phrase 29] coupee a tort (fin de phrase artificielle)
+    he adjusted the sack and carefully worked the line so that it came across a new part of his shoulders
+
+[audio17.TextGrid | phrase 30] coupee a tort (fin de phrase artificielle)
+    and holding it anchored with his shoulders
+
+[audio17.TextGrid | phrase 33] coupee a tort (fin de phrase artificielle) ; fusionne 3 phrases du livre
+    the wire must have slipped on the great hill of his back certainly his back cannot feel as badly as mine does but he cannot pull this skiff forever
+
+[audio17.TextGrid | phrase 34] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    no matter how great he is now everything is cleared away that might make trouble
+
+[audio17.TextGrid | phrase 36] coupee a tort (fin de phrase artificielle)
+    fish he said softly
+
+[audio17.TextGrid | phrase 37] coupee a tort (fin de phrase artificielle)
+    aloud i ll stay with you until i am dead
+
+[audio17.TextGrid | phrase 38] coupee a tort (fin de phrase artificielle)
+    he ll stay with me too i suppose the old man thought
+
+[audio18.TextGrid | phrase 3] fusionne 2 phrases du livre
+    i wish he would turn with the current that would show that he was tiring
+
+[audio18.TextGrid | phrase 8] fusionne 2 phrases du livre
+    but he might god let him jump the old man said
+
+[audio18.TextGrid | phrase 9] coupee a tort (fin de phrase artificielle)
+    i have enough line to handle him
+
+[audio18.TextGrid | phrase 11] coupee a tort (fin de phrase artificielle)
+    now that it is daylight let him jump so that he ll fill the sacks along his backbone with air
+
+[audio18.TextGrid | phrase 19] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    fish he said i love you and respect you very much but i will kill you dead before this day ends
+
+[audio18.TextGrid | phrase 26] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    how old are you the old man asked the bird is this your first trip
+
+[audio18.TextGrid | phrase 32] coupee a tort (fin de phrase artificielle)
+    what are birds coming
+
+[audio18.TextGrid | phrase 36] coupee a tort (fin de phrase artificielle)
+    then go in and take your chance like any man or bird or fish
+
+[audio18.TextGrid | phrase 40] coupee a tort (fin de phrase artificielle)
+    but i am with a friend
+
+[audio19.TextGrid | phrase 14] coupee a tort (fin de phrase artificielle)
+    now i will pay attention to my work
+
+[audio19.TextGrid | phrase 16] coupee a tort (fin de phrase artificielle)
+    i wish the boy were here and that i had some salt
+
+[audio19.TextGrid | phrase 17] fusionne 2 phrases du livre
+    he said aloud shifting the weight of the line to his left shoulder and kneeling carefully he washed his hand in the ocean and held it there submerged for more than a minute watching the blood trail away and the steady movement of the water against his hand as the boat moved
+
+[audio19.TextGrid | phrase 19] coupee a tort (fin de phrase artificielle)
+    the old man would have liked to keep his hand in the salt water longer but he was afraid of another sudden lurch by the fish
+
+[audio19.TextGrid | phrase 24] coupee a tort (fin de phrase artificielle)
+    now he said when his hand had dried
+
+[audio19.TextGrid | phrase 26] coupee a tort (fin de phrase artificielle)
+    i can reach him with the gaff and eat him here in comfort
+
+[audio19.TextGrid | phrase 28] coupee a tort (fin de phrase artificielle)
+    holding the line with his left shoulder again and bracing on his left hand and arm
+
+[audio19.TextGrid | phrase 32] coupee a tort (fin de phrase artificielle)
+    when he had cut six strips he spread them out on the wood of the bow wiped his knife on his trousers
+
+[audio20.TextGrid | phrase 2] fusionne 2 phrases du livre
+    cramp then if you want make yourself into a claw
+
+[audio20.TextGrid | phrase 3] coupee a tort (fin de phrase artificielle)
+    it will do you no good
+
+[audio20.TextGrid | phrase 14] coupee a tort (fin de phrase artificielle)
+    i ll eat some more for you
+
+[audio20.TextGrid | phrase 15] fusionne 2 phrases du livre
+    he ate the other part of the piece that he had cut in two he chewed it carefully and then spat out the skin how
+
+[audio20.TextGrid | phrase 16] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    does it go hand or is it too early to know
+
+[audio20.TextGrid | phrase 18] fusionne 2 phrases du livre
+    it is a strong full blooded fish he thought i was lucky to get him instead of dolphin
+
+[audio20.TextGrid | phrase 20] coupee a tort (fin de phrase artificielle)
+    this is hardly sweet at all and all the strength is still in it
+
+[audio20.TextGrid | phrase 26] fusionne 3 phrases du livre
+    be patient hand he said i do this for you i wish i could feed the fish he thought he is my brother
+
+[audio20.TextGrid | phrase 30] coupee a tort (fin de phrase artificielle) ; fusionne 2 phrases du livre
+    now he said you can let the cord go hand and i will handle him with the right arm alone until you stop that nonsense
+
+[audio20.TextGrid | phrase 31] coupee a tort (fin de phrase artificielle)
+    he put his left foot on the heavy line that the left hand had held
+
+[audio20.TextGrid | phrase 34] coupee a tort (fin de phrase artificielle)
+    because i do not know what the fish is going to do but he seems calm he thought
+
+[audio20.TextGrid | phrase 42] fusionne 2 phrases du livre
+    he rubbed the cramped hand against his trousers and tried to gentle the fingers but it would not open
+
+[audio20.TextGrid | phrase 43] fusionne 2 phrases du livre
+    maybe it will open with the sun he thought maybe it will open when the strong raw tuna is digested
+

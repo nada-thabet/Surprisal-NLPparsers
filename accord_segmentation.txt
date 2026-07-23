@@ -1,26 +1,7 @@
 ============================================================
   EVALUATION DE LA SEGMENTATION vs TEXTE ORIGINAL
 ============================================================
-  Fichier segmentation : phrases_prosodiques.txt
-  Texte de reference   : oldmansea.pdf
-
-  Mots predits (segmentation) : 11416
-  Mots du texte original      : 27482
   Mots alignes (zone evaluee) : 11155
-
-  --------------------------------------------------------
-  Tolerance      Ref  Predites  Precision   Rappel      F1
-  --------------------------------------------------------
-  exacte         659       864      0.596    0.781   0.676
-  +/-1 mot       659       864      0.654    0.868   0.746
-  +/-2 mot       659       864      0.674    0.892   0.768
-  --------------------------------------------------------
-
-  INTERPRETATION (tolerance +/-1 mot) :
-   - Rappel 0.87 : 87% des vraies fins de phrase du livre
-                 sont retrouvees par la segmentation.
-   - Precision 0.65 : 65% des coupures predites tombent sur
-                 une vraie fin de phrase (le reste = coupures aux virgules).
-   - Frontieres : 864 predites pour 659 reelles (sur-segmentation).
-   - F1 global  : 0.746
+  Frontieres livre / predites : 659 / 780
+  Precision : 0.701   Rappel : 0.835   F1 : 0.762  (tol +/-1)
 ============================================================
