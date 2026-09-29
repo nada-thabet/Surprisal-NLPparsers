@@ -1,0 +1,267 @@
+
+ANALYSES COMPLEMENTAIRES ET ROBUSTESSE, V2 (surprise en nats, coefficients en s/nat)
+
+==============================================================================
+  PAROLE LUE  -  SYNTAXIQUE (PCFG)   (n = 11413 mots)
+------------------------------------------------------------------------------
+  A. Nettoyage et correlations brutes
+    mots au depart                       : 11416
+    0 < duree <= 2 s                     : 11413
+    avec une valeur de surprise          : 11413
+    mots de contenu / mots-outils        : 6146 / 5267
+    r(duree, longueur n_phones )         = +0.773
+  B. Modele complet (MCO) : duree ~ n_phones * freq_zipf + content + surprise
+      Intercept            +0.29186   p = 1.9e-116   IC95 [+0.26721 ; +0.31651]
+      n_phones             +0.04544   p = 5.2e-97   IC95 [+0.04122 ; +0.04966]
+      freq_zipf            -0.03963   p = 6e-106   IC95 [-0.04315 ; -0.03612]
+      n_phones:freq_zipf   +0.00019   p = 0.64   IC95 [-0.00063 ; +0.00101]
+      content              +0.03576   p = 6.7e-67   IC95 [+0.03173 ; +0.03979]
+      s                    +0.00288   p = 8.2e-13   IC95 [+0.00209 ; +0.00367]
+      R2 = 0.7127  (R2 ajuste 0.7126),  R2 sans la surprise = 0.7114
+  C. Controles seuls contre controles + surprise
+    MCO   : AIC -26055.9 -> -26105.2  (gain +49.3),  rapport de vraisemblance chi2(1) = 51.3, p = 8.1e-13
+  D. Methode en deux temps (residu des controles, puis residu ~ surprise)
+    etape 1 : MCO sur les controles seuls
+    etape 2 : residu ~ surprise : +0.00152  (p = 1.9e-07, IC95 [+0.00095 ; +0.00210])   R2 = 0.00237
+    a comparer au modele joint   : +0.00288  (p = 8.2e-13, IC95 [+0.00209 ; +0.00367])
+  E. Forme du controle de frequence et dernier decile de surprise
+    modele complet, tous les mots              : +0.00288  (p = 8.2e-13, IC95 [+0.00209 ; +0.00367])
+    + terme quadratique I(freq_zipf**2)        : +0.00219  (p = 1.2e-06, IC95 [+0.00131 ; +0.00308])
+    sans le 10e decile (s < 9.62 nats, n = 10271) : +0.00401  (p = 1.3e-16, IC95 [+0.00306 ; +0.00496])
+
+==============================================================================
+  PAROLE LUE  -  GPT-2   (n = 11411 mots)
+------------------------------------------------------------------------------
+  A. Nettoyage et correlations brutes
+    mots au depart                       : 11416
+    0 < duree <= 2 s                     : 11413
+    avec une valeur de surprise          : 11411
+    mots de contenu / mots-outils        : 6144 / 5267
+    r(duree, longueur n_phones )         = +0.773
+  B. Modele complet (MCO) : duree ~ n_phones * freq_zipf + content + surprise
+      Intercept            +0.34815   p = 4.7e-204   IC95 [+0.32621 ; +0.37008]
+      n_phones             +0.04035   p = 1.3e-87   IC95 [+0.03640 ; +0.04430]
+      freq_zipf            -0.04647   p = 5.7e-171   IC95 [-0.04968 ; -0.04326]
+      n_phones:freq_zipf   +0.00136   p = 0.00033   IC95 [+0.00062 ; +0.00211]
+      content              +0.03795   p = 1.7e-76   IC95 [+0.03396 ; +0.04193]
+      s                    -0.00092   p = 0.0064   IC95 [-0.00158 ; -0.00026]
+      R2 = 0.7116  (R2 ajuste 0.7114),  R2 sans la surprise = 0.7114
+  C. Controles seuls contre controles + surprise
+    MCO   : AIC -26050.0 -> -26055.4  (gain +5.4),  rapport de vraisemblance chi2(1) = 7.4, p = 0.0064
+  D. Methode en deux temps (residu des controles, puis residu ~ surprise)
+    etape 1 : MCO sur les controles seuls
+    etape 2 : residu ~ surprise : -0.00053  (p = 0.039, IC95 [-0.00103 ; -0.00003])   R2 = 0.00037
+    a comparer au modele joint   : -0.00092  (p = 0.0064, IC95 [-0.00158 ; -0.00026])
+  E. Forme du controle de frequence et dernier decile de surprise
+    modele complet, tous les mots              : -0.00092  (p = 0.0064, IC95 [-0.00158 ; -0.00026])
+    + terme quadratique I(freq_zipf**2)        : -0.00071  (p = 0.036, IC95 [-0.00137 ; -0.00005])
+    sans le 10e decile (s < 7.39 nats, n = 10270) : -0.00124  (p = 0.0042, IC95 [-0.00208 ; -0.00039])
+
+==============================================================================
+  AMI 12 REUNIONS  -  SYNTAXIQUE (PCFG)   (n = 60277 mots, 12 reunions, 48 locuteurs)
+------------------------------------------------------------------------------
+  A. Nettoyage et correlations brutes
+    mots au depart                       : 67381
+    enonces d'au moins 4 mots            : 63500
+    sans les hesitations                 : 60378
+    0 < duree <= 2 s                     : 60285
+    avec une valeur de surprise          : 60277
+    mots de contenu / mots-outils        : 34340 / 25937
+    r(duree, longueur n_letters)         = +0.429
+    r(duree, debit)                      = -0.194
+  B. Modele complet (MCO) : duree ~ n_letters * freq_zipf + content + rate + surprise
+      Intercept            +0.46919   p = 1.5e-167   IC95 [+0.43596 ; +0.50241]
+      n_letters            +0.05865   p = 3.7e-153   IC95 [+0.05430 ; +0.06300]
+      freq_zipf            -0.02930   p = 9.2e-36   IC95 [-0.03390 ; -0.02471]
+      n_letters:freq_zipf  -0.00485   p = 2.1e-32   IC95 [-0.00565 ; -0.00405]
+      content              +0.01931   p = 1.2e-13   IC95 [+0.01421 ; +0.02442]
+      rate                 -0.04357   p = 0   IC95 [-0.04540 ; -0.04175]
+      s                    +0.00116   p = 0.036   IC95 [+0.00008 ; +0.00223]
+      R2 = 0.2413  (R2 ajuste 0.2412),  R2 sans la surprise = 0.2412
+     Modele mixte (1|locuteur), ML, powell :
+      Intercept            +0.45181   p = 1.4e-152   IC95 [+0.41816 ; +0.48547]
+      n_letters            +0.05938   p = 3.4e-158   IC95 [+0.05504 ; +0.06373]
+      freq_zipf            -0.02868   p = 1.9e-34   IC95 [-0.03327 ; -0.02409]
+      n_letters:freq_zipf  -0.00495   p = 7.7e-34   IC95 [-0.00575 ; -0.00415]
+      content              +0.01958   p = 4.9e-14   IC95 [+0.01448 ; +0.02467]
+      rate                 -0.04024   p = 0   IC95 [-0.04215 ; -0.03833]
+      s                    +0.00129   p = 0.019   IC95 [+0.00021 ; +0.00236]
+      variance entre locuteurs = 0.000301, variance residuelle = 0.055361, part due au locuteur (ICC) = 0.005, converge = True
+  C. Controles seuls contre controles + surprise
+    MCO   : AIC -3090.1 -> -3092.5  (gain +2.4),  rapport de vraisemblance chi2(1) = 4.4, p = 0.036
+    mixte : AIC -3262.6 -> -3266.1  (gain +3.5),  rapport de vraisemblance chi2(1) = 5.5, p = 0.019
+  D. Methode en deux temps (residu des controles, puis residu ~ surprise)
+    etape 1 : modele mixte (1|locuteur) sur les controles seuls
+    etape 2 : residu ~ surprise : +0.00075  (p = 0.074, IC95 [-0.00007 ; +0.00157])   R2 = 0.00005
+    a comparer au modele joint   : +0.00129  (p = 0.019, IC95 [+0.00021 ; +0.00236])
+  E. Forme du controle de frequence et dernier decile de surprise
+    modele complet, tous les mots              : +0.00116  (p = 0.036, IC95 [+0.00008 ; +0.00223])
+    + terme quadratique I(freq_zipf**2)        : +0.00096  (p = 0.11, IC95 [-0.00023 ; +0.00214])
+    sans le 10e decile (s < 9.48 nats, n = 54250) : +0.00025  (p = 0.71, IC95 [-0.00106 ; +0.00155])
+    mixte, tous les mots                       : +0.00129  (p = 0.019, IC95 [+0.00021 ; +0.00236])
+    mixte + I(freq_zipf**2)                    : +0.00108  (p = 0.075, IC95 [-0.00011 ; +0.00226])
+    mixte sans le 10e decile                   : +0.00037  (p = 0.58, IC95 [-0.00093 ; +0.00167])
+  F. Modele mixte selon l'optimiseur (lbfgs etait celui du rapport)
+    ML   lbfgs : +0.00129  (p = 0.019, IC95 [+0.00021 ; +0.00236])   var. locuteurs = 0.000301
+    ML   powell: +0.00129  (p = 0.019, IC95 [+0.00021 ; +0.00236])   var. locuteurs = 0.000301
+    ML   nm    : +0.00129  (p = 0.019, IC95 [+0.00021 ; +0.00236])   var. locuteurs = 0.000301
+    REML lbfgs : +0.00131  (p = 0.017, IC95 [+0.00023 ; +0.00238])   var. locuteurs = 0.000000   <- variance nulle, vraisemblance infinie : ajustement a rejeter
+    REML powell: +0.00129  (p = 0.019, IC95 [+0.00021 ; +0.00237])   var. locuteurs = 0.000309
+    REML nm    : +0.00129  (p = 0.019, IC95 [+0.00021 ; +0.00237])   var. locuteurs = 0.000309
+  H. Sensibilite au nettoyage (MCO / modele mixte)
+    nettoyage du rapport               (n = 60277)
+      MCO   : +0.00116  (p = 0.036, IC95 [+0.00008 ; +0.00223])
+      mixte : +0.00129  (p = 0.019, IC95 [+0.00021 ; +0.00236])
+    sans le debit dans le modele       (n = 60277)
+      MCO   : +0.00069  (p = 0.22, IC95 [-0.00041 ; +0.00179])
+      mixte : +0.00103  (p = 0.065, IC95 [-0.00006 ; +0.00212])
+    en gardant les hesitations         (n = 63363)
+      MCO   : -0.00602  (p = 1.3e-27, IC95 [-0.00710 ; -0.00494])
+      mixte : -0.00599  (p = 2.1e-27, IC95 [-0.00707 ; -0.00491])
+    sans le seuil de 4 mots            (n = 61935)
+      MCO   : +0.00164  (p = 0.0028, IC95 [+0.00056 ; +0.00271])
+      mixte : +0.00174  (p = 0.0015, IC95 [+0.00067 ; +0.00281])
+    ni hesitations, ni seuil, ni debit (n = 67193)
+      MCO   : -0.00763  (p = 4.3e-42, IC95 [-0.00873 ; -0.00653])
+      mixte : -0.00738  (p = 7e-40, IC95 [-0.00848 ; -0.00629])
+
+==============================================================================
+  AMI 12 REUNIONS  -  GPT-2   (n = 60285 mots, 12 reunions, 48 locuteurs)
+------------------------------------------------------------------------------
+  A. Nettoyage et correlations brutes
+    mots au depart                       : 67381
+    enonces d'au moins 4 mots            : 63500
+    sans les hesitations                 : 60378
+    0 < duree <= 2 s                     : 60285
+    avec une valeur de surprise          : 60285
+    mots de contenu / mots-outils        : 34345 / 25940
+    r(duree, longueur n_letters)         = +0.429
+    r(duree, debit)                      = -0.194
+  B. Modele complet (MCO) : duree ~ n_letters * freq_zipf + content + rate + surprise
+      Intercept            +0.54329   p = 2.3e-248   IC95 [+0.51180 ; +0.57478]
+      n_letters            +0.05870   p = 2.5e-164   IC95 [+0.05450 ; +0.06290]
+      freq_zipf            -0.03709   p = 1.7e-60   IC95 [-0.04152 ; -0.03266]
+      n_letters:freq_zipf  -0.00485   p = 1.1e-35   IC95 [-0.00561 ; -0.00409]
+      content              +0.01909   p = 7.1e-14   IC95 [+0.01409 ; +0.02408]
+      rate                 -0.04420   p = 0   IC95 [-0.04602 ; -0.04237]
+      s                    -0.00416   p = 1.3e-24   IC95 [-0.00495 ; -0.00336]
+      R2 = 0.2425  (R2 ajuste 0.2424),  R2 sans la surprise = 0.2412
+     Modele mixte (1|locuteur), ML, powell :
+      Intercept            +0.52687   p = 2.3e-229   IC95 [+0.49493 ; +0.55881]
+      n_letters            +0.05925   p = 9.1e-169   IC95 [+0.05506 ; +0.06345]
+      freq_zipf            -0.03656   p = 4.4e-59   IC95 [-0.04098 ; -0.03214]
+      n_letters:freq_zipf  -0.00491   p = 1e-36   IC95 [-0.00568 ; -0.00415]
+      content              +0.01951   p = 1.8e-14   IC95 [+0.01452 ; +0.02450]
+      rate                 -0.04090   p = 0   IC95 [-0.04282 ; -0.03899]
+      s                    -0.00408   p = 9.6e-24   IC95 [-0.00487 ; -0.00328]
+      variance entre locuteurs = 0.000295, variance residuelle = 0.055283, part due au locuteur (ICC) = 0.005, converge = True
+  C. Controles seuls contre controles + surprise
+    MCO   : AIC -3080.5 -> -3183.3  (gain +102.8),  rapport de vraisemblance chi2(1) = 104.8, p = 1.3e-24
+    mixte : AIC -3253.1 -> -3351.9  (gain +98.8),  rapport de vraisemblance chi2(1) = 100.8, p = 1e-23
+  D. Methode en deux temps (residu des controles, puis residu ~ surprise)
+    etape 1 : modele mixte (1|locuteur) sur les controles seuls
+    etape 2 : residu ~ surprise : -0.00263  (p = 7.4e-16, IC95 [-0.00327 ; -0.00199])   R2 = 0.00108
+    a comparer au modele joint   : -0.00408  (p = 9.6e-24, IC95 [-0.00487 ; -0.00328])
+  E. Forme du controle de frequence et dernier decile de surprise
+    modele complet, tous les mots              : -0.00416  (p = 1.3e-24, IC95 [-0.00495 ; -0.00336])
+    + terme quadratique I(freq_zipf**2)        : -0.00413  (p = 4.2e-24, IC95 [-0.00493 ; -0.00333])
+    sans le 10e decile (s < 8.14 nats, n = 54256) : -0.00605  (p = 6.8e-30, IC95 [-0.00709 ; -0.00501])
+    mixte, tous les mots                       : -0.00408  (p = 9.6e-24, IC95 [-0.00487 ; -0.00328])
+    mixte + I(freq_zipf**2)                    : -0.00405  (p = 3.5e-23, IC95 [-0.00485 ; -0.00325])
+    mixte sans le 10e decile                   : -0.00593  (p = 7.8e-29, IC95 [-0.00697 ; -0.00489])
+  F. Modele mixte selon l'optimiseur (lbfgs etait celui du rapport)
+    ML   lbfgs : -0.00407  (p = 1.1e-23, IC95 [-0.00486 ; -0.00327])   var. locuteurs = 0.000000   <- variance nulle, vraisemblance infinie : ajustement a rejeter
+    ML   powell: -0.00408  (p = 9.6e-24, IC95 [-0.00487 ; -0.00328])   var. locuteurs = 0.000295
+    ML   nm    : -0.00408  (p = 9.6e-24, IC95 [-0.00487 ; -0.00328])   var. locuteurs = 0.000295
+    REML lbfgs : -0.00407  (p = 1.1e-23, IC95 [-0.00486 ; -0.00327])   var. locuteurs = 0.000000   <- variance nulle, vraisemblance infinie : ajustement a rejeter
+    REML powell: -0.00408  (p = 9.7e-24, IC95 [-0.00487 ; -0.00328])   var. locuteurs = 0.000303
+    REML nm    : -0.00408  (p = 9.7e-24, IC95 [-0.00487 ; -0.00328])   var. locuteurs = 0.000303
+  H. Sensibilite au nettoyage (MCO / modele mixte)
+    nettoyage du rapport               (n = 60285)
+      MCO   : -0.00416  (p = 1.3e-24, IC95 [-0.00495 ; -0.00336])
+      mixte : -0.00408  (p = 9.6e-24, IC95 [-0.00487 ; -0.00328])
+    sans le debit dans le modele       (n = 60285)
+      MCO   : -0.00285  (p = 4.7e-12, IC95 [-0.00366 ; -0.00204])
+      mixte : -0.00290  (p = 1.6e-12, IC95 [-0.00370 ; -0.00209])
+    en gardant les hesitations         (n = 63371)
+      MCO   : -0.00674  (p = 1.2e-59, IC95 [-0.00755 ; -0.00593])
+      mixte : -0.00669  (p = 8.4e-59, IC95 [-0.00750 ; -0.00588])
+    sans le seuil de 4 mots            (n = 61954)
+      MCO   : -0.00403  (p = 1.1e-23, IC95 [-0.00481 ; -0.00324])
+      mixte : -0.00395  (p = 7.7e-23, IC95 [-0.00473 ; -0.00316])
+    ni hesitations, ni seuil, ni debit (n = 67212)
+      MCO   : -0.00596  (p = 6.2e-47, IC95 [-0.00677 ; -0.00515])
+      mixte : -0.00600  (p = 6.8e-48, IC95 [-0.00680 ; -0.00519])
+
+==============================================================================
+  AMI 12 REUNIONS : SYNTAXE ET GPT-2 SUR EXACTEMENT LES MEMES MOTS
+------------------------------------------------------------------------------
+  19 mots du CSV n'ont pas de surprise syntaxique (la grammaire donne une probabilite nulle au prefixe), dont : 'kay, 'cause, 'ca, you
+  syntaxique (n = 60277, 48 locuteurs)
+    MCO   : +0.00116  (p = 0.036, IC95 [+0.00008 ; +0.00223])
+    mixte : +0.00129  (p = 0.019, IC95 [+0.00021 ; +0.00236])
+  GPT-2      (n = 60277, 48 locuteurs)
+    MCO   : -0.00416  (p = 1.2e-24, IC95 [-0.00496 ; -0.00337])
+    mixte : -0.00408  (p = 8.4e-24, IC95 [-0.00488 ; -0.00329])
+
+==============================================================================
+  AMI 171 REUNIONS  -  SYNTAXIQUE (PCFG)   (n = 845392 mots, 171 reunions, 682 locuteurs)
+------------------------------------------------------------------------------
+  A. Nettoyage et correlations brutes
+    mots au depart                       : 978212
+    enonces d'au moins 4 mots            : 906136
+    sans les hesitations                 : 848693
+    0 < duree <= 2 s                     : 846066
+    avec une valeur de surprise          : 845392
+    mots de contenu / mots-outils        : 479348 / 366044
+    r(duree, longueur n_letters)         = +0.439
+    r(duree, debit)                      = -0.206
+  B. Modele complet (MCO) : duree ~ n_letters * freq_zipf + content + rate + surprise
+      Intercept            +0.45600   p = 0   IC95 [+0.44742 ; +0.46457]
+      n_letters            +0.05859   p = 0   IC95 [+0.05745 ; +0.05973]
+      freq_zipf            -0.02784   p = 0   IC95 [-0.02903 ; -0.02665]
+      n_letters:freq_zipf  -0.00425   p = 0   IC95 [-0.00446 ; -0.00404]
+      content              +0.02020   p = 5.4e-196   IC95 [+0.01887 ; +0.02152]
+      rate                 -0.04424   p = 0   IC95 [-0.04469 ; -0.04379]
+      s                    +0.00149   p = 2e-24   IC95 [+0.00120 ; +0.00178]
+      R2 = 0.2521  (R2 ajuste 0.2521),  R2 sans la surprise = 0.2521
+     Modele mixte (1|locuteur), ML, powell :
+      Intercept            +0.44481   p = 0   IC95 [+0.43608 ; +0.45355]
+      n_letters            +0.05843   p = 0   IC95 [+0.05730 ; +0.05957]
+      freq_zipf            -0.02834   p = 0   IC95 [-0.02952 ; -0.02715]
+      n_letters:freq_zipf  -0.00421   p = 0   IC95 [-0.00442 ; -0.00400]
+      content              +0.02021   p = 2.3e-197   IC95 [+0.01889 ; +0.02153]
+      rate                 -0.03895   p = 0   IC95 [-0.03944 ; -0.03847]
+      s                    +0.00155   p = 2.4e-26   IC95 [+0.00126 ; +0.00183]
+      variance entre locuteurs = 0.000496, variance residuelle = 0.055047, part due au locuteur (ICC) = 0.009, converge = True
+  C. Controles seuls contre controles + surprise
+    MCO   : AIC -45648.3 -> -45750.3  (gain +102.0),  rapport de vraisemblance chi2(1) = 104.0, p = 2e-24
+    mixte : AIC -50463.1 -> -50573.9  (gain +110.8),  rapport de vraisemblance chi2(1) = 112.8, p = 2.4e-26
+  D. Methode en deux temps (residu des controles, puis residu ~ surprise)
+    etape 1 : modele mixte (1|locuteur) sur les controles seuls
+    etape 2 : residu ~ surprise : +0.00095  (p = 1e-16, IC95 [+0.00072 ; +0.00117])   R2 = 0.00008
+    a comparer au modele joint   : +0.00155  (p = 2.4e-26, IC95 [+0.00126 ; +0.00183])
+  E. Forme du controle de frequence et dernier decile de surprise
+    modele complet, tous les mots              : +0.00149  (p = 2e-24, IC95 [+0.00120 ; +0.00178])
+    + terme quadratique I(freq_zipf**2)        : +0.00086  (p = 9.1e-08, IC95 [+0.00054 ; +0.00117])
+    sans le 10e decile (s < 9.38 nats, n = 760852) : +0.00037  (p = 0.036, IC95 [+0.00002 ; +0.00072])
+    mixte, tous les mots                       : +0.00155  (p = 2.4e-26, IC95 [+0.00126 ; +0.00183])
+    mixte + I(freq_zipf**2)                    : +0.00090  (p = 1.6e-08, IC95 [+0.00059 ; +0.00121])
+    mixte sans le 10e decile                   : +0.00035  (p = 0.048, IC95 [+0.00000 ; +0.00070])
+  H. Sensibilite au nettoyage (MCO / modele mixte)
+    nettoyage du rapport               (n = 845392)
+      MCO   : +0.00149  (p = 2e-24, IC95 [+0.00120 ; +0.00178])
+      mixte : +0.00155  (p = 2.4e-26, IC95 [+0.00126 ; +0.00183])
+    sans le debit dans le modele       (n = 845392)
+      MCO   : +0.00138  (p = 2.3e-20, IC95 [+0.00109 ; +0.00167])
+      mixte : +0.00150  (p = 3.8e-24, IC95 [+0.00121 ; +0.00179])
+    en gardant les hesitations         (n = 902235)
+      MCO   : -0.00339  (p = 4.6e-122, IC95 [-0.00367 ; -0.00311])
+      mixte : -0.00324  (p = 3e-112, IC95 [-0.00353 ; -0.00296])
+    sans le seuil de 4 mots            (n = 880423)
+      MCO   : +0.00248  (p = 1.6e-65, IC95 [+0.00219 ; +0.00276])
+      mixte : +0.00252  (p = 7.5e-68, IC95 [+0.00223 ; +0.00280])
+    ni hesitations, ni seuil, ni debit (n = 972876)
+      MCO   : -0.00377  (p = 3.8e-146, IC95 [-0.00406 ; -0.00349])
+      mixte : -0.00336  (p = 1.3e-118, IC95 [-0.00365 ; -0.00308])
+

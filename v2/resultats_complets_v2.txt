@@ -1,0 +1,104 @@
+
+RESULTATS COMPLETS V2 (surprise en nats) : syntaxique et GPT-2, parole lue et AMI
+
+======================================================================
+  PAROLE LUE  -  SYNTAXIQUE (PCFG)   (n = 11413 mots)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.496
+    frequence ~ duree    : r = -0.773
+    surprise ~ frequence : r = -0.553   (r2 = 0.31, part non expliquee par la frequence = 69 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00588  (p = 5.3e-54, IC95 [+0.00514 ; +0.00662])
+    frequence seule       : +0.00580  (p = 8.9e-45, IC95 [+0.00500 ; +0.00661])
+    frequence + longueur  : +0.00464  (p = 1.4e-38, IC95 [+0.00394 ; +0.00533])
+    modele complet (MCO)  : +0.00288  (p = 8.2e-13, IC95 [+0.00209 ; +0.00367])
+    mots connus de la grammaire seulement (n = 9972) : +0.00186  (p = 0.0064, IC95 [+0.00052 ; +0.00320])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.496  vs  attendu via frequence +0.427  ->  EXTRA = +0.069
+    correlation partielle = +0.1309
+
+======================================================================
+  PAROLE LUE  -  GPT-2   (n = 11411 mots)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.503
+    frequence ~ duree    : r = -0.773
+    surprise ~ frequence : r = -0.633   (r2 = 0.40, part non expliquee par la frequence = 60 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00445  (p = 4.1e-43, IC95 [+0.00382 ; +0.00509])
+    frequence seule       : +0.00122  (p = 0.0017, IC95 [+0.00046 ; +0.00199])
+    frequence + longueur  : -0.00185  (p = 4.4e-08, IC95 [-0.00252 ; -0.00119])
+    modele complet (MCO)  : -0.00092  (p = 0.0064, IC95 [-0.00158 ; -0.00026])
+    mots connus de la grammaire seulement (n = 9970) : -0.00063  (p = 0.094, IC95 [-0.00136 ; +0.00011])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.503  vs  attendu via frequence +0.489  ->  EXTRA = +0.014
+    correlation partielle = +0.0294
+
+======================================================================
+  AMI         -  SYNTAXIQUE (PCFG)   (n = 60277 mots, 12 reunions, 48 locuteurs)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.244
+    frequence ~ duree    : r = -0.417
+    surprise ~ frequence : r = -0.546   (r2 = 0.30, part non expliquee par la frequence = 70 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00278  (p = 8.3e-08, IC95 [+0.00176 ; +0.00379])
+    frequence seule       : +0.00277  (p = 1.3e-07, IC95 [+0.00174 ; +0.00380])
+    frequence + longueur  : -0.00065  (p = 0.21, IC95 [-0.00166 ; +0.00037])
+    modele complet (MCO)  : +0.00116  (p = 0.036, IC95 [+0.00008 ; +0.00223])
+    modele mixte (1|loc)  : +0.00129  (p = 0.019, IC95 [+0.00021 ; +0.00236])   converge = True
+    mixte sans frequence  : +0.00287  (p = 3e-08, IC95 [+0.00185 ; +0.00388])   converge = True
+    mots connus de la grammaire seulement (n = 51731) : -0.00848  (p = 3.6e-22, IC95 [-0.01020 ; -0.00676])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.244  vs  attendu via frequence +0.228  ->  EXTRA = +0.016
+    correlation partielle = +0.0215
+
+======================================================================
+  AMI         -  GPT-2   (n = 60285 mots, 12 reunions, 48 locuteurs)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.223
+    frequence ~ duree    : r = -0.417
+    surprise ~ frequence : r = -0.586   (r2 = 0.34, part non expliquee par la frequence = 66 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00256  (p = 3.5e-12, IC95 [+0.00184 ; +0.00329])
+    frequence seule       : -0.00300  (p = 1e-12, IC95 [-0.00382 ; -0.00217])
+    frequence + longueur  : -0.00262  (p = 2e-10, IC95 [-0.00342 ; -0.00181])
+    modele complet (MCO)  : -0.00416  (p = 1.3e-24, IC95 [-0.00495 ; -0.00336])
+    modele mixte (1|loc)  : -0.00408  (p = 9.6e-24, IC95 [-0.00487 ; -0.00328])   converge = True
+    mixte sans frequence  : +0.00262  (p = 1.1e-12, IC95 [+0.00190 ; +0.00334])   converge = True
+    mots connus de la grammaire seulement (n = 51735) : -0.00464  (p = 5.2e-23, IC95 [-0.00556 ; -0.00372])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.223  vs  attendu via frequence +0.245  ->  EXTRA = -0.021
+    correlation partielle = -0.0290
+
+======================================================================
+  AMI 171 REUNIONS  -  SYNTAXIQUE (PCFG)   (n = 845392 mots, 171 reunions, 682 locuteurs)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.243
+    frequence ~ duree    : r = -0.415
+    surprise ~ frequence : r = -0.524   (r2 = 0.27, part non expliquee par la frequence = 73 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00320  (p = 4.8e-119, IC95 [+0.00293 ; +0.00347])
+    frequence seule       : +0.00428  (p = 1.1e-201, IC95 [+0.00400 ; +0.00456])
+    frequence + longueur  : +0.00030  (p = 0.029, IC95 [+0.00003 ; +0.00057])
+    modele complet (MCO)  : +0.00149  (p = 2e-24, IC95 [+0.00120 ; +0.00178])
+    modele mixte (1|loc)  : +0.00155  (p = 2.4e-26, IC95 [+0.00126 ; +0.00183])   converge = True
+    mixte sans frequence  : +0.00330  (p = 7.9e-127, IC95 [+0.00303 ; +0.00357])   converge = True
+    mots connus de la grammaire seulement (n = 724606) : -0.00748  (p = 2e-224, IC95 [-0.00794 ; -0.00702])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.243  vs  attendu via frequence +0.217  ->  EXTRA = +0.026
+    correlation partielle = +0.0329
+
+======================================================================
+  AMI SYNTAXIQUE : 171 reunions contre les 12 reunions appariees avec GPT-2
+----------------------------------------------------------------------
+  171 reunions (n = 845392, 682 locuteurs)
+    MCO          : +0.00149  (p = 2e-24, IC95 [+0.00120 ; +0.00178])
+    mixte (1|loc): +0.00155  (p = 2.4e-26, IC95 [+0.00126 ; +0.00183])   converge = True
+  12 reunions  (n = 60277, 48 locuteurs)
+    MCO          : +0.00116  (p = 0.036, IC95 [+0.00008 ; +0.00223])
+    mixte (1|loc): +0.00129  (p = 0.019, IC95 [+0.00021 ; +0.00236])   converge = True
+

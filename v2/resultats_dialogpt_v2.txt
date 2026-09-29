@@ -1,0 +1,193 @@
+
+AMI (12 REUNIONS) : GPT-2 CONTRE DIALOGPT, V2 (surprise en nats, coefficients en s/nat)
+
+======================================================================
+  AMI  -  GPT-2, reunion en continu, fenetre 1024 (valeurs v2)   (n = 60285 mots, 12 reunions, 48 locuteurs)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.223
+    frequence ~ duree    : r = -0.417
+    surprise ~ frequence : r = -0.586   (r2 = 0.34, part non expliquee par la frequence = 66 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00256  (p = 3.5e-12, IC95 [+0.00184 ; +0.00329])
+    frequence seule       : -0.00300  (p = 1e-12, IC95 [-0.00382 ; -0.00217])
+    frequence + longueur  : -0.00262  (p = 2e-10, IC95 [-0.00342 ; -0.00181])
+    modele complet (MCO)  : -0.00416  (p = 1.3e-24, IC95 [-0.00495 ; -0.00336])
+    modele mixte (1|loc)  : -0.00408  (p = 9.6e-24, IC95 [-0.00487 ; -0.00328])   converge = True
+    mixte sans frequence  : +0.00262  (p = 1.1e-12, IC95 [+0.00190 ; +0.00334])   converge = True
+    mots connus de la grammaire seulement (n = 51735) : -0.00464  (p = 5.2e-23, IC95 [-0.00556 ; -0.00372])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.223  vs  attendu via frequence +0.245  ->  EXTRA = -0.021
+    correlation partielle = -0.0290
+
+======================================================================
+  AMI  -  GPT-2, reunion en continu, fenetre 64   (n = 60285 mots, 12 reunions, 48 locuteurs)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.228
+    frequence ~ duree    : r = -0.417
+    surprise ~ frequence : r = -0.593   (r2 = 0.35, part non expliquee par la frequence = 65 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00232  (p = 2.6e-11, IC95 [+0.00164 ; +0.00300])
+    frequence seule       : -0.00257  (p = 8.4e-11, IC95 [-0.00335 ; -0.00180])
+    frequence + longueur  : -0.00256  (p = 3.7e-11, IC95 [-0.00332 ; -0.00180])
+    modele complet (MCO)  : -0.00409  (p = 1.4e-26, IC95 [-0.00484 ; -0.00334])
+    modele mixte (1|loc)  : -0.00400  (p = 1.6e-25, IC95 [-0.00475 ; -0.00325])   converge = True
+    mixte sans frequence  : +0.00238  (p = 7.2e-12, IC95 [+0.00170 ; +0.00306])   converge = True
+    mots connus de la grammaire seulement (n = 51735) : -0.00387  (p = 4.6e-19, IC95 [-0.00472 ; -0.00302])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.228  vs  attendu via frequence +0.248  ->  EXTRA = -0.019
+    correlation partielle = -0.0264
+
+======================================================================
+  AMI  -  DialoGPT-small, reunion en continu, fenetre 64   (n = 60285 mots, 12 reunions, 48 locuteurs)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.219
+    frequence ~ duree    : r = -0.417
+    surprise ~ frequence : r = -0.574   (r2 = 0.33, part non expliquee par la frequence = 67 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00158  (p = 1.2e-06, IC95 [+0.00095 ; +0.00222])
+    frequence seule       : -0.00250  (p = 1.1e-11, IC95 [-0.00322 ; -0.00178])
+    frequence + longueur  : -0.00282  (p = 4.7e-15, IC95 [-0.00352 ; -0.00211])
+    modele complet (MCO)  : -0.00415  (p = 1.6e-31, IC95 [-0.00485 ; -0.00346])
+    modele mixte (1|loc)  : -0.00408  (p = 1.4e-30, IC95 [-0.00478 ; -0.00339])   converge = True
+    mixte sans frequence  : +0.00164  (p = 5e-07, IC95 [+0.00100 ; +0.00227])   converge = True
+    mots connus de la grammaire seulement (n = 51735) : -0.00365  (p = 3.5e-19, IC95 [-0.00445 ; -0.00285])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.219  vs  attendu via frequence +0.239  ->  EXTRA = -0.021
+    correlation partielle = -0.0276
+
+======================================================================
+  AMI  -  DialoGPT-medium, tours separes, fenetre 32   (n = 60285 mots, 12 reunions, 48 locuteurs)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.213
+    frequence ~ duree    : r = -0.417
+    surprise ~ frequence : r = -0.561   (r2 = 0.31, part non expliquee par la frequence = 69 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00160  (p = 4.7e-07, IC95 [+0.00098 ; +0.00223])
+    frequence seule       : -0.00241  (p = 1.6e-11, IC95 [-0.00311 ; -0.00171])
+    frequence + longueur  : -0.00262  (p = 7.4e-14, IC95 [-0.00330 ; -0.00193])
+    modele complet (MCO)  : -0.00383  (p = 1.6e-28, IC95 [-0.00450 ; -0.00315])
+    modele mixte (1|loc)  : -0.00375  (p = 1.7e-27, IC95 [-0.00443 ; -0.00307])   converge = True
+    mixte sans frequence  : +0.00166  (p = 1.9e-07, IC95 [+0.00103 ; +0.00228])   converge = True
+    mots connus de la grammaire seulement (n = 51735) : -0.00316  (p = 8.8e-16, IC95 [-0.00392 ; -0.00239])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.213  vs  attendu via frequence +0.234  ->  EXTRA = -0.021
+    correlation partielle = -0.0275
+
+======================================================================
+  AMI  -  GPT-2, enonce par enonce   (n = 60285 mots, 12 reunions, 48 locuteurs)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.231
+    frequence ~ duree    : r = -0.417
+    surprise ~ frequence : r = -0.602   (r2 = 0.36, part non expliquee par la frequence = 64 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00245  (p = 6.2e-14, IC95 [+0.00181 ; +0.00309])
+    frequence seule       : -0.00257  (p = 6.7e-12, IC95 [-0.00331 ; -0.00184])
+    frequence + longueur  : -0.00236  (p = 1.1e-10, IC95 [-0.00308 ; -0.00165])
+    modele complet (MCO)  : -0.00361  (p = 1.5e-23, IC95 [-0.00432 ; -0.00291])
+    modele mixte (1|loc)  : -0.00352  (p = 2.1e-22, IC95 [-0.00422 ; -0.00281])   converge = True
+    mixte sans frequence  : +0.00252  (p = 1.2e-14, IC95 [+0.00188 ; +0.00316])   converge = True
+    mots connus de la grammaire seulement (n = 51735) : -0.00286  (p = 1.8e-12, IC95 [-0.00366 ; -0.00207])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.231  vs  attendu via frequence +0.251  ->  EXTRA = -0.020
+    correlation partielle = -0.0279
+
+======================================================================
+  AMI  -  DialoGPT-small, enonce par enonce   (n = 60285 mots, 12 reunions, 48 locuteurs)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.225
+    frequence ~ duree    : r = -0.417
+    surprise ~ frequence : r = -0.584   (r2 = 0.34, part non expliquee par la frequence = 66 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00194  (p = 8.9e-11, IC95 [+0.00135 ; +0.00253])
+    frequence seule       : -0.00207  (p = 1.1e-09, IC95 [-0.00274 ; -0.00141])
+    frequence + longueur  : -0.00226  (p = 1e-11, IC95 [-0.00291 ; -0.00161])
+    modele complet (MCO)  : -0.00342  (p = 2.3e-25, IC95 [-0.00406 ; -0.00277])
+    modele mixte (1|loc)  : -0.00332  (p = 4.6e-24, IC95 [-0.00396 ; -0.00268])   converge = True
+    mixte sans frequence  : +0.00201  (p = 1.8e-11, IC95 [+0.00143 ; +0.00260])   converge = True
+    mots connus de la grammaire seulement (n = 51735) : -0.00285  (p = 4.8e-14, IC95 [-0.00359 ; -0.00211])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.225  vs  attendu via frequence +0.244  ->  EXTRA = -0.018
+    correlation partielle = -0.0248
+
+======================================================================
+  AMI  -  DialoGPT-small, enonce par enonce, avec les tirets (comme le rapport)   (n = 60285 mots, 12 reunions, 48 locuteurs)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.207
+    frequence ~ duree    : r = -0.417
+    surprise ~ frequence : r = -0.487   (r2 = 0.24, part non expliquee par la frequence = 76 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00216  (p = 7.9e-25, IC95 [+0.00175 ; +0.00257])
+    frequence seule       : +0.00028  (p = 0.22, IC95 [-0.00017 ; +0.00073])
+    frequence + longueur  : -0.00004  (p = 0.85, IC95 [-0.00048 ; +0.00040])
+    modele complet (MCO)  : -0.00068  (p = 0.0022, IC95 [-0.00112 ; -0.00025])
+    modele mixte (1|loc)  : -0.00063  (p = 0.0048, IC95 [-0.00106 ; -0.00019])   converge = True
+    mixte sans frequence  : +0.00221  (p = 7.7e-26, IC95 [+0.00179 ; +0.00262])   converge = True
+    mots connus de la grammaire seulement (n = 51735) : -0.00254  (p = 3e-12, IC95 [-0.00325 ; -0.00183])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.207  vs  attendu via frequence +0.203  ->  EXTRA = +0.004
+    correlation partielle = +0.0050
+
+======================================================================
+  AMI  -  DialoGPT-small, tours separes, fenetre 1024   (n = 60285 mots, 12 reunions, 48 locuteurs)
+----------------------------------------------------------------------
+  Correlations brutes :
+    surprise ~ duree     : r = +0.239
+    frequence ~ duree    : r = -0.417
+    surprise ~ frequence : r = -0.602   (r2 = 0.36, part non expliquee par la frequence = 64 %)
+  Effet de la surprise sur la duree (s/nat), controle par controle :
+    sans frequence        : +0.00277  (p = 6.9e-16, IC95 [+0.00209 ; +0.00344])
+    frequence seule       : -0.00170  (p = 1.2e-05, IC95 [-0.00246 ; -0.00094])
+    frequence + longueur  : -0.00235  (p = 6e-10, IC95 [-0.00309 ; -0.00161])
+    modele complet (MCO)  : -0.00312  (p = 7.5e-17, IC95 [-0.00385 ; -0.00239])
+    modele mixte (1|loc)  : -0.00311  (p = 9.1e-17, IC95 [-0.00385 ; -0.00238])   converge = True
+    mixte sans frequence  : +0.00278  (p = 5.8e-16, IC95 [+0.00210 ; +0.00345])   converge = True
+    mots connus de la grammaire seulement (n = 51735) : +0.00023  (p = 0.63, IC95 [-0.00070 ; +0.00116])
+  Analyse EXTRA (a frequence controlee) :
+    observe +0.239  vs  attendu via frequence +0.251  ->  EXTRA = -0.013
+    correlation partielle = -0.0178
+
+==============================================================================
+  RECAPITULATIF (modele mixte (1|locuteur), controles complets)
+  surprise moyenne : plus elle est basse, mieux le modele predit les mots d'AMI
+------------------------------------------------------------------------------
+  GPT-2, reunion en continu, fenetre 1024 (valeurs v2)
+      n = 60285   surprise moyenne = 4.23 nats   r avec GPT-2 v2 = 1.000   r(surprise, freq) = -0.586   EXTRA = -0.021
+      coefficient : -0.00408  (p = 9.6e-24, IC95 [-0.00487 ; -0.00328])
+  GPT-2, reunion en continu, fenetre 64
+      n = 60285   surprise moyenne = 4.59 nats   r avec GPT-2 v2 = 0.891   r(surprise, freq) = -0.593   EXTRA = -0.019
+      coefficient : -0.00400  (p = 1.6e-25, IC95 [-0.00475 ; -0.00325])
+  DialoGPT-small, reunion en continu, fenetre 64
+      n = 60285   surprise moyenne = 5.04 nats   r avec GPT-2 v2 = 0.835   r(surprise, freq) = -0.574   EXTRA = -0.021
+      coefficient : -0.00408  (p = 1.4e-30, IC95 [-0.00478 ; -0.00339])
+  DialoGPT-medium, tours separes, fenetre 32
+      n = 60285   surprise moyenne = 5.07 nats   r avec GPT-2 v2 = 0.781   r(surprise, freq) = -0.561   EXTRA = -0.021
+      coefficient : -0.00375  (p = 1.7e-27, IC95 [-0.00443 ; -0.00307])
+  GPT-2, enonce par enonce
+      n = 60285   surprise moyenne = 5.10 nats   r avec GPT-2 v2 = 0.787   r(surprise, freq) = -0.602   EXTRA = -0.020
+      coefficient : -0.00352  (p = 2.1e-22, IC95 [-0.00422 ; -0.00281])
+  DialoGPT-small, enonce par enonce
+      n = 60285   surprise moyenne = 5.51 nats   r avec GPT-2 v2 = 0.772   r(surprise, freq) = -0.584   EXTRA = -0.018
+      coefficient : -0.00332  (p = 4.6e-24, IC95 [-0.00396 ; -0.00268])
+  DialoGPT-small, enonce par enonce, avec les tirets (comme le rapport)
+      n = 60285   surprise moyenne = 5.65 nats   r avec GPT-2 v2 = 0.527   r(surprise, freq) = -0.487   EXTRA = +0.004
+      coefficient : -0.00063  (p = 0.0048, IC95 [-0.00106 ; -0.00019])
+  DialoGPT-small, tours separes, fenetre 1024
+      n = 60285   surprise moyenne = 9.14 nats   r avec GPT-2 v2 = 0.466   r(surprise, freq) = -0.602   EXTRA = -0.013
+      coefficient : -0.00311  (p = 9.1e-17, IC95 [-0.00385 ; -0.00238])
+
+==============================================================================
+  GPT-2 ET DIALOGPT-SMALL DANS LE MEME MODELE (mixte, controles complets)
+------------------------------------------------------------------------------
+  reunion en continu, fenetre 64   (n = 60285, r entre les deux surprises = 0.902)
+      GPT-2          : -0.00093  (p = 0.2, IC95 [-0.00235 ; +0.00050])
+      DialoGPT-small : -0.00335  (p = 7e-07, IC95 [-0.00467 ; -0.00203])   converge = True
+  enonce par enonce   (n = 60285, r entre les deux surprises = 0.899)
+      GPT-2          : -0.00151  (p = 0.024, IC95 [-0.00282 ; -0.00019])
+      DialoGPT-small : -0.00216  (p = 0.00039, IC95 [-0.00336 ; -0.00097])   converge = True
